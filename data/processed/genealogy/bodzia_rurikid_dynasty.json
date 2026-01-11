@@ -1,0 +1,145 @@
+{
+  "individuals": [
+    {
+      "id": "RUR001",
+      "name": "Sviatopolk I",
+      "birth": {
+        "date": "980",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1019",
+        "place": "Kiev"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid",
+      "notes": [
+        "Bodzia burial connection",
+        "Son of Vladimir I"
+      ]
+    },
+    {
+      "id": "RUR002",
+      "name": "Vladimir I the Great",
+      "birth": {
+        "date": "958",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1015",
+        "place": "Berestove"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "RUR003",
+      "name": "Yaroslav I the Wise",
+      "birth": {
+        "date": "978",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1054",
+        "place": "Vyshhorod"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "RUR004",
+      "name": "Iziaslav I",
+      "birth": {
+        "date": "1024",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1078",
+        "place": "Nezhyn"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "RUR005",
+      "name": "Sviatoslav I",
+      "birth": {
+        "date": "942",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "972",
+        "place": "Dnieper"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_RUR001",
+      "husband_id": "RUR005",
+      "wife_id": null,
+      "children": [
+        "RUR002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_RUR002",
+      "husband_id": "RUR002",
+      "wife_id": null,
+      "children": [
+        "RUR001",
+        "RUR003"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_RUR003",
+      "husband_id": "RUR003",
+      "wife_id": null,
+      "children": [
+        "RUR004"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_CROSS001",
+      "husband_id": "RUR001",
+      "wife_id": null,
+      "children": [],
+      "marriage": {
+        "date": "1013",
+        "place": "Bodzia"
+      },
+      "notes": [
+        "Alliance with Boleslaw I"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

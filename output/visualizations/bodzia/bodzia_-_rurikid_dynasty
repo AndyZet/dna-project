@@ -1,0 +1,11 @@
+digraph "Bodzia_-_Rurikid_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Rurikid Dynasty" labelloc=t
+	RUR001 [label="Sviatopolk I\nGrand Prince of Kiev\n(prince)\n\n980 - 1019" color=black fillcolor="#FF6B6B" shape=ellipse style="filled,rounded"]
+	RUR002 [label="Vladimir I the Great\nGrand Prince of Kiev\n(prince)\n\n958 - 1015" color=black fillcolor="#FF6B6B" shape=ellipse style="filled,rounded"]
+	RUR003 [label="Yaroslav I the Wise\nGrand Prince of Kiev\n(prince)\n\n978 - 1054" color=black fillcolor="#FF6B6B" shape=ellipse style="filled,rounded"]
+	RUR004 [label="Iziaslav I\nGrand Prince of Kiev\n(prince)\n\n1024 - 1078" color=black fillcolor="#FF6B6B" shape=ellipse style="filled,rounded"]
+	RUR005 [label="Sviatoslav I\nGrand Prince of Kiev\n(prince)\n\n942 - 972" color=black fillcolor="#FF6B6B" shape=ellipse style="filled,rounded"]
+}

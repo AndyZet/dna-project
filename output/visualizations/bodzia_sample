@@ -1,0 +1,17 @@
+digraph Bodzia_Early_Medieval_Royal_Houses {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia Early Medieval Royal Houses" labelloc=t
+	I001 [label="Svyatopolk I of Kiev\nGrand Prince of Kiev\n(king)\n\n980 - 1019" color=black fillcolor="#FF6B6B" shape=box style="filled,rounded"]
+	I002 [label="Boleslaw I the Brave\nKing of Poland\n(king)\n\n967 - 1025" color=black fillcolor="#FF6B6B" shape=box style="filled,rounded"]
+	I003 [label="Mieszko II Lambert\nKing of Poland\n(king)\n\n990 - 1034" color=black fillcolor="#4ECDC4" shape=box style="filled,rounded"]
+	I004 [label="Richeza of Lotharingia\nQueen of Poland\n(queen)\n\n995 - 1063" color=black fillcolor="#4ECDC4" shape=box style="filled,rounded"]
+	I005 [label="Bretislaus I\nDuke of Bohemia\n(duke)\n\n1002 - 1055" color=black fillcolor="#95E1D3" shape=diamond style="filled,rounded"]
+	I006 [label="Vratislaus II\nKing of Bohemia\n(king)\n\n1032 - 1092" color=black fillcolor="#95E1D3" shape=box style="filled,rounded"]
+	I007 [label="Yaroslav I the Wise\nGrand Prince of Kiev\n(prince)\n\n978 - 1054" color=black fillcolor="#FF6B6B" shape=ellipse style="filled,rounded"]
+	I008 [label="Iziaslav I\nGrand Prince of Kiev\n(prince)\n\n1024 - 1078" color=black fillcolor="#FF6B6B" shape=ellipse style="filled,rounded"]
+	m_F002 [label="" height=0.1 shape=point style=invis width=0.1]
+	I003 -> m_F002 [style=solid]
+	I004 -> m_F002 [style=solid]
+}

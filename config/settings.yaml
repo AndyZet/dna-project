@@ -1,0 +1,61 @@
+# Genealogical DNA Analysis Configuration
+
+project:
+  name: "Genealogical DNA Analysis"
+  version: "0.1.0"
+  author: "Andrzej Radzimowski"
+
+data:
+  raw_data_path: "data/raw"
+  processed_data_path: "data/processed"
+  reference_data_path: "data/reference"
+  output_path: "output"
+
+analysis:
+  haplogroup: "I-Y45113"
+  reference_populations:
+    - "Kievan_Rus"
+    - "Scandinavian"
+    - "Central_European"
+  
+  tmrca:
+    mutation_rate: 0.00069  # Y-STR mutation rate per generation
+    generation_time: 25  # years per generation
+
+visualization:
+  figure_size: [12, 8]
+  dpi: 300
+  style: "seaborn"
+  
+  # Genealogy tree visualization
+  genealogy:
+    data_dir: "data/processed/genealogy"
+    output_dir: "output/visualizations"
+    default_formats: ["svg", "png", "pdf", "dot"]
+    graphviz_engine: "dot"  # dot, neato, fdp, sfdp, twopi, circo
+    orientation: "TB"  # TB=Top-Bottom, LR=Left-Right, BT=Bottom-Top, RL=Right-Left
+    
+    # Dynasty color schemes (based on Bodzia diagram)
+    dynasty_colors:
+      Rurikid: "#FF6B6B"
+      Piast: "#4ECDC4"
+      Premyslid: "#95E1D3"
+      Gorm: "#F38181"
+      Normandy: "#AA96DA"
+      Capetian: "#FCBAD3"
+      Ottonian: "#A8D8EA"
+      Arpad: "#FFD93D"
+      default: "#E8E8E8"
+    
+    # Web viewer options
+    topola_viewer:
+      enabled: true
+      web_dir: "output/web"
+    
+    svg_ftg:
+      enabled: true
+      web_dir: "output/web"
+
+database:
+  type: "sqlite"  # or "postgresql"
+  path: "data/processed/family_tree_normalized.db"

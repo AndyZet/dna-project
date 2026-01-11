@@ -1,0 +1,9 @@
+digraph "Bodzia_-_Gorm_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Gorm Dynasty" labelloc=t
+	GOR001 [label="Gorm the Old\nKing of Denmark\n(king)\n\n900 - 958" color=black fillcolor="#F38181" shape=box style="filled,rounded"]
+	GOR002 [label="Harald Bluetooth\nKing of Denmark\n(king)\n\n910 - 986" color=black fillcolor="#F38181" shape=box style="filled,rounded"]
+	GOR003 [label="Sweyn Forkbeard\nKing of Denmark\n(king)\n\n960 - 1014" color=black fillcolor="#F38181" shape=box style="filled,rounded"]
+}

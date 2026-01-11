@@ -1,0 +1,50 @@
+{
+  "project_name": "Genealogical DNA Analysis",
+  "python_version": "3.10+",
+  "dependencies": {
+    "genomics": [
+      "biopython>=1.81",
+      "pysam>=0.21",
+      "scikit-allel>=1.7"
+    ],
+    "genealogy": [
+      "gedcom>=1.0",
+      "gramps>=5.1"
+    ],
+    "phylogenetics": [
+      "dendropy>=4.6",
+      "ete3>=3.1"
+    ],
+    "data_science": [
+      "pandas>=1.5",
+      "numpy>=1.24",
+      "scipy>=1.10",
+      "scikit-learn>=1.2"
+    ],
+    "visualization": [
+      "matplotlib>=3.7",
+      "seaborn>=0.13",
+      "plotly>=5.13",
+      "geopandas>=0.12",
+      "folium>=0.14"
+    ],
+    "database": [
+      "sqlalchemy>=2.0",
+      "psycopg2-binary>=2.9",
+      "pymongo>=4.3"
+    ]
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "eamodio.gitlens",
+    "ms-vscode-remote.remote-containers"
+  ],
+  "tasks": {
+    "install_dependencies": "pip install -r requirements.txt",
+    "run_tests": "pytest tests/",
+    "generate_reports": "python src/visualization/report_generator.py",
+    "analyze_y_dna": "jupyter notebook notebooks/01_y_dna_haplogroup_analysis.ipynb"
+  }
+}

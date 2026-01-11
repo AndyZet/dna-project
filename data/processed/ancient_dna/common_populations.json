@@ -1,0 +1,129 @@
+{
+  "common_populations": {
+    "VK2020_POL_Bodzia_VA": {
+      "sample_count": 4,
+      "distances": {
+        "VK155": 0.0309,
+        "VK157": 0.0335,
+        "VK154": 0.024,
+        "VK156": 0.0189
+      },
+      "mean_distance": 0.026825,
+      "min_distance": 0.0189,
+      "max_distance": 0.0335
+    },
+    "VK2020_SWE_Gotland_VA": {
+      "sample_count": 4,
+      "distances": {
+        "VK155": 0.0391,
+        "VK157": 0.0333,
+        "VK154": 0.0261,
+        "VK156": 0.0222
+      },
+      "mean_distance": 0.030175,
+      "min_distance": 0.0222,
+      "max_distance": 0.0391
+    },
+    "DEU_MA_Krakauer_Berg": {
+      "sample_count": 4,
+      "distances": {
+        "VK155": 0.0399,
+        "VK157": 0.0337,
+        "VK154": 0.0341,
+        "VK156": 0.0268
+      },
+      "mean_distance": 0.033625,
+      "min_distance": 0.0268,
+      "max_distance": 0.0399
+    },
+    "VK2020_SWE_Uppsala_VA": {
+      "sample_count": 2,
+      "distances": {
+        "VK154": 0.0372,
+        "VK156": 0.035
+      },
+      "mean_distance": 0.0361,
+      "min_distance": 0.035,
+      "max_distance": 0.0372
+    },
+    "HUN_Avar_Szolad": {
+      "sample_count": 4,
+      "distances": {
+        "VK155": 0.043,
+        "VK157": 0.0372,
+        "VK154": 0.0415,
+        "VK156": 0.031
+      },
+      "mean_distance": 0.038175,
+      "min_distance": 0.031,
+      "max_distance": 0.043
+    },
+    "SWE_Viking_Age_Sigtuna": {
+      "sample_count": 3,
+      "distances": {
+        "VK155": 0.0483,
+        "VK154": 0.0364,
+        "VK156": 0.0313
+      },
+      "mean_distance": 0.03866666666666667,
+      "min_distance": 0.0313,
+      "max_distance": 0.0483
+    },
+    "VK2020_RUS_Gnezdovo_VA": {
+      "sample_count": 3,
+      "distances": {
+        "VK155": 0.0443,
+        "VK154": 0.0405,
+        "VK156": 0.0324
+      },
+      "mean_distance": 0.039066666666666666,
+      "min_distance": 0.0324,
+      "max_distance": 0.0443
+    },
+    "VK2020_RUS_Kurevanikha_VA": {
+      "sample_count": 3,
+      "distances": {
+        "VK155": 0.0451,
+        "VK157": 0.0386,
+        "VK154": 0.0363
+      },
+      "mean_distance": 0.04,
+      "min_distance": 0.0363,
+      "max_distance": 0.0451
+    },
+    "HUN_EIA_o3": {
+      "sample_count": 3,
+      "distances": {
+        "VK155": 0.0483,
+        "VK157": 0.0379,
+        "VK156": 0.0371
+      },
+      "mean_distance": 0.041100000000000005,
+      "min_distance": 0.0371,
+      "max_distance": 0.0483
+    },
+    "HUN_IA_La_Tene_o3": {
+      "sample_count": 4,
+      "distances": {
+        "VK155": 0.047,
+        "VK157": 0.0395,
+        "VK154": 0.0419,
+        "VK156": 0.0364
+      },
+      "mean_distance": 0.0412,
+      "min_distance": 0.0364,
+      "max_distance": 0.047
+    },
+    "RUS_Sunghir_MA": {
+      "sample_count": 2,
+      "distances": {
+        "VK155": 0.0455,
+        "VK157": 0.0411
+      },
+      "mean_distance": 0.0433,
+      "min_distance": 0.0411,
+      "max_distance": 0.0455
+    }
+  },
+  "total_common": 11
+}

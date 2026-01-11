@@ -1,0 +1,86 @@
+{
+  "individuals": [
+    {
+      "id": "OTT001",
+      "name": "Otto I",
+      "birth": {
+        "date": "912",
+        "place": "Wallhausen"
+      },
+      "death": {
+        "date": "973",
+        "place": "Memleben"
+      },
+      "sex": "M",
+      "role": "emperor",
+      "title": "Holy Roman Emperor",
+      "dynasty": "Ottonian"
+    },
+    {
+      "id": "OTT002",
+      "name": "Otto II",
+      "birth": {
+        "date": "955",
+        "place": "Saxony"
+      },
+      "death": {
+        "date": "983",
+        "place": "Rome"
+      },
+      "sex": "M",
+      "role": "emperor",
+      "title": "Holy Roman Emperor",
+      "dynasty": "Ottonian"
+    },
+    {
+      "id": "OTT003",
+      "name": "Otto III",
+      "birth": {
+        "date": "980",
+        "place": "Kessel"
+      },
+      "death": {
+        "date": "1002",
+        "place": "Paterno"
+      },
+      "sex": "M",
+      "role": "emperor",
+      "title": "Holy Roman Emperor",
+      "dynasty": "Ottonian"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_OTT001",
+      "husband_id": "OTT001",
+      "wife_id": null,
+      "children": [
+        "OTT002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_OTT002",
+      "husband_id": "OTT002",
+      "wife_id": null,
+      "children": [
+        "OTT003"
+      ],
+      "marriage": null
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

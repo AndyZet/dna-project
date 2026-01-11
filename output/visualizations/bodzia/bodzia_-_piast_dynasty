@@ -1,0 +1,15 @@
+digraph "Bodzia_-_Piast_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Piast Dynasty" labelloc=t
+	PIA001 [label="Boleslaw I the Brave\nKing of Poland\n(king)\n\n967 - 1025" color=black fillcolor="#4ECDC4" shape=box style="filled,rounded"]
+	PIA002 [label="Mieszko II Lambert\nKing of Poland\n(king)\n\n990 - 1034" color=black fillcolor="#4ECDC4" shape=box style="filled,rounded"]
+	PIA003 [label="Richeza of Lotharingia\nQueen of Poland\n(queen)\n\n995 - 1063" color=black fillcolor="#4ECDC4" shape=box style="filled,rounded"]
+	PIA004 [label="Casimir I the Restorer\nDuke of Poland\n(duke)\n\n1016 - 1058" color=black fillcolor="#4ECDC4" shape=diamond style="filled,rounded"]
+	PIA005 [label="Mieszko I\nDuke of Poland\n(duke)\n\n930 - 992" color=black fillcolor="#4ECDC4" shape=diamond style="filled,rounded"]
+	m_FAM_PIA003 [label="" height=0.1 shape=point style=invis width=0.1]
+	PIA002 -> m_FAM_PIA003 [style=solid]
+	PIA003 -> m_FAM_PIA003 [style=solid]
+	m_FAM_PIA003 -> PIA004 [style=solid]
+}

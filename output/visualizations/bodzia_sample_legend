@@ -1,0 +1,8 @@
+digraph Dynasty_Legend {
+	graph [bgcolor=white fontname=Arial fontsize=12 rankdir=LR]
+	node [fontname=Arial fontsize=10 height=0.5 shape=box style=filled width=1.5]
+	fontname="Arial Bold" fontsize=14 label="Dynasty Legend" labelloc=t
+	legend_0 [label=Rurikid color=black fillcolor="#FF6B6B"]
+	legend_1 [label=Premyslid color=black fillcolor="#95E1D3"]
+	legend_2 [label=Piast color=black fillcolor="#4ECDC4"]
+}

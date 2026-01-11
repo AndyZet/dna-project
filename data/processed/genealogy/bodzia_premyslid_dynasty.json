@@ -1,0 +1,86 @@
+{
+  "individuals": [
+    {
+      "id": "PRE001",
+      "name": "Bretislaus I",
+      "birth": {
+        "date": "1002",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "1055",
+        "place": "Chrudim"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Bohemia",
+      "dynasty": "Premyslid"
+    },
+    {
+      "id": "PRE002",
+      "name": "Vratislaus II",
+      "birth": {
+        "date": "1032",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "1092",
+        "place": "Bohemia"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Bohemia",
+      "dynasty": "Premyslid"
+    },
+    {
+      "id": "PRE003",
+      "name": "Boleslaus I",
+      "birth": {
+        "date": "915",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "972",
+        "place": "Bohemia"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Bohemia",
+      "dynasty": "Premyslid"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_PRE001",
+      "husband_id": "PRE003",
+      "wife_id": null,
+      "children": [
+        "PRE001"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_PRE002",
+      "husband_id": "PRE001",
+      "wife_id": null,
+      "children": [
+        "PRE002"
+      ],
+      "marriage": null
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

@@ -1,0 +1,9 @@
+digraph "Bodzia_-_Premyslid_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Premyslid Dynasty" labelloc=t
+	PRE001 [label="Bretislaus I\nDuke of Bohemia\n(duke)\n\n1002 - 1055" color=black fillcolor="#95E1D3" shape=diamond style="filled,rounded"]
+	PRE002 [label="Vratislaus II\nKing of Bohemia\n(king)\n\n1032 - 1092" color=black fillcolor="#95E1D3" shape=box style="filled,rounded"]
+	PRE003 [label="Boleslaus I\nDuke of Bohemia\n(duke)\n\n915 - 972" color=black fillcolor="#95E1D3" shape=diamond style="filled,rounded"]
+}

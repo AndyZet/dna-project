@@ -1,0 +1,61 @@
+{
+  "individuals": [
+    {
+      "id": "ARP001",
+      "name": "Arpad",
+      "birth": {
+        "date": "845",
+        "place": "Hungary"
+      },
+      "death": {
+        "date": "907",
+        "place": "Hungary"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Grand Prince of Hungary",
+      "dynasty": "Arpad"
+    },
+    {
+      "id": "ARP002",
+      "name": "Stephen I",
+      "birth": {
+        "date": "975",
+        "place": "Esztergom"
+      },
+      "death": {
+        "date": "1038",
+        "place": "Esztergom"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Hungary",
+      "dynasty": "Arpad"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_ARP001",
+      "husband_id": "ARP001",
+      "wife_id": null,
+      "children": [
+        "ARP002"
+      ],
+      "marriage": null
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

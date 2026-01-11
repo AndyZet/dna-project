@@ -1,0 +1,180 @@
+{
+  "individuals": [
+    {
+      "id": "I001",
+      "name": "Svyatopolk I of Kiev",
+      "birth": {
+        "date": "980",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1019",
+        "place": "Kiev"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "I002",
+      "name": "Boleslaw I the Brave",
+      "birth": {
+        "date": "967",
+        "place": "Poznan"
+      },
+      "death": {
+        "date": "1025",
+        "place": "Krakow"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "I003",
+      "name": "Mieszko II Lambert",
+      "birth": {
+        "date": "990",
+        "place": "Poznan"
+      },
+      "death": {
+        "date": "1034",
+        "place": "Poznan"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "I004",
+      "name": "Richeza of Lotharingia",
+      "birth": {
+        "date": "995",
+        "place": "Lotharingia"
+      },
+      "death": {
+        "date": "1063",
+        "place": "Saalfeld"
+      },
+      "sex": "F",
+      "role": "queen",
+      "title": "Queen of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "I005",
+      "name": "Bretislaus I",
+      "birth": {
+        "date": "1002",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "1055",
+        "place": "Bohemia"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Bohemia",
+      "dynasty": "Premyslid"
+    },
+    {
+      "id": "I006",
+      "name": "Vratislaus II",
+      "birth": {
+        "date": "1032",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "1092",
+        "place": "Bohemia"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Bohemia",
+      "dynasty": "Premyslid"
+    },
+    {
+      "id": "I007",
+      "name": "Yaroslav I the Wise",
+      "birth": {
+        "date": "978",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1054",
+        "place": "Kiev"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "I008",
+      "name": "Iziaslav I",
+      "birth": {
+        "date": "1024",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1078",
+        "place": "Nezhyn"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    }
+  ],
+  "families": [
+    {
+      "id": "F001",
+      "husband_id": "I002",
+      "wife_id": null,
+      "children": [
+        "I003"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "F002",
+      "husband_id": "I003",
+      "wife_id": "I004",
+      "children": [],
+      "marriage": {
+        "date": "1013",
+        "place": "Merseburg"
+      }
+    },
+    {
+      "id": "F003",
+      "husband_id": "I005",
+      "wife_id": null,
+      "children": [
+        "I006"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "F004",
+      "husband_id": "I001",
+      "wife_id": null,
+      "children": [],
+      "marriage": null
+    },
+    {
+      "id": "F005",
+      "husband_id": "I007",
+      "wife_id": null,
+      "children": [
+        "I008"
+      ],
+      "marriage": null
+    }
+  ],
+  "sources": [],
+  "notes": []
+}

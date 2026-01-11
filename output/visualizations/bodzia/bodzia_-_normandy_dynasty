@@ -1,0 +1,9 @@
+digraph "Bodzia_-_Normandy_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Normandy Dynasty" labelloc=t
+	NOR001 [label="Richard I\nDuke of Normandy\n(duke)\n\n933 - 996" color=black fillcolor="#AA96DA" shape=diamond style="filled,rounded"]
+	NOR002 [label="Richard II\nDuke of Normandy\n(duke)\n\n963 - 1026" color=black fillcolor="#AA96DA" shape=diamond style="filled,rounded"]
+	NOR003 [label="Richard III\nDuke of Normandy\n(duke)\n\n997 - 1027" color=black fillcolor="#AA96DA" shape=diamond style="filled,rounded"]
+}

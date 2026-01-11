@@ -1,0 +1,291 @@
+{
+  "sample_ids": [
+    "VK155",
+    "VK157"
+  ],
+  "g25_comparison": {
+    "sample_ids": [
+      "VK155",
+      "VK157"
+    ],
+    "pairwise_distances": {
+      "VK155_vs_VK157": 0.04173631313376878
+    },
+    "distance_matrix": [
+      [
+        0.0,
+        0.04173631313376878
+      ],
+      [
+        0.04173631313376878,
+        0.0
+      ]
+    ],
+    "statistics": {
+      "min_distance": 0.04173631313376878,
+      "max_distance": 0.04173631313376878,
+      "mean_distance": 0.04173631313376878,
+      "median_distance": 0.04173631313376878,
+      "std_distance": 0.0
+    }
+  },
+  "admixture_comparison": {
+    "sample_ids": [
+      "VK155",
+      "VK157"
+    ],
+    "ancient_comparison": {
+      "TUR_Barcin_N": {
+        "VK155": 29.7,
+        "VK157": 27.9
+      },
+      "Yamnaya_RUS_Samara": {
+        "VK155": 52.7,
+        "VK157": 48.1
+      },
+      "BRA_LapaDoSanto": {
+        "VK155": 0.7,
+        "VK157": 0.0
+      },
+      "WHG": {
+        "VK155": 16.9,
+        "VK157": 21.9
+      },
+      "TUR_Tepecik_Ciftlik_N": {
+        "VK155": 0.0,
+        "VK157": 2.1
+      }
+    },
+    "modern_comparison": {
+      "Scandinavian": {
+        "VK155": 0.5,
+        "VK157": 0.0
+      },
+      "Iberian": {
+        "VK155": 5.7,
+        "VK157": 0.0
+      },
+      "English": {
+        "VK155": 28.2,
+        "VK157": 0.0
+      },
+      "Europe": {
+        "VK155": 96.0,
+        "VK157": 0.0
+      },
+      "Finnish": {
+        "VK155": 9.0,
+        "VK157": 0.0
+      },
+      "Central Asian, Northern Indian & Pakistani": {
+        "VK155": 1.0,
+        "VK157": 0.0
+      },
+      "Eastern European": {
+        "VK155": 39.0,
+        "VK157": 0.0
+      },
+      "Asia": {
+        "VK155": 4.0,
+        "VK157": 0.0
+      },
+      "Northern West Asian": {
+        "VK155": 3.0,
+        "VK157": 0.0
+      },
+      "Cypriot": {
+        "VK155": 2.5,
+        "VK157": 0.0
+      },
+      "Balkan": {
+        "VK155": 12.4,
+        "VK157": 0.0
+      },
+      "Northwestern European": {
+        "VK155": 1.4,
+        "VK157": 0.0
+      },
+      "Indian": {
+        "VK155": 1.1,
+        "VK157": 0.0
+      }
+    },
+    "differences": {
+      "ancient_TUR_Barcin_N": {
+        "VK155": 29.7,
+        "VK157": 27.9,
+        "difference": 1.8000000000000007
+      },
+      "ancient_Yamnaya_RUS_Samara": {
+        "VK155": 52.7,
+        "VK157": 48.1,
+        "difference": 4.600000000000001
+      },
+      "ancient_BRA_LapaDoSanto": {
+        "VK155": 0.7,
+        "VK157": 0.0,
+        "difference": 0.7
+      },
+      "ancient_WHG": {
+        "VK155": 16.9,
+        "VK157": 21.9,
+        "difference": 5.0
+      },
+      "ancient_TUR_Tepecik_Ciftlik_N": {
+        "VK155": 0.0,
+        "VK157": 2.1,
+        "difference": 2.1
+      },
+      "modern_Scandinavian": {
+        "VK155": 0.5,
+        "VK157": 0.0,
+        "difference": 0.5
+      },
+      "modern_Iberian": {
+        "VK155": 5.7,
+        "VK157": 0.0,
+        "difference": 5.7
+      },
+      "modern_English": {
+        "VK155": 28.2,
+        "VK157": 0.0,
+        "difference": 28.2
+      },
+      "modern_Europe": {
+        "VK155": 96.0,
+        "VK157": 0.0,
+        "difference": 96.0
+      },
+      "modern_Finnish": {
+        "VK155": 9.0,
+        "VK157": 0.0,
+        "difference": 9.0
+      },
+      "modern_Central Asian, Northern Indian & Pakistani": {
+        "VK155": 1.0,
+        "VK157": 0.0,
+        "difference": 1.0
+      },
+      "modern_Eastern European": {
+        "VK155": 39.0,
+        "VK157": 0.0,
+        "difference": 39.0
+      },
+      "modern_Asia": {
+        "VK155": 4.0,
+        "VK157": 0.0,
+        "difference": 4.0
+      },
+      "modern_Northern West Asian": {
+        "VK155": 3.0,
+        "VK157": 0.0,
+        "difference": 3.0
+      },
+      "modern_Cypriot": {
+        "VK155": 2.5,
+        "VK157": 0.0,
+        "difference": 2.5
+      },
+      "modern_Balkan": {
+        "VK155": 12.4,
+        "VK157": 0.0,
+        "difference": 12.4
+      },
+      "modern_Northwestern European": {
+        "VK155": 1.4,
+        "VK157": 0.0,
+        "difference": 1.4
+      },
+      "modern_Indian": {
+        "VK155": 1.1,
+        "VK157": 0.0,
+        "difference": 1.1
+      }
+    }
+  },
+  "common_populations": {
+    "common_populations": {
+      "VK2020_POL_Bodzia_VA": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.0309,
+          "VK157": 0.0335
+        },
+        "mean_distance": 0.0322,
+        "min_distance": 0.0309,
+        "max_distance": 0.0335
+      },
+      "VK2020_SWE_Gotland_VA": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.0391,
+          "VK157": 0.0333
+        },
+        "mean_distance": 0.0362,
+        "min_distance": 0.0333,
+        "max_distance": 0.0391
+      },
+      "DEU_MA_Krakauer_Berg": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.0399,
+          "VK157": 0.0337
+        },
+        "mean_distance": 0.0368,
+        "min_distance": 0.0337,
+        "max_distance": 0.0399
+      },
+      "HUN_Avar_Szolad": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.043,
+          "VK157": 0.0372
+        },
+        "mean_distance": 0.0401,
+        "min_distance": 0.0372,
+        "max_distance": 0.043
+      },
+      "VK2020_RUS_Kurevanikha_VA": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.0451,
+          "VK157": 0.0386
+        },
+        "mean_distance": 0.04185,
+        "min_distance": 0.0386,
+        "max_distance": 0.0451
+      },
+      "HUN_EIA_o3": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.0483,
+          "VK157": 0.0379
+        },
+        "mean_distance": 0.0431,
+        "min_distance": 0.0379,
+        "max_distance": 0.0483
+      },
+      "HUN_IA_La_Tene_o3": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.047,
+          "VK157": 0.0395
+        },
+        "mean_distance": 0.04325,
+        "min_distance": 0.0395,
+        "max_distance": 0.047
+      },
+      "RUS_Sunghir_MA": {
+        "sample_count": 2,
+        "distances": {
+          "VK155": 0.0455,
+          "VK157": 0.0411
+        },
+        "mean_distance": 0.0433,
+        "min_distance": 0.0411,
+        "max_distance": 0.0455
+      }
+    },
+    "total_common": 8
+  }
+}

@@ -1,0 +1,72 @@
+# DNA Results (contains genetic data)
+data/raw/y_dna_results/
+data/raw/autosomal/
+*.vcf
+*.txt.raw
+*.bam
+*.bai
+*.cram
+*.crai
+data/processed/y_dna/
+output/private_reports/
+
+# Family records (contains personal data)
+data/raw/genealogical/
+*.ged
+census_data/
+
+# Credentials
+.env
+config/database.ini
+config/api_keys.env
+
+# Encrypted files
+*.enc
+private_keys/
+
+# Large files
+*.pdf
+*.zip
+data/downloads/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+genealogy_env/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

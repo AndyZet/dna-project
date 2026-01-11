@@ -1,0 +1,8 @@
+digraph "Bodzia_-_Arpad_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Arpad Dynasty" labelloc=t
+	ARP001 [label="Arpad\nGrand Prince of Hungary\n(duke)\n\n845 - 907" color=black fillcolor="#FFD93D" shape=diamond style="filled,rounded"]
+	ARP002 [label="Stephen I\nKing of Hungary\n(king)\n\n975 - 1038" color=black fillcolor="#FFD93D" shape=box style="filled,rounded"]
+}

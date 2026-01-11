@@ -1,0 +1,86 @@
+{
+  "individuals": [
+    {
+      "id": "NOR001",
+      "name": "Richard I",
+      "birth": {
+        "date": "933",
+        "place": "Normandy"
+      },
+      "death": {
+        "date": "996",
+        "place": "Fecamp"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Normandy",
+      "dynasty": "Normandy"
+    },
+    {
+      "id": "NOR002",
+      "name": "Richard II",
+      "birth": {
+        "date": "963",
+        "place": "Normandy"
+      },
+      "death": {
+        "date": "1026",
+        "place": "Fecamp"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Normandy",
+      "dynasty": "Normandy"
+    },
+    {
+      "id": "NOR003",
+      "name": "Richard III",
+      "birth": {
+        "date": "997",
+        "place": "Normandy"
+      },
+      "death": {
+        "date": "1027",
+        "place": "Normandy"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Normandy",
+      "dynasty": "Normandy"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_NOR001",
+      "husband_id": "NOR001",
+      "wife_id": null,
+      "children": [
+        "NOR002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_NOR002",
+      "husband_id": "NOR002",
+      "wife_id": null,
+      "children": [
+        "NOR003"
+      ],
+      "marriage": null
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

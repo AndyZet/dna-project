@@ -1,0 +1,61 @@
+{
+  "individuals": [
+    {
+      "id": "CAP001",
+      "name": "Hugh Capet",
+      "birth": {
+        "date": "941",
+        "place": "Paris"
+      },
+      "death": {
+        "date": "996",
+        "place": "Paris"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of France",
+      "dynasty": "Capetian"
+    },
+    {
+      "id": "CAP002",
+      "name": "Robert II",
+      "birth": {
+        "date": "972",
+        "place": "Orleans"
+      },
+      "death": {
+        "date": "1031",
+        "place": "Melun"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of France",
+      "dynasty": "Capetian"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_CAP001",
+      "husband_id": "CAP001",
+      "wife_id": null,
+      "children": [
+        "CAP002"
+      ],
+      "marriage": null
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

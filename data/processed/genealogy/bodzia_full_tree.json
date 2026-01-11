@@ -1,0 +1,605 @@
+{
+  "individuals": [
+    {
+      "id": "RUR001",
+      "name": "Sviatopolk I",
+      "birth": {
+        "date": "980",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1019",
+        "place": "Kiev"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid",
+      "notes": [
+        "Bodzia burial connection",
+        "Son of Vladimir I"
+      ]
+    },
+    {
+      "id": "RUR002",
+      "name": "Vladimir I the Great",
+      "birth": {
+        "date": "958",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1015",
+        "place": "Berestove"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "RUR003",
+      "name": "Yaroslav I the Wise",
+      "birth": {
+        "date": "978",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1054",
+        "place": "Vyshhorod"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "RUR004",
+      "name": "Iziaslav I",
+      "birth": {
+        "date": "1024",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "1078",
+        "place": "Nezhyn"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "RUR005",
+      "name": "Sviatoslav I",
+      "birth": {
+        "date": "942",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "972",
+        "place": "Dnieper"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid"
+    },
+    {
+      "id": "PIA001",
+      "name": "Boleslaw I the Brave",
+      "birth": {
+        "date": "967",
+        "place": "Poznan"
+      },
+      "death": {
+        "date": "1025",
+        "place": "Krakow"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Poland",
+      "dynasty": "Piast",
+      "notes": [
+        "Allied with Sviatopolk",
+        "Bodzia connection"
+      ]
+    },
+    {
+      "id": "PIA002",
+      "name": "Mieszko II Lambert",
+      "birth": {
+        "date": "990",
+        "place": "Poznan"
+      },
+      "death": {
+        "date": "1034",
+        "place": "Poznan"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "PIA003",
+      "name": "Richeza of Lotharingia",
+      "birth": {
+        "date": "995",
+        "place": "Lotharingia"
+      },
+      "death": {
+        "date": "1063",
+        "place": "Saalfeld"
+      },
+      "sex": "F",
+      "role": "queen",
+      "title": "Queen of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "PIA004",
+      "name": "Casimir I the Restorer",
+      "birth": {
+        "date": "1016",
+        "place": "Krakow"
+      },
+      "death": {
+        "date": "1058",
+        "place": "Poznan"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "PIA005",
+      "name": "Mieszko I",
+      "birth": {
+        "date": "930",
+        "place": "Unknown"
+      },
+      "death": {
+        "date": "992",
+        "place": "Poznan"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "PRE001",
+      "name": "Bretislaus I",
+      "birth": {
+        "date": "1002",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "1055",
+        "place": "Chrudim"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Bohemia",
+      "dynasty": "Premyslid"
+    },
+    {
+      "id": "PRE002",
+      "name": "Vratislaus II",
+      "birth": {
+        "date": "1032",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "1092",
+        "place": "Bohemia"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Bohemia",
+      "dynasty": "Premyslid"
+    },
+    {
+      "id": "PRE003",
+      "name": "Boleslaus I",
+      "birth": {
+        "date": "915",
+        "place": "Bohemia"
+      },
+      "death": {
+        "date": "972",
+        "place": "Bohemia"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Bohemia",
+      "dynasty": "Premyslid"
+    },
+    {
+      "id": "GOR001",
+      "name": "Gorm the Old",
+      "birth": {
+        "date": "900",
+        "place": "Denmark"
+      },
+      "death": {
+        "date": "958",
+        "place": "Jelling"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Denmark",
+      "dynasty": "Gorm"
+    },
+    {
+      "id": "GOR002",
+      "name": "Harald Bluetooth",
+      "birth": {
+        "date": "910",
+        "place": "Denmark"
+      },
+      "death": {
+        "date": "986",
+        "place": "Jomsborg"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Denmark",
+      "dynasty": "Gorm"
+    },
+    {
+      "id": "GOR003",
+      "name": "Sweyn Forkbeard",
+      "birth": {
+        "date": "960",
+        "place": "Denmark"
+      },
+      "death": {
+        "date": "1014",
+        "place": "Gainsborough"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Denmark",
+      "dynasty": "Gorm"
+    },
+    {
+      "id": "NOR001",
+      "name": "Richard I",
+      "birth": {
+        "date": "933",
+        "place": "Normandy"
+      },
+      "death": {
+        "date": "996",
+        "place": "Fecamp"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Normandy",
+      "dynasty": "Normandy"
+    },
+    {
+      "id": "NOR002",
+      "name": "Richard II",
+      "birth": {
+        "date": "963",
+        "place": "Normandy"
+      },
+      "death": {
+        "date": "1026",
+        "place": "Fecamp"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Normandy",
+      "dynasty": "Normandy"
+    },
+    {
+      "id": "NOR003",
+      "name": "Richard III",
+      "birth": {
+        "date": "997",
+        "place": "Normandy"
+      },
+      "death": {
+        "date": "1027",
+        "place": "Normandy"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Normandy",
+      "dynasty": "Normandy"
+    },
+    {
+      "id": "CAP001",
+      "name": "Hugh Capet",
+      "birth": {
+        "date": "941",
+        "place": "Paris"
+      },
+      "death": {
+        "date": "996",
+        "place": "Paris"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of France",
+      "dynasty": "Capetian"
+    },
+    {
+      "id": "CAP002",
+      "name": "Robert II",
+      "birth": {
+        "date": "972",
+        "place": "Orleans"
+      },
+      "death": {
+        "date": "1031",
+        "place": "Melun"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of France",
+      "dynasty": "Capetian"
+    },
+    {
+      "id": "OTT001",
+      "name": "Otto I",
+      "birth": {
+        "date": "912",
+        "place": "Wallhausen"
+      },
+      "death": {
+        "date": "973",
+        "place": "Memleben"
+      },
+      "sex": "M",
+      "role": "emperor",
+      "title": "Holy Roman Emperor",
+      "dynasty": "Ottonian"
+    },
+    {
+      "id": "OTT002",
+      "name": "Otto II",
+      "birth": {
+        "date": "955",
+        "place": "Saxony"
+      },
+      "death": {
+        "date": "983",
+        "place": "Rome"
+      },
+      "sex": "M",
+      "role": "emperor",
+      "title": "Holy Roman Emperor",
+      "dynasty": "Ottonian"
+    },
+    {
+      "id": "OTT003",
+      "name": "Otto III",
+      "birth": {
+        "date": "980",
+        "place": "Kessel"
+      },
+      "death": {
+        "date": "1002",
+        "place": "Paterno"
+      },
+      "sex": "M",
+      "role": "emperor",
+      "title": "Holy Roman Emperor",
+      "dynasty": "Ottonian"
+    },
+    {
+      "id": "ARP001",
+      "name": "Arpad",
+      "birth": {
+        "date": "845",
+        "place": "Hungary"
+      },
+      "death": {
+        "date": "907",
+        "place": "Hungary"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Grand Prince of Hungary",
+      "dynasty": "Arpad"
+    },
+    {
+      "id": "ARP002",
+      "name": "Stephen I",
+      "birth": {
+        "date": "975",
+        "place": "Esztergom"
+      },
+      "death": {
+        "date": "1038",
+        "place": "Esztergom"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Hungary",
+      "dynasty": "Arpad"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_RUR001",
+      "husband_id": "RUR005",
+      "wife_id": null,
+      "children": [
+        "RUR002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_RUR002",
+      "husband_id": "RUR002",
+      "wife_id": null,
+      "children": [
+        "RUR001",
+        "RUR003"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_RUR003",
+      "husband_id": "RUR003",
+      "wife_id": null,
+      "children": [
+        "RUR004"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_PIA001",
+      "husband_id": "PIA005",
+      "wife_id": null,
+      "children": [
+        "PIA001"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_PIA002",
+      "husband_id": "PIA001",
+      "wife_id": null,
+      "children": [
+        "PIA002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_PIA003",
+      "husband_id": "PIA002",
+      "wife_id": "PIA003",
+      "children": [
+        "PIA004"
+      ],
+      "marriage": {
+        "date": "1013",
+        "place": "Merseburg"
+      }
+    },
+    {
+      "id": "FAM_PRE001",
+      "husband_id": "PRE003",
+      "wife_id": null,
+      "children": [
+        "PRE001"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_PRE002",
+      "husband_id": "PRE001",
+      "wife_id": null,
+      "children": [
+        "PRE002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_GOR001",
+      "husband_id": "GOR001",
+      "wife_id": null,
+      "children": [
+        "GOR002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_GOR002",
+      "husband_id": "GOR002",
+      "wife_id": null,
+      "children": [
+        "GOR003"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_NOR001",
+      "husband_id": "NOR001",
+      "wife_id": null,
+      "children": [
+        "NOR002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_NOR002",
+      "husband_id": "NOR002",
+      "wife_id": null,
+      "children": [
+        "NOR003"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_CAP001",
+      "husband_id": "CAP001",
+      "wife_id": null,
+      "children": [
+        "CAP002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_OTT001",
+      "husband_id": "OTT001",
+      "wife_id": null,
+      "children": [
+        "OTT002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_OTT002",
+      "husband_id": "OTT002",
+      "wife_id": null,
+      "children": [
+        "OTT003"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_ARP001",
+      "husband_id": "ARP001",
+      "wife_id": null,
+      "children": [
+        "ARP002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_CROSS001",
+      "husband_id": "RUR001",
+      "wife_id": null,
+      "children": [],
+      "marriage": {
+        "date": "1013",
+        "place": "Bodzia"
+      },
+      "notes": [
+        "Alliance with Boleslaw I"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

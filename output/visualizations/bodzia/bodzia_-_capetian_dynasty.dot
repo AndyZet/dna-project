@@ -1,0 +1,8 @@
+digraph "Bodzia_-_Capetian_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Capetian Dynasty" labelloc=t
+	CAP001 [label="Hugh Capet\nKing of France\n(king)\n\n941 - 996" color=black fillcolor="#FCBAD3" shape=box style="filled,rounded"]
+	CAP002 [label="Robert II\nKing of France\n(king)\n\n972 - 1031" color=black fillcolor="#FCBAD3" shape=box style="filled,rounded"]
+}

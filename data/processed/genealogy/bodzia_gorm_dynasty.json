@@ -1,0 +1,86 @@
+{
+  "individuals": [
+    {
+      "id": "GOR001",
+      "name": "Gorm the Old",
+      "birth": {
+        "date": "900",
+        "place": "Denmark"
+      },
+      "death": {
+        "date": "958",
+        "place": "Jelling"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Denmark",
+      "dynasty": "Gorm"
+    },
+    {
+      "id": "GOR002",
+      "name": "Harald Bluetooth",
+      "birth": {
+        "date": "910",
+        "place": "Denmark"
+      },
+      "death": {
+        "date": "986",
+        "place": "Jomsborg"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Denmark",
+      "dynasty": "Gorm"
+    },
+    {
+      "id": "GOR003",
+      "name": "Sweyn Forkbeard",
+      "birth": {
+        "date": "960",
+        "place": "Denmark"
+      },
+      "death": {
+        "date": "1014",
+        "place": "Gainsborough"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Denmark",
+      "dynasty": "Gorm"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_GOR001",
+      "husband_id": "GOR001",
+      "wife_id": null,
+      "children": [
+        "GOR002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_GOR002",
+      "husband_id": "GOR002",
+      "wife_id": null,
+      "children": [
+        "GOR003"
+      ],
+      "marriage": null
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

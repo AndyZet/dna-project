@@ -1,0 +1,21 @@
+digraph Bodzia_DNA_Network {
+	graph [bgcolor=white fontname=Arial fontsize=12 overlap=false splines=curved]
+	node [fontname=Arial fontsize=10 shape=ellipse style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia DNA-Tested Individuals Network" labelloc=t
+	RUR001 [label="Sviatopolk I\nY-DNA I1-S2077\n(E864/I)" color=black fillcolor="#2E86AB" penwidth=3 style="filled,bold"]
+	BOD001 [label="Princess from Bodzia\nmtDNA H1c\n(E864/II)" color=black fillcolor="#F18F01" penwidth=3 style="filled,bold"]
+	BOD002 [label="The Witch from Bodzia\nmtDNA H1c\n(VK155)" color=black fillcolor="#F18F01" penwidth=3 style="filled,bold"]
+	BOD003 [label="Bodzia Warrior\nY-DNA R1a-SUR51" color=black fillcolor="#2E86AB" penwidth=3 style="filled,bold"]
+	RUR007 [label="Vladimir I the Great" color=black fillcolor="#FF6B6B" penwidth=1 style=filled]
+	RUR008 [label="Yaroslav I the Wise" color=black fillcolor="#FF6B6B" penwidth=1 style=filled]
+	EXT001 [label="Son of Sviatopolk" color=black fillcolor="#FF6B6B" penwidth=1 style=filled]
+	EXT002 [label="Daughter of Sviatopolk" color=black fillcolor="#FF6B6B" penwidth=1 style=filled]
+	RUR001 -> RUR007 [label=parent style=solid]
+	RUR001 -> RUR008 [label=parent style=solid]
+	RUR001 -> BOD001 [label=spouse style=solid]
+	RUR001 -> EXT001 [label=parent style=solid]
+	RUR001 -> EXT002 [label=parent style=solid]
+	BOD001 -> EXT001 [label=parent style=solid]
+	BOD001 -> EXT002 [label=parent style=solid]
+}

@@ -1,0 +1,134 @@
+{
+  "individuals": [
+    {
+      "id": "PIA001",
+      "name": "Boleslaw I the Brave",
+      "birth": {
+        "date": "967",
+        "place": "Poznan"
+      },
+      "death": {
+        "date": "1025",
+        "place": "Krakow"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Poland",
+      "dynasty": "Piast",
+      "notes": [
+        "Allied with Sviatopolk",
+        "Bodzia connection"
+      ]
+    },
+    {
+      "id": "PIA002",
+      "name": "Mieszko II Lambert",
+      "birth": {
+        "date": "990",
+        "place": "Poznan"
+      },
+      "death": {
+        "date": "1034",
+        "place": "Poznan"
+      },
+      "sex": "M",
+      "role": "king",
+      "title": "King of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "PIA003",
+      "name": "Richeza of Lotharingia",
+      "birth": {
+        "date": "995",
+        "place": "Lotharingia"
+      },
+      "death": {
+        "date": "1063",
+        "place": "Saalfeld"
+      },
+      "sex": "F",
+      "role": "queen",
+      "title": "Queen of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "PIA004",
+      "name": "Casimir I the Restorer",
+      "birth": {
+        "date": "1016",
+        "place": "Krakow"
+      },
+      "death": {
+        "date": "1058",
+        "place": "Poznan"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Poland",
+      "dynasty": "Piast"
+    },
+    {
+      "id": "PIA005",
+      "name": "Mieszko I",
+      "birth": {
+        "date": "930",
+        "place": "Unknown"
+      },
+      "death": {
+        "date": "992",
+        "place": "Poznan"
+      },
+      "sex": "M",
+      "role": "duke",
+      "title": "Duke of Poland",
+      "dynasty": "Piast"
+    }
+  ],
+  "families": [
+    {
+      "id": "FAM_PIA001",
+      "husband_id": "PIA005",
+      "wife_id": null,
+      "children": [
+        "PIA001"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_PIA002",
+      "husband_id": "PIA001",
+      "wife_id": null,
+      "children": [
+        "PIA002"
+      ],
+      "marriage": null
+    },
+    {
+      "id": "FAM_PIA003",
+      "husband_id": "PIA002",
+      "wife_id": "PIA003",
+      "children": [
+        "PIA004"
+      ],
+      "marriage": {
+        "date": "1013",
+        "place": "Merseburg"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bodzia Early Medieval Royal Houses Diagram",
+      "type": "diagram",
+      "date": "2024",
+      "notes": "Color-coded genealogy diagram showing connections between medieval royal houses"
+    }
+  ],
+  "notes": [
+    "Bodzia cemetery (950-1020 CE) contains elite burials connected to these royal houses",
+    "Sviatopolk I of Kiev is directly connected to Bodzia site",
+    "Cross-cultural elite network: Scandinavian-Rus-Polish connections",
+    "I-Y45113 haplogroup potentially connected to Bodzia elite warriors"
+  ]
+}

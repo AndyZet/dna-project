@@ -1,0 +1,9 @@
+digraph "Bodzia_-_Ottonian_Dynasty" {
+	graph [bgcolor=white fontname=Arial fontsize=12 nodesep=0.5 rankdir=TB ranksep=1.0 splines=ortho]
+	node [fontname=Arial fontsize=10 style=filled]
+	edge [arrowsize=0.7 color="#666666"]
+	fontname="Arial Bold" fontsize=16 label="Bodzia - Ottonian Dynasty" labelloc=t
+	OTT001 [label="Otto I\nHoly Roman Emperor\n(emperor)\n\n912 - 973" color=black fillcolor="#A8D8EA" shape=box style="filled,rounded"]
+	OTT002 [label="Otto II\nHoly Roman Emperor\n(emperor)\n\n955 - 983" color=black fillcolor="#A8D8EA" shape=box style="filled,rounded"]
+	OTT003 [label="Otto III\nHoly Roman Emperor\n(emperor)\n\n980 - 1002" color=black fillcolor="#A8D8EA" shape=box style="filled,rounded"]
+}
