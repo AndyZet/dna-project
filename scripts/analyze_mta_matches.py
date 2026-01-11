@@ -4,8 +4,10 @@ Analyze My True Ancestry (MTA) matches for VK155 and VK157
 """
 import sys
 import json
+import re
 from pathlib import Path
 from datetime import datetime
+from typing import Any, Dict, List, Optional
 
 # Add src to path
 project_root = Path(__file__).parent.parent
@@ -358,65 +360,99 @@ def update_documentation(
     doc_path: Path
 ):
     """Update BODZIA_COMPLETE_TREE_DOCUMENTATION.md with MTA analysis section"""
-    with open(doc_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Find the References section and add MTA section before it
+    content = doc_path.read_text(encoding="utf-8")
+
+    supplementary_marker = (
+        "# Supplementary Information (project dossier; auto-generated and script-updated)"
+    )
+    if supplementary_marker in content:
+        pre, target = content.split(supplementary_marker, 1)
+    else:
+        pre, target = "", content
+
+    analysis_date = datetime.now().strftime("%Y-%m-%d")
+
+    def fmt_float(value: Any) -> str:
+        try:
+            if value is None:
+                return "N/A"
+            return f"{float(value):.3f}"
+        except (TypeError, ValueError):
+            return "N/A"
+
+    def first_match_summary(sample_analysis: Dict) -> str:
+        matches = sample_analysis.get("top_10_matches") or []
+        if not matches or not isinstance(matches[0], dict):
+            return "N/A"
+        desc = matches[0].get("description") or "N/A"
+        dist = fmt_float(matches[0].get("genetic_distance"))
+        return f"{desc} (Distance: {dist})"
+
+    def top_keys(d: Any, n: int = 3) -> str:
+        if not isinstance(d, dict) or not d:
+            return "N/A"
+        return ", ".join(list(d.keys())[:n])
+
+    vk155_top = vk155_analysis.get("total_top_matches", 0)
+    vk157_top = vk157_analysis.get("total_top_matches", 0)
+    common_count = comparison.get("common_matches_count", 0)
+
+    vk155_mean = fmt_float(vk155_analysis.get("genetic_distance_stats", {}).get("mean"))
+    vk157_mean = fmt_float(vk157_analysis.get("genetic_distance_stats", {}).get("mean"))
+
     mta_section = f"""
 ---
 
 ## My True Ancestry (MTA) Match Analysis
 
-**Analysis Date:** {datetime.now().strftime('%Y-%m-%d')}
+**Analysis Date:** {analysis_date}
+
+> **Caveat (important):** MTA is a third‑party, consumer‑oriented matching system. Its “shared segment/cM” and SNP‑chain outputs are not a validated kinship estimator for low‑coverage ancient DNA. Treat this section as hypothesis‑generating and corroborate with publication‑grade aDNA relatedness methods on raw genotypes.
 
 ### Overview
 
-Comprehensive analysis of My True Ancestry genetic matches for Bodzia DNA samples:
-- **VK155** (The Witch from Bodzia, BOD002): {vk155_analysis.get('total_top_matches', 0)} top matches
-- **VK157** (Sviatopolk I, RUR001): {vk157_analysis.get('total_top_matches', 0)} top matches
-- **Common Matches**: {comparison.get('common_matches_count', 0)} samples appear in both datasets
+Summary of MTA match outputs for Bodzia samples:
+- **VK155**: {vk155_top} top matches
+- **VK157**: {vk157_top} top matches
+- **Common matches**: {common_count} samples appear in both datasets
 
-### Key Findings
+### Key Findings (high-level)
 
-#### VK155 (Elite Woman)
-- **Average Genetic Distance**: {vk155_analysis.get('genetic_distance_stats', {}).get('mean', 'N/A'):.3f if vk155_analysis.get('genetic_distance_stats', {}).get('mean') else 'N/A'}
-- **Strongest Match**: {vk155_analysis.get('top_10_matches', [{}])[0].get('description', 'N/A') if vk155_analysis.get('top_10_matches') else 'N/A'} (Distance: {vk155_analysis.get('top_10_matches', [{}])[0].get('genetic_distance', 'N/A'):.3f if vk155_analysis.get('top_10_matches') else 'N/A'})
-- **Dominant Eras**: {', '.join([era for era, _ in list(vk155_analysis.get('era_distribution', {}).items())[:3]]) if vk155_analysis.get('era_distribution') else 'N/A'}
-- **Top Regions**: {', '.join([region for region, _ in list(vk155_analysis.get('region_distribution', {}).items())[:3]]) if vk155_analysis.get('region_distribution') else 'N/A'}
+#### VK155
 
-#### VK157 (Elite Warrior - Sviatopolk I)
-- **Average Genetic Distance**: {vk157_analysis.get('genetic_distance_stats', {}).get('mean', 'N/A'):.3f if vk157_analysis.get('genetic_distance_stats', {}).get('mean') else 'N/A'}
-- **Strongest Match**: {vk157_analysis.get('top_10_matches', [{}])[0].get('description', 'N/A') if vk157_analysis.get('top_10_matches') else 'N/A'} (Distance: {vk157_analysis.get('top_10_matches', [{}])[0].get('genetic_distance', 'N/A'):.3f if vk157_analysis.get('top_10_matches') else 'N/A'})
-- **Dominant Eras**: {', '.join([era for era, _ in list(vk157_analysis.get('era_distribution', {}).items())[:3]]) if vk157_analysis.get('era_distribution') else 'N/A'}
-- **Top Regions**: {', '.join([region for region, _ in list(vk157_analysis.get('region_distribution', {}).items())[:3]]) if vk157_analysis.get('region_distribution') else 'N/A'}
+- **Average genetic distance (MTA‑reported):** {vk155_mean}
+- **Strongest match:** {first_match_summary(vk155_analysis)}
+- **Dominant eras:** {top_keys(vk155_analysis.get("era_distribution", {}))}
+- **Top regions:** {top_keys(vk155_analysis.get("region_distribution", {}))}
 
-### Bodzia Site Connections
+#### VK157
 
-Both samples show genetic connections to other Bodzia burials:
+- **Average genetic distance (MTA‑reported):** {vk157_mean}
+- **Strongest match:** {first_match_summary(vk157_analysis)}
+- **Dominant eras:** {top_keys(vk157_analysis.get("era_distribution", {}))}
+- **Top regions:** {top_keys(vk157_analysis.get("region_distribution", {}))}
+
+### Bodzia-labeled references inside MTA (if present)
+
+Both samples may show matches to other Bodzia-labeled references in the MTA database (when present in the parsed lists). These are useful pointers for follow-up, but they do not by themselves establish close kinship.
 """
-    
-    # Add Bodzia connections
-    bodzia_conn = comparison.get('bodzia_connections', {})
-    if bodzia_conn.get('vk155'):
-        mta_section += "\n**VK155 matches to other Bodzia samples:**\n"
-        for sample_id, data in bodzia_conn['vk155'].items():
-            mta_section += f"- {sample_id}: Genetic Distance {data.get('distance', 'N/A'):.3f}, Rank {data.get('rank', 'N/A')}\n"
-    
-    if bodzia_conn.get('vk157'):
-        mta_section += "\n**VK157 matches to other Bodzia samples:**\n"
-        for sample_id, data in bodzia_conn['vk157'].items():
-            mta_section += f"- {sample_id}: Genetic Distance {data.get('distance', 'N/A'):.3f}, Rank {data.get('rank', 'N/A')}\n"
-    
-    mta_section += f"""
-### Detailed Analysis
 
-For comprehensive analysis including:
-- Complete match lists and statistics
-- Geographic and temporal distribution patterns
-- Comparison visualizations
-- Deep Dive Results (shared DNA segments)
+    bodzia_conn = comparison.get("bodzia_connections", {})
+    if bodzia_conn.get("vk155"):
+        mta_section += "\n\n**VK155 matches to other Bodzia samples (as labeled in MTA):**\n"
+        for sample_id, data in bodzia_conn["vk155"].items():
+            dist = fmt_float(data.get("distance"))
+            rank = data.get("rank", "N/A")
+            mta_section += f"- {sample_id}: distance {dist}, rank {rank}\n"
 
-See: **[MTA Matches Analysis](MTA_MATCHES_ANALYSIS.md)**
+    if bodzia_conn.get("vk157"):
+        mta_section += "\n\n**VK157 matches to other Bodzia samples (as labeled in MTA):**\n"
+        for sample_id, data in bodzia_conn["vk157"].items():
+            dist = fmt_float(data.get("distance"))
+            rank = data.get("rank", "N/A")
+            mta_section += f"- {sample_id}: distance {dist}, rank {rank}\n"
+
+    mta_section += """
 
 ### Data Files
 
@@ -424,18 +460,27 @@ See: **[MTA Matches Analysis](MTA_MATCHES_ANALYSIS.md)**
 - **VK157 Parsed Data**: `data/processed/ancient_dna/mta_vk157_matches.json`
 - **Comparison Data**: `data/processed/ancient_dna/mta_comparison.json`
 - **Visualizations**: `output/visualizations/mta/`
-
+- **Full report**: `docs/MTA_MATCHES_ANALYSIS.md`
 """
-    
-    # Insert before References section
-    if "## References" in content:
-        content = content.replace("## References", mta_section + "\n## References")
+
+    existing_section_pattern = re.compile(
+        r"(?ms)^---\n\n## My True Ancestry \(MTA\) Match Analysis\n.*?(?=^##\s|\Z)"
+    )
+    if existing_section_pattern.search(target):
+        target = existing_section_pattern.sub(mta_section.lstrip("\n") + "\n", target)
     else:
-        # Append at end if no References section
-        content += mta_section
-    
-    with open(doc_path, 'w', encoding='utf-8') as f:
-        f.write(content)
+        insert_point = target.find("## References")
+        if insert_point != -1:
+            target = target[:insert_point] + mta_section + "\n" + target[insert_point:]
+        else:
+            target += mta_section
+
+    if supplementary_marker in content:
+        merged = pre + supplementary_marker + target
+    else:
+        merged = target
+
+    doc_path.write_text(merged, encoding="utf-8")
 
 
 def generate_report(

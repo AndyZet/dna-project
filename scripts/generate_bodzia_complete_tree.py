@@ -5,6 +5,7 @@ Based on: Diagram_ Bodzia & Early Medieval Royal Houses  - Color.pdf
 """
 import sys
 import json
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -1052,6 +1053,10 @@ def generate_complete_documentation(data: dict, dynasty_map: dict, results: dict
     
     doc_path = Path("docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md")
     doc_path.parent.mkdir(parents=True, exist_ok=True)
+
+    supplementary_marker = (
+        "# Supplementary Information (project dossier; auto-generated and script-updated)"
+    )
     
     # Count statistics
     dynasty_counts = {}
@@ -1067,6 +1072,88 @@ def generate_complete_documentation(data: dict, dynasty_map: dict, results: dict
                 dna_by_type['Y-DNA'].append(ind)
             elif marker.startswith('mtDNA'):
                 dna_by_type['mtDNA'].append(ind)
+
+    # If the documentation has been upgraded into a manuscript with a stable
+    # "Supplementary Information" marker, preserve the manuscript content and
+    # only refresh the lightweight summary counts in-place.
+    if doc_path.exists():
+        existing = doc_path.read_text(encoding="utf-8")
+        if supplementary_marker in existing:
+            pre, post = existing.split(supplementary_marker, 1)
+
+            now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            families_count = len(data["families"])
+            dynasties_count = len(set(dynasty_map.values()))
+
+            updated = post
+            updated = re.sub(
+                r"\*\*Generated:\*\* .*?\n",
+                f"**Generated:** {now_str}  \n",
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r"\*\*Data Structure:\*\* \d+ individuals, \d+ families\s*\n",
+                f"**Data Structure:** {total_individuals} individuals, {families_count} families  \n",
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r"\*\*DNA Tested:\*\* \d+ individuals\s*\n",
+                f"**DNA Tested:** {dna_tested} individuals\n",
+                updated,
+                count=1,
+            )
+
+            updated = re.sub(
+                r"- \*\*Total Individuals\*\*: \d+\s*\n",
+                f"- **Total Individuals**: {total_individuals}\n",
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r"- \*\*Named Individuals with Full Identities\*\*: \d+\s*\n",
+                f"- **Named Individuals with Full Identities**: {total_individuals - 2}\n",
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r"- \*\*DNA Tested Individuals\*\*: \d+\s*\n",
+                f"- **DNA Tested Individuals**: {dna_tested}\n",
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r"- \*\*Total Families\*\*: \d+\s*\n",
+                f"- **Total Families**: {families_count}\n",
+                updated,
+                count=1,
+            )
+            updated = re.sub(
+                r"- \*\*Dynasties Represented\*\*: \d+\s*\n",
+                f"- **Dynasties Represented**: {dynasties_count}\n",
+                updated,
+                count=1,
+            )
+
+            by_dynasty_header = "### Individuals by Dynasty"
+            dna_header = "### DNA Tested Individuals"
+            by_dynasty_start = updated.find(by_dynasty_header)
+            if by_dynasty_start != -1:
+                by_dynasty_end = updated.find(dna_header, by_dynasty_start)
+                if by_dynasty_end != -1:
+                    rebuilt = by_dynasty_header + "\n\n"
+                    for dynasty, count in sorted(dynasty_counts.items()):
+                        rebuilt += f"- **{dynasty}**: {count} individuals\n"
+                    rebuilt += "\n"
+                    updated = (
+                        updated[:by_dynasty_start] + rebuilt + updated[by_dynasty_end:]
+                    )
+
+            merged = pre.rstrip("\n") + "\n\n" + supplementary_marker + updated
+            doc_path.write_text(merged, encoding="utf-8")
+            print(f"   ✓ Updated documentation counts (preserved manuscript): {doc_path}")
+            return
     
     # Generate documentation
     doc_content = f"""# Bodzia Early Medieval Royal Houses - COMPLETE Tree Documentation

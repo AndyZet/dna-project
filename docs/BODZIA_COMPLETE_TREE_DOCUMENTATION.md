@@ -1,4 +1,277 @@
-# Bodzia Early Medieval Royal Houses - COMPLETE Tree Documentation
+# Bodzia (Central Poland) Elite Networks at the Viking Age–Early Medieval Transition (ca. 950–1020 CE): A Genealogical Graph Model Integrated with Exploratory Genetic Comparisons
+
+**Manuscript status:** Draft scholarly report prepared from repository data and scripts; not peer‑reviewed.  
+**Audience optimization:** Tier 1 (archaeology + aDNA + genetic genealogy). Tier 2 context is provided in boxed sidebars; Tier 3 support in a glossary and appendices.  
+**Prepared:** 2026-01-11 (see Supplementary Information for auto-generated content provenance).
+
+## Abstract
+
+Elite burials at Bodzia (central Poland) provide a key archaeological context for investigating cross-cultural interaction among Scandinavia, the emergent Piast polity, and the Rus’ sphere around the turn of the first millennium [1]. This report presents a reproducible digital-humanities workflow that (i) formalizes a curated genealogical diagram of early medieval royal houses as a machine-readable graph (79 individuals; 47 family unions) [5] and (ii) integrates genetic summary representations for four Bodzia individuals (VK154, VK155, VK156, VK157), including uniparental haplogroups and PCA-projection coordinates (Global25/G25) used for exploratory distance and affinity comparisons [6, 27, 29].
+
+Exploratory analyses of G25 coordinates show moderate pairwise distances among all four Bodzia individuals (0.0281–0.0425), consistent with two related clusters (VK154–VK156; VK155–VK157) and broadly compatible with archaeological interpretations of family groupings within an elite burial community. Admixture-component summaries and population-distance comparisons indicate shared affinities to Viking-Age Scandinavia (e.g., Gotland) and to medieval central/eastern European reference populations. We situate these findings within a multi-dynasty historical framework and outline falsifiable tests for external comparisons, including the potential integration of elite English contexts (e.g., Winchester Cathedral) once reliable genomic datasets and attributions are available. The genetic results presented here are derived from coordinate/summary representations and should be validated with standard ancient-DNA workflows on raw genotype data for publication-grade inference.
+
+## Keywords
+
+Bodzia; Viking Age; early medieval Poland; Piast; Kievan Rus’; elite burials; ancient DNA; kinship; Y‑chromosome haplogroups; mtDNA; Global25 (G25); digital humanities; genealogical graphs.
+
+## Executive Summary (Tier 2/3)
+
+This report formalizes a Bodzia-associated early medieval “royal houses” diagram as a reproducible genealogical graph model and integrates exploratory genetic summaries for four Bodzia individuals (VK154, VK155, VK156, VK157). The primary contribution is methodological: it operationalizes a complex historical diagram as machine-readable data (JSON/GEDCOM + visualizations) and attaches a transparent set of genetic summaries (haplogroups; G25 distances/affinities) that can be used to generate falsifiable hypotheses for follow-up with publication-grade ancient DNA pipelines.
+
+All results here are **draft, exploratory, and not peer-reviewed**; they rely on coordinate-based summaries rather than raw aDNA genotypes.
+
+Key results (exploratory):
+
+- The genealogical model contains **79 individuals** and **47 family unions**, spanning **9 dynasties** and a broad modeled timeframe (800–1173 CE), with the Bodzia cemetery horizon situated at ~950–1020 CE [1, 5].
+- Across VK154/VK155/VK156/VK157, pairwise G25 distances fall within a narrow “moderate” band (0.0281–0.0425), consistent with two small clusters (VK154–VK156; VK155–VK157) within an elite burial community (Table 3) [27, 29].
+- “Closest population” lists derived from the same coordinate framework repeatedly include Viking-Age Scandinavian references (e.g., Gotland) and medieval central/eastern European references (see Supplementary for full lists) [27, 29].
+
+Testable hypotheses (summary; see §2.4):
+
+1. Bodzia’s four profiled individuals represent a genetically cohesive elite community at a coarse scale (coordinate-based) rather than an extremely heterogeneous assemblage.
+2. Scandinavian-associated affinities in the coordinate framework are consistent with archaeological observations of Scandinavian-linked material culture at Bodzia.
+3. External elite contexts (e.g., Ciepłe; Winchester Cathedral) can be used as falsifiable comparators once published, attributable genomic datasets exist.
+
+All major claims are explicitly tiered by confidence and mapped to evidence (Appendix A).
+
+## 1. Introduction (Tier 1)
+
+Bodzia is an elite cemetery in central Poland dated to the late 10th–early 11th centuries, notable for “hybrid” material culture combining Scandinavian, Rus’, and local elements [1]. The site is frequently discussed in terms of long-distance connectivity and elite mobility across the Baltic and eastern European riverine networks. The present project treats Bodzia as a test case for integrating (a) **explicit genealogical hypotheses** about elite networks with (b) **genetic summaries** that can be compared across ancient reference datasets.
+
+This report addresses three practical research questions:
+
+1. What is the structure of the curated Bodzia-associated “royal houses” genealogical model (scope, dynasties, and core bridging marriages)?
+2. What do exploratory genomic summaries (G25 distance/affinity; admixture components) suggest about relationships among the four Bodzia individuals represented here (VK154, VK155, VK156, VK157)?
+3. Which external elite contexts provide high-yield future comparison targets for testing cross-site connectivity hypotheses (e.g., Ciepłe; Winchester Cathedral)?
+
+> **Box 1 (Tier 2): Historical frame (950–1050 CE, simplified)**
+>  
+> The Bodzia horizon overlaps major political consolidation across the southern Baltic. In the west, Danish kings of the House of Gorm (Harald Bluetooth → Sweyn Forkbeard → Cnut) are central to the formation of an Anglo‑Scandinavian realm. In the east, the Rus’ polity consolidates along routes linking the Baltic to the Black Sea, while Piast Poland expands and competes for control of frontier regions. The genealogical model used here encodes one hypothesis for how dynastic marriages and alliances connect these spheres at the elite level; it is not, by itself, evidence of biological kinship.
+
+## 2. Materials and Methods (Tier 1)
+
+### 2.1 Genealogical model
+
+The genealogical network in this report is a structured transcription of the project’s source diagram (“Bodzia & Early Medieval Royal Houses – Color”) [5] into a graph model exported to JSON and GEDCOM. Individuals are labeled with dynasty membership and familial relationships. Because early medieval genealogy is source-limited and contested in places, all “named” linkages should be interpreted as hypotheses at the level of historical prosopography unless independently supported by primary/secondary scholarship.
+
+### 2.2 Genetic data summarized in this report
+
+This report uses **genetic summary representations** for four Bodzia-associated individuals (VK154, VK155, VK156, VK157) as curated in the project (with sample labeling consistent with the project’s reference sources) [6, 26, 27, 29]:
+
+- Uniparental haplogroups (Y‑DNA and mtDNA) as recorded in the project’s curated sources.
+- Global25/G25 PCA-projection coordinates used for Euclidean distance comparisons.
+- Admixture-component summaries and “closest population” lists derived from the same coordinate framework.
+
+These summaries are suitable for exploratory comparison and hypothesis generation, but they are not a substitute for publication-grade aDNA processing from raw reads/genotypes (authentication, contamination estimation, genotype likelihood calling, and formal population-genetic modeling).
+
+Non–peer-reviewed inputs (e.g., MyTrueAncestry match reports; Facebook-group G25 coordinates) are used in Supplementary materials and should be treated as provisional until validated against published datasets.
+
+### 2.3 Analytic approach (exploratory)
+
+Analyses reported below include:
+
+- Euclidean distances in 25D G25 space across all Bodzia pairs.
+- Simple PCA and k-means clustering over the four samples (for visualization/structure only).
+- Admixture-component summaries using a reduced 3-way model (Steppe/Yamnaya; Neolithic farmers; WHG) and small residual components.
+- “Closest population” affinity lists to a reference panel of ancient samples labeled in the same coordinate framework.
+
+> **Box 2 (Tier 2): What “genetic distance” means here**
+>  
+> “Distance” refers to Euclidean distance between projected PCA coordinates (G25). It can be informative for broad affinities but does not directly estimate genealogical relatedness. Close-kinship inference in aDNA typically relies on genome-wide relatedness methods on raw genotype data (often low-coverage-aware), ideally within a controlled and published pipeline.
+
+### 2.4 Testable hypotheses and falsifiability criteria (Tier 1)
+
+The hypotheses below are formulated to be falsifiable and to separate what can be assessed with the current coordinate-based summaries from what requires publication-grade aDNA processing.
+
+**H1. Cohesion hypothesis (within Bodzia; exploratory)**
+
+- **H0 (null):** The four profiled Bodzia individuals (VK154/VK155/VK156/VK157) are highly heterogeneous in ancestry and do not form a cohesive genetic cluster even at a coarse (coordinate) scale.
+- **Ha (alternative):** The four individuals are broadly cohesive at a coarse scale, consistent with an elite burial community with limited heterogeneity.
+- **Test(s):** Pairwise G25 distance distribution + admixture-component similarity across the four individuals (Tables 3–4) [27, 29].
+- **Evidence thresholds (operational; coordinate dependent):**
+  - Max pairwise distance < 0.06 and no outlier pair > 0.10 (flags extreme heterogeneity)
+  - Broadly similar reduced-component admixture profiles without a single sample deviating by > ~10 percentage points on a major component
+- **Current status:** **Provisionally supported (exploratory)** given observed distances 0.0281–0.0425 and similar component profiles (Tables 3–4).
+- **Falsification scenario:** Recomputed genome-wide relatedness/affinity from raw genotypes shows one or more individuals as clear outliers (e.g., PCA/qpAdm placing them in markedly distinct clusters relative to the others).
+
+**H2. Scandinavian-affinity hypothesis (Bodzia ↔ Viking-Age Scandinavia; exploratory)**
+
+- **H0:** Scandinavian-associated reference populations do not appear as consistently close comparators for the Bodzia individuals in the project’s coordinate/reference framework.
+- **Ha:** Scandinavian-associated references (e.g., Gotland) recur as close comparators across Bodzia individuals, consistent with archaeological indicators of Scandinavian-linked networks [1].
+- **Test(s):** Presence/recurrence of Scandinavian-associated references among “closest population” lists across the four individuals (Supplementary tables/plots) [27, 29].
+- **Evidence threshold (operational):** At least one Scandinavian-associated reference population appears among the top ~10–15 closest populations for ≥3 of the 4 individuals, in the same coordinate framework.
+- **Current status:** **Provisionally supported (exploratory)** within the project’s coordinate/reference panel (see Supplementary).
+- **Falsification scenario:** Using alternative reference panels / formal statistics (f-statistics/qpAdm) eliminates Scandinavian-associated affinity signals or shows them to be artifactual.
+
+**H3. External comparator hypothesis (Ciepłe; Winchester; forward-looking)**
+
+- **H0:** External elite contexts do not provide testable constraints on Bodzia connectivity beyond general “Viking Age” similarity.
+- **Ha:** Published, attributable elite-context genomes enable falsifiable cross-site kinship/lineage tests that can confirm or constrain specific connectivity hypotheses.
+- **Test(s):** Cross-site relatedness/lineage overlap once comparable datasets exist (see §4.1 and Supplementary “Winchester”/“Ciepłe” sections).
+- **Current status:** **Inconclusive / pending data**.
+- **Falsification scenario:** Well-powered, attributable datasets show no kinship or lineage overlap where hypothesized, or point to alternative networks.
+
+### 2.5 Reproducibility
+
+The repository contains scripts that generate the genealogical data products and attach genetic summaries to the tree model. Key outputs are listed in the Data & Code Availability section and in the Supplementary Information.
+
+## 3. Results (Tier 1)
+
+### 3.1 Genealogical dataset scope
+
+**Table 1. Genealogical model summary**
+
+| Metric | Value |
+|---|---:|
+| Individuals (named nodes) | 79 |
+| Families (unions) | 47 |
+| Dynasties represented | 9 |
+| Temporal coverage (model) | 800–1173 CE |
+| Bodzia cemetery horizon (site) | ~950–1020 CE |
+
+### 3.2 DNA-tested / DNA-profiled Bodzia individuals
+
+**Table 2. Bodzia individuals analyzed genetically in this report**
+
+| Sample | Sex (if recorded) | Y‑DNA | mtDNA | Notes |
+|---|---|---|---|---|
+| VK154 | F | – | H1c3 | Bodzia elite female (see Supplementary for context) |
+| VK155 | F | – | H1c | Bodzia elite female (internal project label previously “The Witch”) |
+| VK156 | M | R1a1a1b1a2a2a1 | J1c2c2a | Bodzia elite male |
+| VK157 | M | I1a3a1 (I1‑S2077) | H1c | Bodzia elite male (mapped to RUR001 in the genealogical model; proposed identification should be treated as a hypothesis) |
+
+Note: Historical naming/role assignments (e.g., RUR001 → “Sviatopolk I”) remain hypothetical without independent archaeological attribution.
+
+### 3.3 Exploratory genetic structure among Bodzia individuals
+
+**Table 3. Pairwise G25 distances between Bodzia individuals**
+
+| Sample Pair | Genetic Distance | Classification |
+|-------------|------------------|----------------|
+| VK154 ↔ VK156 | 0.0281 | Moderate |
+| VK155 ↔ VK157 | 0.0417 | Moderate |
+| VK155 ↔ VK154 | 0.0421 | Moderate |
+| VK155 ↔ VK156 | 0.0420 | Moderate |
+| VK157 ↔ VK154 | 0.0421 | Moderate |
+| VK157 ↔ VK156 | 0.0425 | Moderate |
+
+Across all pairs, distances fall in a narrow “moderate” band, with VK154–VK156 forming the closest pair. PCA/clustering over the four points yields two coherent groupings (VK154–VK156; VK155–VK157), suggesting within-site structure consistent with small-number family clustering rather than a highly heterogeneous assemblage.
+
+Classification method: Euclidean distances in 25‑D G25 space computed by `scripts/comprehensive_genetic_analysis.py`; thresholds used for narration here—<0.06 “moderate,” >0.10 “outlier/heterogeneous”—follow the exploratory criteria in `docs/COMPREHENSIVE_GENETIC_ANALYSIS.md`.
+
+### 3.4 Admixture-component summaries (exploratory)
+
+**Table 4. Reduced admixture-component summaries**
+
+| Sample | Steppe/Yamnaya (%) | Neolithic farmers (%) | WHG (%) | Residual (%) |
+|--------|---------------------:|----------------------:|--------:|-------------:|
+| VK155 | 52.7 | 29.7 | 16.9 | 0.7 |
+| VK157 | 48.1 | 27.9 | 21.9 | 2.1 |
+| VK154 | 52.6 | 28.3 | 19.1 | – |
+| VK156 | 50.9 | 31.4 | 17.8 | – |
+
+All four show broadly similar component profiles. “Closest population” lists in the same framework repeatedly include other Bodzia-labeled references, Viking-Age Scandinavia (notably Gotland), and medieval central European references (see Supplementary Information for full lists).
+
+Admixture estimates derive from the same script (`scripts/comprehensive_genetic_analysis.py`) using Davidski G25 reference sets; component labels are heuristic and should be interpreted as exploratory summaries, not formal qpAdm models.
+
+### 3.5 Figures and tables produced by this workflow (roadmap)
+
+This repository already contains figure-ready outputs that can be adapted into journal figures (final captioning, layout, and DPI checks required):
+
+- **Figure 1 (genealogical model graph):** `output/visualizations/bodzia_complete/bodzia_complete_tree.png` (also `.svg`/`.pdf`)
+- **Figure 2 (G25 PCA):** `output/visualizations/genetic_analysis/pca_results.png`
+- **Figure 3 (admixture summary):** `output/visualizations/genetic_analysis/admixture_ancient.png`
+- **Figure 4 (pairwise distance heatmap):** `output/visualizations/genetic_analysis/comparison_matrix.png`
+- **Figure 5 (population affinities; multi-panel):** `output/visualizations/genetic_analysis/population_distances_VK154.png`, `output/visualizations/genetic_analysis/population_distances_VK155.png`, `output/visualizations/genetic_analysis/population_distances_VK156.png`, `output/visualizations/genetic_analysis/population_distances_VK157.png`
+
+Tables in the main manuscript are provided as Tables 1–4; expanded lists and “closest population” tables should remain in Supplementary Information.
+
+## 4. Discussion (Tier 1)
+
+The combined genealogical and genetic summaries support a working model in which the Bodzia burial community is genetically cohesive at a coarse scale, with internal structure consistent with at least two related clusters. The recurring affinity signals to Viking-Age Scandinavian references align with archaeological observations of Scandinavian-associated material culture at Bodzia, but these signals do not, by themselves, identify specific historical individuals or confirm dynastic assignments.
+
+### 4.1 Comparative frameworks and falsifiable next tests
+
+Two comparative directions are particularly high-yield:
+
+- **Regional elite comparators (e.g., Ciepłe):** useful for testing whether multiple elite sites in Piast-adjacent territories share similar Scandinavian-associated genetic signatures and/or uniparental lineages [21, 31].
+- **Anglo‑Scandinavian elite contexts (e.g., Winchester Cathedral):** the genealogical model includes House of Gorm and Normandy figures that connect to England (Cnut, Emma, Harthacnut). If reliable, attributable genomes become available from Winchester contexts, cross-site kinship/lineage tests could directly evaluate whether Bodzia individuals fall within plausible biological proximity to this dynastic network.
+
+> **Box 3 (Tier 2): Bodzia ↔ Winchester as a “bridge hypothesis”**
+>  
+> The “bridge” is genealogical: the model explicitly includes Danish and Norman rulers connected to England. The genetic test is separate: it requires published, attributable genomes from Winchester contexts and low-coverage-aware relatedness methods. Shared broad haplogroups are not sufficient; downstream resolution and genome-wide relatedness are required. **No Winchester Cathedral genomic data are public as of 2026‑01‑11; this section is forward-looking only.**
+
+## 5. Limitations (Tier 1)
+
+1. **Summary data vs raw genotypes:** Most results here are based on G25 projections and derivative summaries, not on raw aDNA genotype likelihoods.
+2. **Small sample size:** Four individuals cannot capture the full Bodzia burial community and limits statistical inference.
+3. **Uncertain historical identifications:** Mapping an archaeological/genetic sample ID (e.g., VK157) onto a named historical individual is a hypothesis that requires independent corroboration.
+4. **Third-party matching outputs:** Any MyTrueAncestry-derived “shared segment/cM” interpretations should be treated as exploratory and are best relegated to supplementary material unless validated.
+
+## 6. Publication-grade aDNA data requirements (checklist)
+
+To make the genetics component suitable for peer review in an aDNA-focused venue, the following metadata and QC outputs should be available per sample (VK154/VK155/VK156/VK157), ideally as a structured table:
+
+- Burial context identifier(s) + provenance and commingling risk assessment
+- Dating (radiocarbon where possible) with lab codes and calibrated ranges
+- Sex determination method (osteology and/or genetic)
+- Library preparation (e.g., UDG treatment; ds/ss) and capture strategy (if any)
+- Sequencing type/platform and coverage metrics (genome-wide; mtDNA; Y for males)
+- Authentication/damage metrics and contamination estimates (mtDNA; X for males)
+- Reference build and mapping pipeline details (alignment parameters; duplicates; filtering)
+- Genotype calling representation (pseudo-haploid vs diploid likelihoods) and SNP panel definition
+
+If these are not currently available in the repository, they should be added as `[[UNKNOWN]]` fields in a sample metadata table and explicitly requested from the primary data source/publication before submitting a manuscript.
+
+## 7. Conclusions and Future Work (Tier 1)
+
+This project demonstrates a reproducible framework for integrating genealogical network models with exploratory genetic summaries for a key late 10th–early 11th century elite context in central Europe. The immediate next steps for publication-grade inference are to (i) ground claims in peer-reviewed primary genetic datasets and (ii) run standard aDNA authentication/kinship/population-genetic workflows on raw genotype data (where permitted). Comparative integration with other elite contexts—especially sites that can be securely dated and attributed—offers a clear path for testing the Bodzia connectivity hypotheses in a falsifiable way.
+
+## Data & Code Availability
+
+- Genealogical graph data: `data/processed/genealogy/bodzia_complete_tree.json`
+- Visual outputs (tree + genetics): `output/visualizations/`
+- Supplementary scripts: `scripts/`
+
+Raw genetic inputs (e.g., commercial exports; raw match reports; BAM/VCF files) may be stored locally but are not included in versioned outputs.
+
+## Glossary (Tier 3)
+
+- **aDNA**: Ancient DNA.
+- **G25 / Global25**: A PCA-projection coordinate system used in genetic genealogy for exploratory affinity comparisons.
+- **WHG**: Western Hunter‑Gatherers (a common ancient ancestry component label).
+- **Yamnaya/Steppe**: A label used for steppe pastoralist-related ancestry components.
+- **mtDNA / Y‑DNA**: Mitochondrial DNA / Y‑chromosome DNA (uniparental lineages).
+- **Haplogroup**: A lineage label defined by shared mutations on mtDNA or Y‑DNA.
+- **PCA**: Principal Component Analysis, used to reduce dimensionality and visualize structure.
+- **Kinship / relatedness**: Genetic relationship between individuals; close-kinship inference in aDNA typically requires genome-wide methods on raw data.
+- **SNP / STR**: Single‑nucleotide polymorphism / short tandem repeat (two common Y‑DNA marker types in genetic genealogy).
+- **TMRCA**: Time to most recent common ancestor (a phylogenetic estimate for a lineage/clade).
+- **IBD**: Identical‑by‑descent; shared genome segments inherited from a common ancestor (challenging to infer reliably from low‑coverage aDNA without specialized methods).
+- **Pseudo-haploid genotypes**: A common representation for low-coverage aDNA where one allele is sampled per site.
+- **Contamination estimation**: Quantification of modern DNA contamination (often via mtDNA and X‑chromosome metrics).
+- **qpAdm / f-statistics**: Standard aDNA toolkit methods for modeling ancestry mixtures and testing population relationships (not performed in this report).
+- **ADMIXTURE / nMonte-style optimization**: Mixture-model approaches; in this project, admixture summaries are derived from a reduced coordinate-based model and should be treated as exploratory.
+
+## Appendix A. Claims & Evidence Ledger (Tier 1)
+
+This ledger maps high-level claims in the manuscript to the most direct supporting artifacts (references and/or repository outputs). It is intended to make peer review and internal auditing easier.
+
+| Claim (short form) | Status | Primary support (evidence) |
+|---|---|---|
+| The Bodzia genealogical model contains 79 individuals and 47 unions | Supported | Table 1; `data/processed/genealogy/bodzia_complete_tree.json`; Supplementary “Tree Statistics” |
+| The Bodzia cemetery horizon is ~950–1020 CE | Supported | [1] (Buko et al. 2013); Supplementary “Bodzia Archaeological Site” |
+| VK157 is reported as Y‑DNA I1‑S2077 (I1a3a1) | Supported (as reported) | Supplementary “Genetic Connections”; [27], [29] |
+| Pairwise G25 distances among VK154/VK155/VK156/VK157 are 0.0281–0.0425 | Supported (exploratory) | Table 3; `data/processed/ancient_dna/g25_comparison.json`; `output/visualizations/genetic_analysis/comparison_matrix.png` |
+| G25 “closest populations” repeatedly include Viking-Age Scandinavian references (e.g., Gotland) | Supported (exploratory) | Supplementary population lists; `data/processed/ancient_dna/genetic_profiles.json`; `output/visualizations/genetic_analysis/population_distances_VK*.png` |
+| The VK157 ↔ “Sviatopolk I” mapping is a hypothesis | Supported | Supplementary Rurikid section notes; see “MODEL NODE” labeling |
+| Winchester Cathedral is a plausible external comparator for House of Gorm / Normandy nodes | Hypothesis / pending | Supplementary “Winchester Cathedral” section; requires primary Winchester genomic outputs to test |
+
+---
+
+# Supplementary Information (project dossier; auto-generated and script-updated)
+
+## Bodzia Early Medieval Royal Houses - COMPLETE Tree Documentation
 
 **Generated:** 2026-01-11 00:20:24  
 **Source:** Diagram_ Bodzia & Early Medieval Royal Houses  - Color.pdf  
@@ -41,17 +314,17 @@ The Bodzia cemetery represents a unique cross-cultural elite burial ground showi
 
 #### Y-DNA Tested (2)
 
-- **Sviatopolk I** (RUR001): Y-DNA I1-S2077
-  - Bodzia burial E864/I VK157, Y-DNA I1-S2077, DNA tested
-- **Bodzia Warrior** (BOD003): Y-DNA R1a-SUR51
-  - Bodzia burial, Y-DNA R1a-SUR51, DNA tested
+- **VK157** (RUR001; labeled “Sviatopolk I” in the genealogical model): Y-DNA I1-S2077 (I1a3a1)
+  - Bodzia burial E864/I, sample VK157
+- **VK156** (BOD003; elite male): Y-DNA R1a (reported as R1a-SUR51 / R1a1a1b1a2a2a1)
+  - Bodzia burial, sample VK156
 
 #### mtDNA Tested (2)
 
-- **Princess from Bodzia** (BOD001): mtDNA H1c
-  - Bodzia burial E864/II, mtDNA H1c, DNA tested
-- **The Witch from Bodzia** (BOD002): mtDNA H1c
-  - Bodzia burial VK155, mtDNA H1c, DNA tested
+- **VK154** (BOD001; elite female): mtDNA H1c3 (H1c)
+  - Bodzia burial E864/II, sample VK154
+- **VK155** (BOD002; elite female; previously labeled “The Witch” in internal project notes): mtDNA H1c
+  - Bodzia burial, sample VK155
 
 ---
 
@@ -105,7 +378,7 @@ G25 coordinates are 25-dimensional PCA coordinates derived from ancient DNA samp
    - Possible relatedness through marriage or shared lineage rather than immediate kinship
 
 3. **Family Group Structure**: The genetic distances support the archaeological interpretation of two family groups:
-   - **Group 1**: VK155 and VK157 (possibly mother-son relationship)
+   - **Group 1**: VK155 and VK157 (possible close relationship or shared lineage; exploratory)
    - **Group 2**: VK154 and VK156 (father-daughter/second-degree relationships). **Note**: VK153 is archaeologically identified as part of this family unit (father-son relationship with VK156) but is not included in the genetic analysis as it was not among the 4 DNA-tested samples.
 
 **Distance Thresholds:**
@@ -194,26 +467,26 @@ Genetic distances to ancient reference populations were calculated from G25 coor
 
 #### Closest Populations by Sample
 
-**VK155 (The Witch):**
+**VK155 (Bodzia elite female):**
 1. VK2020_POL_Bodzia_VA (0.0309)
 2. VK2020_SWE_Gotland_VA (0.0391)
 3. DEU_MA_Krakauer_Berg (0.0399)
 4. HUN_Avar_Szolad (0.0430)
 5. VK2020_RUS_Gnezdovo_VA (0.0443)
 
-**VK157 (Sviatopolk I):**
+**VK157 (Bodzia elite male; RUR001 in genealogical model):**
 1. VK2020_POL_Sandomierz_VA (0.0321)
 2. VK2020_SWE_Gotland_VA (0.0333)
 3. VK2020_POL_Bodzia_VA (0.0335)
 4. DEU_MA_Krakauer_Berg (0.0337)
 5. HUN_Avar_Szolad (0.0372)
 
-**VK154 (Princess):**
+**VK154 (Bodzia elite female):**
 1. VK2020_POL_Bodzia_VA (0.0240) - **Closest to other Bodzia samples**
 2. VK2020_SWE_Gotland_VA (0.0261)
 3. DEU_MA_Krakauer_Berg (0.0341)
 
-**VK156 (Warrior):**
+**VK156 (Bodzia elite male):**
 1. VK2020_POL_Bodzia_VA (0.0189) - **Closest overall match**
 2. VK2020_SWE_Gotland_VA (0.0222)
 3. DEU_MA_Krakauer_Berg (0.0268)
@@ -228,7 +501,7 @@ Genetic distances to ancient reference populations were calculated from G25 coor
 
 4. **Avar and Early Slavic**: Connections to Avar period Hungary and early Slavic populations, consistent with the geographic location and time period.
 
-5. **Rus' Connections**: VK157 (Sviatopolk I) shows particularly close connections to Rus' populations (Gnezdovo, Kurevanikha), consistent with his Rurikid dynasty affiliation.
+5. **Rus' Connections**: VK157 shows particularly close connections to Rus'-labeled reference populations (e.g., Gnezdovo, Kurevanikha) within the project’s G25 reference panel; this is compatible with (but does not prove) eastern-network connectivity hypotheses encoded in the genealogical model.
 
 **Data Files:**
 - `data/processed/ancient_dna/common_populations.json` - Analysis of shared populations
@@ -253,7 +526,7 @@ With four samples, PCA reveals meaningful variance distribution:
 
 **Sample Clustering Patterns:**
 - **VK154 and VK156**: Cluster most closely together (distance: 0.0281, moderate range), consistent with archaeological evidence of family relationship (second-degree relatives)
-- **VK155 and VK157**: Form a second cluster (distance: 0.0417), consistent with possible mother-son relationship
+- **VK155 and VK157**: Form a second cluster (distance: 0.0417), consistent with a possible close relationship or shared lineage (exploratory)
 - **Between-group distances**: All pairs show moderate distances (0.0417-0.0425), indicating shared ancestry within the elite community
 
 #### Cluster Analysis
@@ -261,7 +534,7 @@ With four samples, PCA reveals meaningful variance distribution:
 K-means clustering was performed on G25 coordinates with multiple k values:
 
 **k=2 Clusters** (two family groups):
-- **Cluster 0**: VK155, VK157 (possible mother-son pair)
+- **Cluster 0**: VK155, VK157 (possible close relationship or shared lineage; exploratory)
 - **Cluster 1**: VK154, VK156 (father-daughter/second-degree relatives)
 
 **k=3 Clusters** (individual family units):
@@ -273,7 +546,7 @@ K-means clustering was performed on G25 coordinates with multiple k values:
 - Each sample forms its own cluster, reflecting individual genetic distinctness while maintaining overall similarity
 
 **Interpretation**: The clustering patterns support the archaeological interpretation of two distinct family groups within the Bodzia elite burial site. The genetic distances and PCA structure indicate:
-1. **Family Group 1** (VK155-VK157): Moderate genetic distance consistent with possible mother-son relationship or shared lineage
+1. **Family Group 1** (VK155-VK157): Moderate genetic distance consistent with a possible close relationship or shared lineage (exploratory)
 2. **Family Group 2** (VK154-VK156): Closer genetic distance consistent with documented father-daughter/second-degree relationships
 3. **Between-group relationships**: All samples share moderate genetic distances, indicating membership in the same elite community with possible intermarriage or shared ancestry
 
@@ -292,7 +565,7 @@ My True Ancestry (MTA) match data has been integrated into the genetic profiles,
 
 #### MTA Match Statistics
 
-**VK155 (The Witch):**
+**VK155 (Bodzia elite female):**
 - **Total Top Matches**: 298
 - **Deep Dive Matches**: 7 matches with shared DNA segments
 - **Closest Match**: PCA148_N (Germanic Medieval Poland, 950 AD) - Genetic Distance: 2.768
@@ -303,7 +576,7 @@ My True Ancestry (MTA) match data has been integrated into the genetic profiles,
   4. Vendel Age Saaremaa Salme II-XXXII (725 AD) - Genetic Distance: 4.649
   5. Pict Era Scotland Isle of Skye High Pasture Cave (124 AD) - Genetic Distance: 4.887
 
-**VK157 (Sviatopolk I):**
+**VK157 (Bodzia elite male; RUR001 in genealogical model):**
 - **Total Top Matches**: 261
 - **Deep Dive Matches**: 1 match with shared DNA segments (VK155)
 - **Closest Match**: VK473 (Viking Age Gotland Kopparsvik Sweden, 975 AD) - Genetic Distance: 2.643
@@ -338,7 +611,7 @@ The Deep Dive Results reveal an **asymmetric mutual matching**:
 
 This asymmetric pattern is consistent with the G25 distance of 0.0417 (moderate - possibly related) and supports the interpretation that these individuals were part of the same elite community, potentially related through marriage or shared lineage rather than immediate kinship.
 
-**Interpretation**: The genetic distance of 0.0417 between VK155 and VK157, combined with VK157's Deep Dive Results showing extensive shared DNA segments with VK155 (41 SNP chains, 114.79 cM), provides strong evidence for a genetic relationship. The asymmetric nature of the deep dive matching (VK157 detects VK155 in deep dive, but VK155 only has VK157 in top matches) is consistent with moderate genetic relatedness rather than immediate kinship. This supports the interpretation that these individuals were part of the same elite community, potentially related through marriage or shared lineage. The shared admixture profiles and common population affinities further support this interpretation.
+**Interpretation (exploratory)**: The G25 distance of 0.0417 between VK155 and VK157, together with third‑party MTA “Deep Dive” matching outputs (41 SNP chains; 114.79 cM reported from VK157 → VK155), is suggestive of a relationship signal within the model used by MTA. Because MTA’s “shared segment/cM” outputs are not a standard, validated kinship method for low-coverage ancient data, these results should be treated as hypothesis-generating and corroborated with genome-wide aDNA relatedness methods on raw genotypes.
 
 #### SNP Matching Data
 
@@ -359,7 +632,7 @@ Detailed SNP matching data has been integrated into the genetic profiles, includ
 
 **VK155 ↔ VK157:**
 - **G25 Distance**: 0.0417 (Moderate - possibly related)
-- **MTA Shared DNA**: Confirmed mutual matching with shared segments
+- **MTA Shared DNA**: MTA reports mutual matching with shared segments (exploratory; see caveats)
 - **Admixture Similarity**: Very similar profiles (Yamnaya: 52.7% vs 48.1%, Neolithic: 29.7% vs 27.9%)
 - **Population Affinities**: Both closest to other Bodzia samples, then Gotland, then Medieval Germany
 - **Interpretation**: Consistent with membership in the same elite community, potentially related through marriage or shared ancestry
@@ -378,7 +651,7 @@ Detailed SNP matching data has been integrated into the genetic profiles, includ
 
 3. **Central European Context**: Connections to Medieval German populations (Krakauer Berg) reflect Bodzia's position within broader Central European elite networks.
 
-4. **Rus' Connections**: VK157's (Sviatopolk I) particularly close connections to Rus' populations align with his documented Rurikid dynasty affiliation and historical connections to Kievan Rus'.
+4. **Rus' Connections**: VK157’s close affinity to Rus'-labeled reference populations is consistent with eastern-network connectivity scenarios encoded in the genealogical model; however, it does not establish a named historical identification on its own.
 
 5. **Avar Influence**: Affinities to Avar period Hungary populations suggest genetic contributions from earlier Central European populations, consistent with the region's complex migration history.
 
@@ -386,10 +659,10 @@ Detailed SNP matching data has been integrated into the genetic profiles, includ
 
 The genetic analysis results have been integrated into the genealogy tree (`bodzia_complete_tree.json`), with comprehensive genetic profiles added to each DNA-tested individual:
 
-- **RUR001 (Sviatopolk I / VK157)**: Full genetic profile including G25 coordinates, admixture, population distances, haplogroups, and MTA analysis
-- **BOD002 (The Witch / VK155)**: Full genetic profile including G25 coordinates, admixture, population distances, haplogroups, and MTA analysis
-- **BOD001 (Princess / VK154)**: Full genetic profile including G25 coordinates, admixture, population distances, and haplogroups
-- **BOD003 (Warrior / VK156)**: Full genetic profile including G25 coordinates, admixture, population distances, and haplogroups
+- **RUR001 (VK157; labeled “Sviatopolk I” in the genealogical model)**: Full genetic profile including G25 coordinates, admixture, population distances, haplogroups, and MTA analysis
+- **BOD002 (VK155; Bodzia elite female)**: Full genetic profile including G25 coordinates, admixture, population distances, haplogroups, and MTA analysis
+- **BOD001 (VK154; Bodzia elite female)**: Full genetic profile including G25 coordinates, admixture, population distances, and haplogroups
+- **BOD003 (VK156; Bodzia elite male)**: Full genetic profile including G25 coordinates, admixture, population distances, and haplogroups
 
 Each profile includes:
 - G25 coordinates (all 4 samples now have G25 coordinates available)
@@ -541,8 +814,10 @@ Each profile includes:
 - **Yaropolk I Svyatoslavich** (950 - 980) - Grand Prince of Kiev
 - **Vladimir I the Great** (958 - 1015) - Grand Prince of Kiev
 - **Yaroslav I the Wise** (978 - 1054) - Grand Prince of Kiev
-- **Sviatopolk I** (980 - 1019) - Grand Prince of Kiev - **DNA TESTED**: Y-DNA I1-S2077 - *Bodzia burial E864/I VK157, Y-DNA I1-S2077, DNA tested*
-- **Princess from Bodzia** (990 - 1020) - Princess - **DNA TESTED**: mtDNA H1c - *Bodzia burial E864/II, mtDNA H1c, DNA tested*
+- **Sviatopolk I** (980 - 1019) - Grand Prince of Kiev - **MODEL NODE** (project hypothesis)
+  - This project associates the Bodzia E864/I burial with sample VK157 and maps VK157 to the “Sviatopolk I” node as a working hypothesis.
+- **VK154** (990 - 1020) - Princess (model label: “Princess from Bodzia”) - **PROJECT-ASSOCIATED SAMPLE**: mtDNA H1c3 (H1c)
+  - Bodzia burial E864/II (association), sample VK154
 
 ---
 
@@ -550,17 +825,17 @@ Each profile includes:
 
 ### Bodzia Site Connections
 
-- **Sviatopolk I of Kiev** (RUR001): Direct connection to Bodzia burial site (E864/I VK157), Y-DNA I1-S2077
-- **Princess from Bodzia** (BOD001): Spouse of Sviatopolk I, mtDNA H1c (E864/II)
-- **The Witch from Bodzia** (BOD002): mtDNA H1c (VK155)
-- **Bodzia Warrior** (BOD003): Y-DNA R1a-SUR51
+- **RUR001 (VK157; labeled “Sviatopolk I” in the genealogical model)**: Associated in this project with Bodzia burial E864/I (sample VK157); Y-DNA I1-S2077
+- **BOD001 (VK154)**: Associated in this project with Bodzia burial E864/II (sample VK154); mtDNA H1c3 (H1c)
+- **VK155** (BOD002): mtDNA H1c
+- **VK156** (BOD003; model label: “Bodzia Warrior”): Y-DNA R1a (reported as R1a-SUR51 / R1a1a1b1a2a2a1)
 - **Boleslaw I the Brave** (PIA001): Allied with Sviatopolk, Bodzia connection
 - **Time Period**: 950-1020 CE matches Bodzia cemetery active period
 
 ### Cross-Dynasty Marriages and Alliances
 
 - **Igor Rurikovich** (Rurikid) × **Olga** (Rurikid) - 903
-- **Sviatopolk I** (Rurikid) × **Princess from Bodzia** (Rurikid) - 1010
+- **Sviatopolk I** (Rurikid) × **BOD001 (VK154)** (elite female; project association) - 1010 (model marriage)
 - **Mieszko II Lambert** (Piast) × **Richeza of Lotharingia** (Piast) - 1013
 
 ---
@@ -802,10 +1077,10 @@ The Bodzia cemetery (near Włocławek, central Poland) represents one of the mos
 ### Genetic Connections
 
 **Haplogroups:**
-- **Sviatopolk I (VK157)**: Y-DNA I1a3a1 (I1-S2077), mtDNA H1c (matches I-Y45113 research context)
-- **Princess from Bodzia (VK154)**: mtDNA H1c3
-- **The Witch (VK155)**: mtDNA H1c
-- **Bodzia Warrior (VK156)**: Y-DNA R1a1a1b1a2a2a1, mtDNA J1c2c2a
+- **VK157** (RUR001; labeled “Sviatopolk I” in the genealogical model): Y-DNA I1a3a1 (I1-S2077), mtDNA H1c
+- **VK154** (BOD001; model label: “Princess from Bodzia”): mtDNA H1c3
+- **VK155**: mtDNA H1c
+- **VK156** (BOD003; model label: “Bodzia Warrior”): Y-DNA R1a1a1b1a2a2a1, mtDNA J1c2c2a
 
 **Comprehensive Genetic Analysis Findings:**
 - **Genetic Distance (VK155 ↔ VK157)**: 0.0417 (moderate - possibly related)
@@ -829,11 +1104,11 @@ The Bodzia cemetery (near Włocławek, central Poland) represents one of the mos
 
 ### Ciepłe Archaeological Site (Comparative Context)
 
-The **Ciepłe settlement complex** (Gniew, Tczew, Eastern Pomerania) provides essential comparative context for understanding the broader Scandinavian-Polish elite network documented in this genealogical tree. As a parallel elite burial site active during the same period as Bodzia, Ciepłe offers critical insights into the dual Scandinavian wings of the early medieval elite network.
+The **Ciepłe settlement complex** (Gniew, Tczew, Eastern Pomerania) provides a useful comparative context for evaluating Scandinavian-associated elite activity in Piast-adjacent territories during the same broad horizon as Bodzia. As a parallel elite burial/settlement complex discussed in the literature, Ciepłe can inform (but not by itself prove) hypotheses about multi-node elite connectivity.
 
 #### Temporal & Geographic Alignment
 
-**Perfect overlap with Bodzia:**
+**Substantial chronological overlap with Bodzia:**
 - **Active period**: 980-1020 CE (40-year overlap with Bodzia's 950-1020 CE)
 - **Foundation**: 980s-990s CE (radiocarbon-dated)—coincides with peak of Bodzia's use
 - **Distance**: ~150 km northwest of Bodzia (Gniew, Tczew vs. Włocławek)
@@ -842,17 +1117,17 @@ The **Ciepłe settlement complex** (Gniew, Tczew, Eastern Pomerania) provides es
 #### Complementary Elite Network: Bodzia = Rus' Wing, Ciepłe = Danish Wing
 
 This genealogical tree documents **9 dynasties** including:
-- **Rurikid** (21 individuals): Sviatopolk I (VK157, Y-DNA I1-S2077) at Bodzia
+- **Rurikid** (21 individuals): a model node labeled “Sviatopolk I” is mapped in this project to sample VK157 (Y-DNA I1-S2077) as a working hypothesis
 - **Gorm** (9 individuals): Harald Bluetooth, Sweyn Forkbeard, Cnut the Great
 - **Piast** (14 individuals): Bolesław I the Brave (967-1025) with "Bodzia connection"
 
-**Ciepłe provides the Danish-Pomeranian counterpart:**
-- **4 Scandinavian warriors** confirmed via strontium isotope + genetic analysis
+**Ciepłe as a Danish–Pomeranian comparator (as reported in secondary summaries):**
+- **4 Scandinavian warriors** reported as supported by strontium isotope analysis and genetic analysis in secondary summaries (verify against the primary publication)
 - **Origin**: Denmark (most likely southern Scandinavia)
 - **Role**: Elite warriors with chamber graves, scales (tax collection), touchstones (precious metal assaying)
 - **Context**: Piast state control of Eastern Pomerania during Bolesław I's expansion
 
-**Network interpretation**: While Bodzia shows **Rus'-Polish integration** (Sviatopolk I married into Polish elite), Ciepłe shows **Danish-Polish integration** (Danish warriors administering Pomeranian territories for Bolesław I). Together, they map the **dual Scandinavian wings** (eastern Rus' + western Danish) of the elite network documented at the royal level in this genealogical tree.
+**Network interpretation (hypothesis)**: The genealogical model encodes **Rus'-Polish integration** via a Rurikid–Piast marriage (node labeled “Sviatopolk I” × a Piast princess). Ciepłe is discussed as a potential parallel for **Danish-Polish integration** at the “ground level” (elite warriors embedded in Piast territories). Together, these contexts motivate a regional “dual-wing” Scandinavian connectivity hypothesis that can be tested when comparable genomic datasets are available.
 
 #### Archaeological Evidence
 
@@ -863,13 +1138,11 @@ Ciepłe represents an exceptional early medieval settlement complex at the Piast
 - **Strontium isotope analysis**: Confirmed Scandinavian origin for 4 warriors
 - **Settlement context**: Piast state control of Eastern Pomerania during Bolesław I's expansion
 
-#### DNA Testing Status (January 2026)
+#### DNA Testing Status (January 2026; verify against primary publication)
 
-**Current status:**
+**Current status (as recorded in project notes):**
 - **4 Scandinavian warriors**: DNA tested (genetic analysis complete)
-- **Y-DNA haplogroups**: Analyzed but **NOT YET PUBLISHED** (expected Q1-Q2 2026 in peer-review)
-- **Expected haplogroups**: Likely I1-derived (Danish male lineage, similar to Bodzia VK157's I1-S2077) or R1a (similar to Bodzia VK156's R1a-SUR51)
-- **When published**: Can directly compare to Bodzia samples using the same analytical framework
+- **Y-DNA haplogroups**: Not recorded here as published; once available, they can be compared to Bodzia lineages reported for VK157 (I1‑S2077) and VK156 (R1a‑derived) in a hypothesis-driven framework.
 
 #### Integration Opportunities (When Ciepłe DNA Publishes)
 
@@ -879,38 +1152,38 @@ Ciepłe represents an exceptional early medieval settlement complex at the Piast
 - Population distance analysis to 203+ ancient reference populations
 - PCA clustering identifying 2 family groups within Bodzia
 
-**Add Ciepłe samples (Q1-Q2 2026) to:**
-1. **G25 distance matrix**: Calculate Bodzia ↔ Ciepłe pairwise distances (expected: 0.02-0.05 moderate range, similar to Bodzia internal distances)
+**Planned integration once comparable genomic summaries are available:**
+1. **G25 distance matrix**: Calculate Bodzia ↔ Ciepłe pairwise distances and compare to within‑Bodzia distances (exploratory)
 2. **PCA plot**: Check if Ciepłe clusters with Bodzia or separates geographically
-3. **Admixture comparison**: Test if Danish warriors show similar Yamnaya/Neolithic/WHG proportions (expected: similar 48-53% Yamnaya, 28-31% Neolithic, 17-22% WHG)
+3. **Admixture comparison**: Compare component summaries (exploratory; coordinate‑model dependent)
 4. **Population affinities**: Do Ciepłe warriors cluster closer to Bodzia than to generic Viking Age Scandinavian populations?
 
-**If Y-DNA matches:**
-- **Ciepłe warriors = I1-S2077** (same as Bodzia VK157): Confirms shared Scandinavian patrilineal lineages across both sites
-- **Ciepłe warriors = I-Y45113** (research context): Direct connection to I-Y45113 research investigation
-- **Ciepłe warriors = R1a-SUR51** (same as Bodzia VK156): Parallel R1a migration streams
+**Hypotheses to test when Y‑DNA is published:**
+- If Ciepłe males carry I1‑derived lineages overlapping downstream with Bodzia VK157 (I1‑S2077), this would support (not prove) a shared Scandinavian-associated paternal-line context across sites.
+- If Ciepłe males carry R1a‑derived lineages overlapping downstream with Bodzia VK156, this would support a multi-lineage Scandinavian/central‑eastern European admixture context in Piast‑adjacent elites.
+- If neither lineage overlaps, that result would constrain “shared retinue/lineage” hypotheses and favor more site-specific recruitment histories.
 
 #### Research Context: I-Y45113 Haplogroup Implications
 
 **Geographic triangle:**
 - **Płock** ←60 km→ **Bodzia** ←150 km→ **Ciepłe**
-- **I-Y45113 TMRCA (~975 CE)** coincides with **Ciepłe foundation (980s)**
+- **I-Y45113 TMRCA estimates** are often placed in the late 10th century in consumer phylogenies (e.g., ~975 CE in YFull YTree; verify against the specific tree version used)
 
 If I-Y45113 ancestors were in this region, they could have been part of:
 1. **Bodzia elite** (Rus'-Polish nexus) ← Current hypothesis
 2. **Ciepłe elite** (Danish-Pomeranian nexus) ← New possibility
 3. **Mobile elite** moving between both sites (warriors, traders, administrators)
 
-**Critical test**: When Ciepłe Y-DNA publishes, compare haplogroups. If Ciepłe warriors carry I1-S2077 or related subclades, this confirms I-Y45113 ancestors were part of this broader **Scandinavian-Polish elite network** spanning both sites.
+**Critical test**: When Ciepłe Y‑DNA results are published with sufficient downstream resolution, compare lineages against Bodzia VK157 (I1‑S2077) and VK156 (R1a‑derived). Overlap would support a shared-network hypothesis; non-overlap would refine it.
 
 #### Validation of Multi-Dynasty Approach
 
-This genealogical tree documents **79 individuals across 9 dynasties** (Rurikid, Piast, Gorm, Normandy, Arpad, Premyslid, Ottonian, Capetian). Ciepłe provides **on-the-ground archaeological evidence** that this interconnection was real:
+This genealogical tree documents **79 individuals across 9 dynasties** (Rurikid, Piast, Gorm, Normandy, Arpad, Premyslid, Ottonian, Capetian). Ciepłe provides a concrete archaeological comparator for discussing how dynastic-level connections could be instantiated by mobile elites on the ground:
 
 - **Royal level** (this tree): Gorm dynasty rulers (Harald Bluetooth, Sweyn Forkbeard) allied with Piast rulers (Bolesław I)
 - **Ground level** (Ciepłe): Danish warriors (Gorm retainers) embedded in Polish territories (Piast administration), living alongside local populations, collecting taxes, maintaining military control
 
-**Same period, same integration pattern, different geographic nodes**. Ciepłe transforms this analysis from "single-site study" to "regional elite network study," which is exactly what the 79-individual genealogical tree documents.
+**Same period; different geographic node**. Adding Ciepłe as a comparator shifts the framing from a single-site description toward a testable regional network hypothesis (subject to the availability of comparable genomic datasets).
 
 #### Actionable Next Steps
 
@@ -920,17 +1193,19 @@ This genealogical tree documents **79 individuals across 9 dynasties** (Rurikid,
 - Establish framework for integration when data becomes available
 
 **Q1-Q2 2026** (when Ciepłe Y-DNA publishes):
-1. Compare haplogroups to Bodzia VK157 (I1-S2077) and VK156 (R1a-SUR51)
+1. Compare haplogroups to Bodzia VK157 (I1‑S2077) and VK156 (R1a‑derived)
 2. Add Ciepłe G25 coordinates to distance matrix
 3. Update PCA plot to include both sites
 4. Test population affinities and admixture profiles
 5. If kinship detected, add "Bodzia ↔ Ciepłe elite network" connections to genealogical tree
 
-**Bottom line**: Ciepłe is not just relevant—it's **essential comparative context** that will either confirm or refine the hypothesis about the genetic structure of Early Medieval Scandinavian-Polish elite networks across multiple sites and dynasties.
+**Summary**: Ciepłe is a high-yield comparative candidate for testing regional elite-network hypotheses once primary genetic results (including downstream Y‑DNA calls) are available.
 
 ### Winchester Cathedral (Ongoing Research) and Relevance to the Bodzia Hypothesis
 
 This tree includes dynasties that directly intersect with **England** in the late 10th–11th centuries (notably Danish and Norman rulers). **Winchester Cathedral** is a key comparative site because (a) it is traditionally associated with high-status burials from these periods, and (b) ongoing conservation/archaeological work there has the potential to produce (or refine) **ancient DNA datasets** for elite individuals that overlap chronologically and politically with the Bodzia horizon.
+
+**Data status:** As of 2026-01-11, no peer-reviewed or publicly released Winchester Cathedral genomic datasets are available. All comparisons in this subsection are prospective and contingent on future data release and clear archaeological attribution.
 
 If genomic profiles from Winchester Cathedral can be confidently assigned to specific individuals (or at least to well-dated, high-status burials), they become an external reference point to test the working hypothesis in this file: **that the Bodzia individuals represent an elite network with genetic ties extending into the Anglo-Scandinavian / Anglo-Norman sphere**, not only cultural/artefactual parallels.
 
@@ -1039,7 +1314,7 @@ The Winchester Cathedral linkage discussed in **Research Context** should be gro
 - If data are public: accession (ENA/SRA), SNP panel/capture description, and sample IDs
 - If data are not public: a stable project page and a description of what can be used (summary haplogroups vs full genotypes)
 
-Suggested reference entries to add (placeholders):
+Suggested reference entries to add (placeholders—replace when sources publish):
 
 - Winchester Cathedral — mortuary chests conservation / analysis project (add official project page + any technical reports).
 - Any peer-reviewed aDNA paper(s) or preprint(s) reporting Winchester Cathedral sample IDs, dates, and genotype data.
@@ -1151,7 +1426,7 @@ Suggested reference entries to add (placeholders):
    - **Science in Poland**: "Four Warriors Buried in 11th-Century Tombs in Pomerania Came from Scandinavia, Say Scientists" (https://scienceinpoland.pl/en/news/news,80395,four-warriors-buried-11th-century-tombs-pomerania-came-scandinavia-say-scientists)
    - **Active period**: 980-1020 CE (40-year overlap with Bodzia)
    - **Location**: Gniew, Tczew, Eastern Pomerania (~150 km northwest of Bodzia)
-   - **Key findings**: 4 Scandinavian warriors confirmed via strontium isotope + genetic analysis, origin: Denmark
+   - **Key findings (as summarized in project notes)**: 4 Scandinavian warriors reported as supported by strontium isotope analysis + genetic analysis; origin summarized as Denmark (verify against the primary publication)
    - **DNA status**: Genetic analysis complete, Y-DNA haplogroups analyzed but not yet published (expected Q1-Q2 2026)
    - **Relevance**: Provides Danish-Polish integration counterpart to Bodzia's Rus'-Polish integration, validating the dual Scandinavian wings of the elite network documented in the genealogical tree
 
@@ -1227,8 +1502,8 @@ Suggested reference entries to add (placeholders):
 - **Recent Paper Data**: `docs/FB_GROUP/ScienceDirect_files_11Jan2026_00-30-19.817.zip` - Supplementary materials from 2025 paper (S0092867425005598), contains 8 files (PDF + Excel files)
 
 **Y-DNA Data:**
-- **Y-DNA SNP Data**: `data/raw/y_dna_results/SNP_for_YF079056_20260110.csv`
-- **Y-DNA STR Data**: `data/raw/y_dna_results/STR_for_YF079056_20260110.csv`
+- **Y-DNA SNP Data**: `data/raw/y_dna_results/SNP_for_<YFULL_ID>_<YYYYMMDD>.csv`
+- **Y-DNA STR Data**: `data/raw/y_dna_results/STR_for_<YFULL_ID>_<YYYYMMDD>.csv`
 - **YFull STR Matches**: `data/raw/y_dna_results/YFull _ STR matches.pdf`
 
 ---
