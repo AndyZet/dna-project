@@ -4,7 +4,7 @@
 
 **Target Audience:** General audience (genetic genealogy enthusiasts, family members, researchers)
 
-**Presentation Length:** 19 slides (approximately 20-25 minutes)
+**Presentation Length:** 20 slides (approximately 22-27 minutes)
 
 ---
 
@@ -587,9 +587,51 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 
 ---
 
+### Slide 15: "The Northern Poland Branch - A Third Cluster?"
+
+**Visual:** Map showing northern Poland (Pomeranian Voivodeship) with Ciepłe location
+
+**Content:**
+- **Title:** The Northern Poland Branch: A Third Geographic Cluster?
+
+**Northern Pomeranian Radzimowski Cluster (H3.7):**
+- **Location:** Pomeranian Voivodeship, Tczew County
+- **Key locations:** Piaseczno, Gniew, Dzierżążno, Nowa Cerkiew, Sztum, Pelplin, Wielki Garc, Wielkie Walichnowy
+- **Timeframe:** 1653-1934 (Geneteka records)
+- **Status:** Separate from Podkarpackie cluster
+- **Evidence:** Geneteka search results show multiple Radzimowski families in northern Poland
+
+**The Ciepłe Connection (H5.6):**
+- **Ciepłe cemetery:** Late 10th-early 11th century (980-1020 CE)
+- **Location:** Gniew, Tczew County, Eastern Pomerania
+- **Distance:** ~150 km northwest of Bodzia
+- **Elite status:** Richly furnished chamber graves, Scandinavian origins (strontium analysis)
+- **Connection hypothesis:** Northern Radzimowski cluster may share deep ancestry with Ciepłe early medieval elites
+
+**Testable Hypothesis:**
+- Northern Radzimowski families may be connected to I-Y45113 lineage
+- Possible connection to Ciepłe elites (contemporary with Bodzia)
+- Requires: Y-DNA test from northern cluster descendant, published Ciepłe aDNA data
+
+**Why This Matters:**
+- If confirmed, adds **third geographic cluster** to the migration story
+- Connects to **dual-wing hypothesis:** Bodzia = Rus' wing, Ciepłe = Danish wing
+- Demonstrates **regional elite networks** across early medieval Poland
+
+**Next Steps:**
+- Contact northern Poland Radzimowski families (via Geneteka records)
+- Request Y-DNA test from confirmed male-line descendant
+- Compare with I-Y45113 carriers if tested
+- Monitor for published Ciepłe aDNA data
+
+**Speaker Notes (60 seconds):**
+"Beyond the Podkarpackie cluster we've been discussing, there's evidence of a third Radzimowski cluster in northern Poland. Geneteka records show multiple Radzimowski families in the Pomeranian Voivodeship, specifically in Tczew County—locations like Piaseczno, Gniew, Dzierżążno, Nowa Cerkiew, Sztum, and Pelplin, spanning from 1653 to 1934. This northern cluster is geographically separate from the Podkarpackie cluster, suggesting it may represent either an independent lineage or an earlier regional branch. What makes this particularly intriguing is the connection to Ciepłe, an elite cemetery in Gniew that's contemporary with Bodzia—active from 980 to 1020 CE, just 150 kilometers northwest of Bodzia. Ciepłe represents the Danish wing of early medieval elite networks, while Bodzia represents the Rus' wing. The hypothesis is that the northern Radzimowski cluster may share deep ancestry with the elites buried at Ciepłe. This is highly speculative and requires testing: we need a Y-DNA test from a northern Poland Radzimowski descendant to see if they carry I-Y45113, and we need published ancient DNA data from Ciepłe to compare. If confirmed, this would add a fascinating third dimension to our migration story and connect our lineage to both major elite networks of early medieval Poland."
+
+---
+
 ## Part 5: The Big Picture (Synthesis)
 
-### Slide 15: "The Migration Story"
+### Slide 16: "The Migration Story"
 
 **Visual:** Animated timeline with migration arrows on map
 
@@ -601,17 +643,22 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 1. **~975 CE: Common Ancestor**
    - Medieval Poland (possibly connected to Kievan Rus')
    - I-Y45113 formation
-   - Possibly part of elite networks (Bodzia hypothesis)
+   - Possibly part of elite networks (Bodzia and Ciepłe hypotheses)
 
 2. **~1325 CE: I-Y224059 Split**
    - Regional migration within Poland
-   - Płock region → Podkarpackie
+   - Płock region → Podkarpackie (southern branch)
+   - Possible Płock region → Northern Pomerania (northern branch, to be tested)
    - Formation of Radzimowski and Garboś lines
 
-3. **1700s-1800s: Podkarpackie Cluster Formation**
-   - Geographic clustering within 45 km
-   - Families documented: Garboś (1710), Mazgaj (1779)
-   - Social and possibly genetic connections
+3. **1700s-1800s: Geographic Cluster Formation**
+   - **Podkarpackie cluster:** Geographic clustering within 45 km
+     - Families documented: Garboś (1710), Mazgaj (1779)
+     - Social and possibly genetic connections
+   - **Northern Pomerania cluster:** Radzimowski families in Tczew County
+     - Locations: Piaseczno, Gniew, Dzierżążno, Nowa Cerkiew, Sztum, Pelplin
+     - Timeframe: 1653-1934 (Geneteka records)
+     - Connection to Ciepłe hypothesis (to be tested)
 
 4. **1800s-1900s: Ukraine Migration Branches**
    - **Berezhnoy:** Poland → Ukraine (Belgorod region)
@@ -624,9 +671,10 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
    - American diaspora branch
 
 **Migration Map:**
-- **Poland** (origin and main cluster)
+- **Poland** (origin and clusters)
   - Mazowieckie (Andrzej)
-  - Podkarpackie (Artur, Władysław, Marcin)
+  - Podkarpackie (Artur, Władysław, Marcin) - southern cluster
+  - Northern Pomerania (Radzimowski families, to be tested) - northern cluster
 - **Ukraine** (migration branches)
   - Belgorod region (Aleksei, Anatoly)
   - Eastern Ukraine (Skory ancestors)
@@ -634,17 +682,18 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
   - Michigan (Doug Skory)
 
 **Patterns:**
-- **Regional migration** within Poland (north to south)
+- **Regional migration** within Poland (north to south: Płock → Podkarpackie)
+- **Possible northern branch:** Płock → Northern Pomerania (to be tested)
 - **International migration** to Ukraine (19th century)
 - **Transatlantic migration** to USA (20th century)
-- **Geographic clustering** in Podkarpackie (1700s-1800s)
+- **Geographic clustering:** Podkarpackie (1700s-1800s), Northern Pomerania (1653-1934)
 
 **Speaker Notes (60 seconds):**
-"Our family's story spans over a thousand years and multiple continents. It begins around 975 CE in medieval Poland, when our common ancestor lived—possibly as part of elite networks connecting Scandinavia, Rus', and Poland. Around 1325 CE, the I-Y224059 branch formed, representing a regional migration from the Płock region to Podkarpackie in southern Poland. By the 1700s and 1800s, we see a clear geographic cluster forming in Podkarpackie, with families documented within 45 kilometers of each other. In the 19th century, two parallel migration branches emerged: the Berezhnoy families moved to Ukraine, and the Skory ancestors also moved through Ukraine before continuing to the United States in the early 20th century. This migration story shows how a single lineage can spread across regions and continents while maintaining genetic connections that we can now trace through modern DNA testing."
+"Our family's story spans over a thousand years and multiple continents. It begins around 975 CE in medieval Poland, when our common ancestor lived—possibly as part of elite networks connecting Scandinavia, Rus', and Poland. Around 1325 CE, the I-Y224059 branch formed, representing a regional migration from the Płock region. We know one branch went south to Podkarpackie, but there may also be a northern branch to Pomerania that we're just beginning to explore. By the 1700s and 1800s, we see clear geographic clusters: the Podkarpackie cluster with families documented within 45 kilometers of each other, and a northern Pomeranian cluster with Radzimowski families in Tczew County from 1653 to 1934. The northern cluster may connect to Ciepłe, an elite cemetery contemporary with Bodzia, representing the Danish wing of early medieval networks. In the 19th century, two parallel migration branches emerged: the Berezhnoy families moved to Ukraine, and the Skory ancestors also moved through Ukraine before continuing to the United States in the early 20th century. This migration story shows how a single lineage can spread across regions and continents while maintaining genetic connections that we can now trace through modern DNA testing."
 
 ---
 
-### Slide 16: "What We Know vs. What We Can Test"
+### Slide 17: "What We Know vs. What We Can Test"
 
 **Visual:** Two-column comparison chart
 
@@ -690,10 +739,16 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
    - Will confirm I-Y224059 placement (hypothesized)
    - Adds eighth comparator to network
 
-4. **Bodzia connection**
+4. **Northern Poland Radzimowski cluster**
+   - Y-DNA test needed from northern cluster descendant
+   - Will determine if connected to I-Y45113 lineage
+   - May connect to Ciepłe early medieval elites
+
+5. **Bodzia and Ciepłe connections**
    - Requires published Bodzia aDNA data
+   - Requires published Ciepłe aDNA data (expected Q1-Q2 2026)
    - Compare Y-DNA at SNP level
-   - Test phylogenetic hypothesis
+   - Test phylogenetic hypotheses (Bodzia = Rus' wing, Ciepłe = Danish wing)
 
 **Confidence Levels:**
 - **High (70%+):** Core genetic connections, TMRCA estimates, geographic clustering
@@ -705,7 +760,7 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 
 ---
 
-### Slide 17: "Why This Matters"
+### Slide 18: "Why This Matters"
 
 **Visual:** Collage of personal, historical, scientific, and legacy themes
 
@@ -769,7 +824,7 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 
 ## Part 6: Call to Action (Persuasive)
 
-### Slide 18: "The Missing Pieces"
+### Slide 19: "The Missing Pieces"
 
 **Visual:** Puzzle pieces showing what's complete and what's missing
 
@@ -796,6 +851,12 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
    - **Action needed:** Contact via MyHeritage, request Y-DNA test (FTDNA/YSEQ)
    - **Impact:** Strengthens Podkarpackie cluster evidence, adds to network
 
+4. **Northern Poland Radzimowski: Y-DNA Test**
+   - **Status:** Geneteka records show multiple families (1653-1934), no Y-DNA test yet
+   - **Why it matters:** Will determine if northern cluster is connected to I-Y45113
+   - **Action needed:** Contact northern Poland Radzimowski families, request Y-DNA test
+   - **Impact:** Tests third geographic cluster hypothesis, possible Ciepłe connection
+
 **Each Test Strengthens the Entire Network:**
 - More comparators = more accurate TMRCA calculations
 - Complete branch structure = better understanding of migration patterns
@@ -816,7 +877,7 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 
 ---
 
-### Slide 19: "Next Steps"
+### Slide 20: "Next Steps"
 
 **Visual:** Action items checklist with timeline
 
@@ -839,6 +900,11 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 3. **Contact Marcin Radzimowski**
    - Via MyHeritage messaging
    - **Goal:** Request Y-DNA test (FTDNA/YSEQ)
+   - **Offer:** Partial funding if needed
+
+4. **Contact Northern Poland Radzimowski Families**
+   - Via Geneteka records or genealogical research
+   - **Goal:** Identify male-line descendant, request Y-DNA test
    - **Offer:** Partial funding if needed
 
 **Short-term Goals (Weeks 2-4):**
@@ -867,14 +933,17 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 
 **Long-term Goals (Months 2-3):**
 
-8. **Test Bodzia Hypothesis**
+8. **Test Bodzia and Ciepłe Hypotheses**
    - Monitor for published Bodzia aDNA data
-   - Compare Y-DNA at SNP level
+   - Monitor for published Ciepłe aDNA data (expected Q1-Q2 2026)
+   - Compare Y-DNA at SNP level with both sites
    - Analyze autosomal affinities (if available)
+   - Test dual-wing hypothesis (Bodzia = Rus' wing, Ciepłe = Danish wing)
 
 9. **Complete Research Report**
    - Synthesize all findings
    - Create comprehensive family history
+   - Include three-branch geographic model (Podkarpackie, Northern Pomerania, Ukraine)
    - Publish findings (if appropriate)
 
 **How You Can Help:**

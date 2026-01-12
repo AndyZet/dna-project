@@ -379,6 +379,90 @@ I-S2077 (VK157, Bodzia)
 
 ---
 
+## Ciepłe: A Comparative Elite Site (H5.6)
+
+### What is Ciepłe?
+
+**Ciepłe Archaeological Site:**
+- **Location:** Gniew, Tczew County, Eastern Pomerania
+- **Type:** Elite settlement complex and cemetery
+- **Active Period:** 980-1020 CE (late 10th to early 11th century)
+- **Distance from Bodzia:** ~150 km northwest
+- **Excavation:** University of Warsaw Archaeology project
+- **Status:** Ongoing research, DNA analysis expected Q1-Q2 2026
+
+**Historical Context:**
+- Founded during **Bolesław I the Brave's reign** (992-1025)
+- **Elite warrior burials** with chamber graves
+- **Scandinavian origins** confirmed by strontium isotope analysis
+- **Administrative artifacts:** Scales (tax collection), touchstones (precious metal assaying)
+- Represents **Danish-Pomeranian elite integration** (complementary to Bodzia's Rus' integration)
+
+### The Dual-Wing Hypothesis
+
+**Bodzia = Rus' Wing:**
+- Connections to Kievan Rus' elite networks
+- VK157 (possible Sviatopolk I) with I1-S2077
+- Represents Rus'-Polish integration
+
+**Ciepłe = Danish Wing:**
+- Connections to Danish/Scandinavian elite networks
+- 4 Scandinavian warriors confirmed by strontium analysis
+- Represents Danish-Polish integration
+
+**Network Interpretation:**
+- Both sites active during same period (950-1020 CE)
+- Both represent elite networks in early Piast Poland
+- Together, they suggest **regional elite connectivity** across medieval Poland
+
+### Northern Poland Radzimowski Cluster Connection (H3.7)
+
+**The Hypothesis:**
+- Northern Pomeranian Radzimowski cluster (H3.7) may share deep ancestry with Ciepłe early medieval elites
+- **Location overlap:** Northern Radzimowski families in Tczew County (Piaseczno, Gniew, etc.) = same region as Ciepłe
+- **Timeframe connection:** Northern cluster documented 1653-1934, but may trace to earlier medieval period
+- **Testable:** Y-DNA test from northern cluster descendant + published Ciepłe aDNA data
+
+**Evidence:**
+- Geneteka records show Radzimowski families in:
+  - Piaseczno (Gmina Gniew, Tczew County)
+  - Gniew (Tczew County) - **same location as Ciepłe**
+  - Dzierżążno, Nowa Cerkiew, Sztum, Pelplin (all in Tczew County/Pomeranian Voivodeship)
+- Timeframe: 1653-1934 (Geneteka records)
+- Geographic proximity to Ciepłe site
+
+**What This Means:**
+- If northern Radzimowski cluster carries I-Y45113, and Ciepłe elites also carry I-Y45113 (or related lineages), this would support:
+  - Connection between northern cluster and early medieval elites
+  - Regional elite network hypothesis
+  - Three-branch geographic model (Mazowieckie → Podkarpackie, Mazowieckie → Northern Pomerania, Poland → Ukraine)
+
+### Testing the Ciepłe Hypothesis
+
+**Required Data:**
+1. **Published Ciepłe aDNA data:**
+   - Y-DNA haplogroups for Ciepłe individuals
+   - SNP-level data (not just broad haplogroup)
+   - Coverage and quality metrics
+   - Expected: Q1-Q2 2026
+
+2. **Northern Poland Radzimowski Y-DNA:**
+   - Y-DNA test from confirmed male-line descendant
+   - Compare with I-Y45113 carriers
+   - Determine if connected to main lineage
+
+**Comparison Method:**
+1. Compare northern Radzimowski Y-DNA with I-Y45113
+2. Compare Ciepłe Y-DNA (when published) with I-Y45113
+3. Analyze phylogenetic relationships
+4. Test regional elite network hypothesis
+
+**Falsification Criteria:**
+- Hypothesis refuted if: Northern Radzimowski cluster has different Y-DNA, or Ciepłe Y-DNA doesn't connect to I-Y45113
+- Hypothesis supported if: Both connect to I-Y45113, suggesting shared elite network ancestry
+
+---
+
 ## Conclusion
 
 The Bodzia connection is a **fascinating and testable hypothesis** that connects our modern genetic genealogy research to one of the most important archaeological sites of the Viking Age. The phylogenetic connection through I1-S2077 → I-Y49957 → I-Y45113, combined with the perfect timeframe match, creates a compelling hypothesis worth testing.

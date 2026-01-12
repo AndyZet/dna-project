@@ -40,12 +40,19 @@
 - Family documented in both **Mazowieckie** and **Podkarpackie**
 - Suggests regional migration within Poland
 - Maintained connections to Podkarpackie cluster (Marcin match)
+- **Potential northern branch:** Northern Pomeranian Radzimowski cluster (H3.7)
+  - Geneteka records show Radzimowski families in Tczew County (Piaseczno, Gniew, etc.)
+  - Timeframe: 1653-1934
+  - May represent separate migration branch from Płock region to Northern Pomerania
+  - Possible connection to Ciepłe early medieval elites (H5.6) - to be tested
 
 ### Next Steps
 1. Continue genealogical research in Mazowieckie archives
 2. Verify connection to Płock region (1552 records)
 3. Explore heraldic clan connections (Grzymała)
 4. Build family tree to identify common ancestor with Marcin (5th cousin relationship)
+5. Research northern Poland Radzimowski cluster connection (H3.7)
+6. Monitor for Ciepłe aDNA publication (expected Q1-Q2 2026) to test elite connection hypothesis
 
 ---
 

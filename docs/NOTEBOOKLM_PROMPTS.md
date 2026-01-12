@@ -11,7 +11,7 @@
 **Copy and paste this prompt into NotebookLM:**
 
 ```
-Create a 19-slide presentation titled "The Seven Cousins: Tracing Our Most Probable Ancestors" that:
+Create a 20-slide presentation titled "The Seven Cousins: Tracing Our Most Probable Ancestors" that:
 
 1. Shows genetic connections between Andrzej, Artur, Aleksei Berezhnoy, Doug Skory, Marcin Radzimowski, Anatoly Berezhnoy, and Władysław Mazgaj
 
@@ -59,9 +59,16 @@ Create a 19-slide presentation titled "The Seven Cousins: Tracing Our Most Proba
    - Part 1: The Genetic Family Tree (Hook) - 2 slides
    - Part 2: Most Probable Ancestors (Core Content) - 4 slides
    - Part 3: The Bodzia Hypothesis (Attention-Grabbing) - 2 slides
-   - Part 4: Individual Profiles (Personal Connection) - 6 slides
+   - Part 4: Individual Profiles (Personal Connection) - 7 slides (includes northern Poland cluster slide)
    - Part 5: The Big Picture (Synthesis) - 3 slides
    - Part 6: Call to Action (Persuasive) - 2 slides
+
+9. Includes northern Poland Radzimowski cluster hypothesis (H3.7 and H5.6):
+   - Northern Pomeranian Radzimowski cluster in Tczew County (Piaseczno, Gniew, etc.)
+   - Geneteka records: 1653-1934
+   - Ciepłe cemetery connection: 980-1020 CE, ~150 km northwest of Bodzia
+   - Dual-wing hypothesis: Bodzia = Rus' wing, Ciepłe = Danish wing
+   - Testable hypothesis: Northern cluster may share ancestry with Ciepłe elites
 
 Make it attention-grabbing, understandable to non-geneticists, and scientifically rigorous.
 ```
@@ -97,12 +104,15 @@ Generate detailed descriptions for 5 key visualizations needed for the presentat
 
 3. MIGRATION MAP:
    - Map of Eastern Europe and North America
-   - Mark origin points: Poland (Mazowieckie, Podkarpackie, Trzemeszno)
+   - Mark origin points: Poland (Mazowieckie, Podkarpackie, Trzemeszno, Northern Pomerania)
    - Mark migration destinations: Ukraine (Belgorod, Eastern Ukraine)
    - Mark final destinations: USA (Michigan)
    - Use arrows to show migration paths with dates
    - Color code by family branch (I-Y224059 vs I-Y45233)
-   - Include key locations: Jadachy, Sokołów Małopolski, Tarnobrzeg, Baranów Sandomierski
+   - Include key locations: 
+     * Podkarpackie: Jadachy, Sokołów Małopolski, Tarnobrzeg, Baranów Sandomierski
+     * Northern Pomerania: Piaseczno, Gniew, Dzierżążno, Nowa Cerkiew, Sztum, Pelplin
+   - Show three-branch model: Mazowieckie → Podkarpackie, Mazowieckie → Northern Pomerania, Poland → Ukraine
 
 4. HAPLOGROUP TREE:
    - Phylogenetic tree showing I-Y45113 structure
@@ -114,13 +124,17 @@ Generate detailed descriptions for 5 key visualizations needed for the presentat
    - Include VK157 (Bodzia) connection: I-S2077 → I-Y49957 → I-Y45113
 
 5. GEOGRAPHIC CLUSTER MAP:
-   - Detailed map of Podkarpackie region (southern Poland)
-   - Mark all family locations:
+   - Create two-panel map showing both clusters:
+   - **Panel 1: Podkarpackie region (southern Poland)**
      * Jadachy (Garboś, Artur)
      * Sokołów Małopolski (Mazgaj, Władysław)
      * Baranów Sandomierski (Radzimowski families)
      * Tarnobrzeg (Radzimowski, Marcin)
-   - Draw 45 km radius circle showing cluster
+     * Draw 45 km radius circle showing cluster
+   - **Panel 2: Northern Pomerania region (Tczew County)**
+     * Piaseczno, Gniew, Dzierżążno, Nowa Cerkiew, Sztum, Pelplin
+     * Mark Ciepłe location (Gniew area)
+     * Show distance to Bodzia (~150 km)
    - Show distances between locations
    - Use different symbols/colors for each family
    - Include scale and compass
@@ -229,12 +243,19 @@ SLIDE 3: "Testing the Hypothesis"
 - Falsification criteria: Hypothesis refuted if no phylogenetic connection or timeframe mismatch
 - Current status: Pending published Bodzia aDNA data
 
+ADDITIONAL: Include Ciepłe as comparative site:
+- Ciepłe cemetery: 980-1020 CE, ~150 km northwest of Bodzia
+- Dual-wing hypothesis: Bodzia = Rus' wing, Ciepłe = Danish wing
+- Northern Poland Radzimowski cluster may connect to Ciepłe elites
+- Ciepłe aDNA expected Q1-Q2 2026
+
 Emphasize:
 - "Testable hypothesis" language throughout
 - Phylogenetic connection (tree structure), not direct match
 - Timeframe match is intriguing but not proof
 - Requires published aDNA data to test
 - Historical context supports but doesn't prove hypothesis
+- Both Bodzia and Ciepłe are testable, not proven
 
 Use clear, accessible language while maintaining scientific accuracy.
 ```
