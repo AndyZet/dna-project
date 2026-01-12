@@ -17,7 +17,8 @@
       "dynasty": "Rurikid",
       "notes": [
         "Bodzia burial connection",
-        "Son of Vladimir I"
+        "Son of Yaropolk I (older line of Rurikids)",
+        "Used two-pronged tamga (not three-pronged), confirming older line descent"
       ]
     },
     {
@@ -83,6 +84,28 @@
       "role": "prince",
       "title": "Grand Prince of Kiev",
       "dynasty": "Rurikid"
+    },
+    {
+      "id": "RUR006",
+      "name": "Yaropolk I Svyatoslavich",
+      "birth": {
+        "date": "950",
+        "place": "Kiev"
+      },
+      "death": {
+        "date": "980",
+        "place": "Kiev"
+      },
+      "sex": "M",
+      "role": "prince",
+      "title": "Grand Prince of Kiev",
+      "dynasty": "Rurikid",
+      "notes": [
+        "Older line of Rurikids",
+        "Father of Sviatopolk I",
+        "Killed by brother Vladimir I in 980 CE",
+        "Possible identification: Wareg grave from Korolewino (Muzeum Wojska)"
+      ]
     }
   ],
   "families": [
@@ -97,13 +120,40 @@
     },
     {
       "id": "FAM_RUR002",
+      "husband_id": "RUR005",
+      "wife_id": null,
+      "children": [
+        "RUR006",
+        "RUR002"
+      ],
+      "marriage": null,
+      "notes": [
+        "Sviatoslav I had two sons: Yaropolk I (older line) and Vladimir I (younger line from Malusha)"
+      ]
+    },
+    {
+      "id": "FAM_RUR004",
+      "husband_id": "RUR006",
+      "wife_id": null,
+      "children": [
+        "RUR001"
+      ],
+      "marriage": null,
+      "notes": [
+        "Yaropolk I → Sviatopolk I (direct father-son line, older branch)"
+      ]
+    },
+    {
+      "id": "FAM_RUR005",
       "husband_id": "RUR002",
       "wife_id": null,
       "children": [
-        "RUR001",
         "RUR003"
       ],
-      "marriage": null
+      "marriage": null,
+      "notes": [
+        "Vladimir I → Yaroslav I (younger branch)"
+      ]
     },
     {
       "id": "FAM_RUR003",

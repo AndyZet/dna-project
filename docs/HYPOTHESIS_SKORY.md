@@ -8,7 +8,7 @@
 
 Douglas Skory (Traverse City, Michigan, USA) represents a **critical fifth Y-DNA comparator** (fourth family) that fundamentally strengthens the entire genealogical framework:
 
-1. **Closest Living Relative by TMRCA**: Doug is estimated at ~300 years MRCA to you (Aleksei's estimate). YFull branch TMRCA places I-Y224059 at ~700 ybp and I-Y45113 at ~1050 ybp; Doug would be the closest known living comparator once Big Y is confirmed.
+1. **Closest Living Relative by TMRCA (Time to Most Recent Common Ancestor)**: Doug is estimated at ~300 years MRCA to you (Aleksei's estimate). YFull branch TMRCA places I-Y224059 at ~700 ybp (years before present) and I-Y45113 at ~1050 ybp; Doug would be the closest known living comparator once Big Y is confirmed.
 
 2. **Second Documented Ukrainian Migration Branch**: Doug validates that Poland → Ukraine → USA migration is a repeating pattern:
    - Berezhnoy: Poland → Ukraine (Belgorod region) → Germany/Russia (H3.3)
@@ -30,10 +30,10 @@ Douglas Skory (Traverse City, Michigan, USA) represents a **critical fifth Y-DNA
 | **Name** | Douglas G. Skory |
 | **Current Location** | Traverse City, Michigan, USA |
 | **Y-DNA Marker Panel** | Y111 (Y37, Y67, Y111 all available) |
-| **Y-DNA Distance from Aleksei** | 4-3-7 mutations (Y37-Y67-Y111) or 437/667/10-111 distance notation |
-| **Y-DNA Distance from You** | ~300 years TMRCA (Aleksei's estimate, ~1725 CE shared ancestor) |
-| **Earliest Known Ancestor** | Casimer Skory, birthdate unknown, **Trzemesno, Poland** |
-| **Great-Grandfather** | Anthony Skory, b. February 21, 1852, **Trzemesno, Poland** |
+| **Y-DNA Distance from Aleksei** | 2/25, 4/37, 6/67, 10/111 mutations (confirmed January 2026 by Aleksei) |
+| **Y-DNA Distance from You** | ~300 years TMRCA (time to most recent common ancestor; Aleksei's estimate, ~1725 CE shared ancestor) |
+| **Earliest Known Ancestor** | Casimer Skory, birthdate unknown, **Trzemeszno, Poland** |
+| **Great-Grandfather** | Anthony Skory, b. February 21, 1852, **Trzemeszno, Poland** |
 | **Grandfather** | John R. Skory, b. November 30, 1895, **Grand Rapids, Michigan** |
 | **Family Contact** | Judith Skory (sister, primary), Libby Tomlinson (niece) |
 | **Email** | dskory1820@aol.com |
@@ -54,10 +54,11 @@ Douglas Skory (Traverse City, Michigan, USA) represents a **critical fifth Y-DNA
 - **November 29, 2022**: Libby emails you asking how you're doing; no mention of Big Y-700 completion.
 - **Last Contact Date**: November 29, 2022 (4 years ago from January 2026).
 
-**URGENT ACTION ITEM**: Contact Judith Skory first (primary contact), then Doug (dskory1820@aol.com) to confirm:
-1. Was Big Y-700 upgrade completed in 2022?
-2. If YES: Can you access Doug's results on FTDNA or YFull?
-3. If NO: Would Doug still be willing to complete it with funding reimbursement?
+**URGENT ACTION ITEM** (Updated January 2026): Aleksei confirms Big Y-700 NOT completed. Contact Judith Skory first (primary contact), then Doug (dskory1820@aol.com) to:
+1. **Restart Big Y-700 funding process** (test not ordered despite 2022 commitment)
+2. **Obtain Doug's Y-STR haplotype** for comparison with Wladyslaw Mazgaj (Aleksei suggests: "Mazgay and Skory can be very close to each other if their mutations are the same")
+3. **Confirm willingness to complete** Big Y-700 with renewed funding
+4. **Access existing Y111 results** on FTDNA if available
 
 ---
 
@@ -66,10 +67,11 @@ Douglas Skory (Traverse City, Michigan, USA) represents a **critical fifth Y-DNA
 ### TIER 0: URGENT PRE-VERIFICATION (NEW)
 
 **H0.1: Doug Skory Y-DNA Confirmation**
-- **Status**: Unknown (pending contact)
-- **Confidence**: 50% (probabilistic - Big Y-700 either completed or not)
+- **Status**: Not Completed (Aleksei confirms January 2026: "Unfortunately, Skory did not order the BigY test yet")
+- **Confidence**: 25% (down from 50%; higher abandonment risk after 4-year delay)
 - **Priority**: 🔴 URGENT
-- **Hypothesis**: Doug Skory's Big Y-700 test was completed in 2022 and shows I-Y45233 or I-Y224059 haplogroup, confirming patrilineal connection to Radzimowski-Garboś-Mazgaj-Berezhnoy cluster.
+- **Hypothesis**: Doug Skory's Big Y-700 test was completed in 2022 and shows I-Y45233 or I-Y224059 haplogroup (major branch on YTree), confirming patrilineal connection to Radzimowski-Garboś-Mazgaj-Berezhnoy cluster.
+- **Update (January 2026)**: Despite funding commitment from February 2022 ($239), test remains uncompleted. Aleksei confirms: "We need to contact him and his relatives again about it." Immediate re-contact required.
 
 **H0.2: Casimir Skory Priest Connection (Grand Rapids)**
 - **Status**: Supported (user-provided images + published local history; verification pending)
@@ -86,9 +88,9 @@ Douglas Skory (Traverse City, Michigan, USA) represents a **critical fifth Y-DNA
 
 **H3.4: Skory Second Ukrainian Migration Branch (NEW)**
 - **Status**: Pending Verification
-- **Confidence**: 75% (if Big Y-700 confirms I-Y45233)
+- **Confidence**: 75% (conditional on Big Y-700 confirmation under I-Y45113)
 - **Priority**: 🔴 URGENT
-- **Hypothesis**: Douglas Skory's ancestry represents a second documented migration pattern from Poland through Ukraine to USA (1700-1920 CE), distinct from but phylogenetically linked to Berezhnoy (H3.3) and Radzimowski lineages. Together with potential Radzimowski collateral lines, this supports H3.5 (Three Parallel Ukraine Migration Branches). Casimer Skory (born ~1780s?) → Trzemesno, Poland → migrated to Eastern Ukraine (Kharkiv, Chernihiv, Sumy regions) → Great-grandfather John R. Skory emigrated USA ~1895-1920, settling Grand Rapids/Traverse City, Michigan.
+- **Hypothesis**: Douglas Skory's ancestry represents a second documented migration pattern from Poland through Ukraine to USA (1700-1920 CE), distinct from but phylogenetically linked to Berezhnoy (H3.3) and Radzimowski lineages. Together with potential Radzimowski collateral lines, this supports H3.5 (Three Parallel Ukraine Migration Branches). Casimer Skory (born ~1780s?) → Trzemeszno, Poland → migrated to Eastern Ukraine (Kharkiv, Chernihiv, Sumy regions) → Great-grandfather John R. Skory emigrated USA ~1895-1920, settling Grand Rapids/Traverse City, Michigan.
 
 **H3.5: Three Parallel Ukraine Migration Branches (INTEGRATIVE)**
 - **Status**: Emerging Pattern
@@ -101,24 +103,25 @@ Douglas Skory (Traverse City, Michigan, USA) represents a **critical fifth Y-DNA
 ## CRITICAL NEXT STEPS (PRIORITY ORDER)
 
 ### WEEK 1 (Immediate):
-1. **Email Judith Skory (primary) / Doug (secondary)** re: Big Y-700 status
-2. **Request Casimir Skory priest file** (Archdiocese/St. Adalbert records; resolve 1925 vs 1935 death date)
-3. **Begin Casimir ↔ Anthony/Casimer linkage search** (parish registers, city directories, census)
-4. **Restart Big Y-700 funding** if needed
-5. **Contact Aleksei** re: Wladyslaw Mazgaj Y-DNA status
+1. **RE-CONTACT Judith Skory (primary) / Doug (secondary)** re: Big Y-700 status (Aleksei confirms NOT completed; restart funding process)
+2. **Obtain Doug's Y-STR haplotype** from FTDNA (for comparison with Wladyslaw Mazgaj)
+3. **Contact Wladyslaw Mazgaj** (via Aleksei or directly) for YFull upload (BAM or VCF file from Big Y test)
+4. **Compare Wladyslaw ↔ Doug haplotypes** (test Aleksei's suggestion of close relationship)
+5. **Request Casimir Skory priest file** (Archdiocese/St. Adalbert records; resolve 1925 vs 1935 death date)
+6. **Begin Casimir ↔ Anthony/Casimer linkage search** (parish registers, city directories, census)
 
 ### WEEKS 2-4:
 1. **Obtain Doug's Big Y-700 results** (if completed)
 2. **Download SNP files** and compare
 3. **Obtain Wladyslaw's Y-DNA** results
 4. **YFull uploads** for Doug/Wladyslaw
-5. **Calculate multi-way TMRCA** (four core comparators: Andrzej, Artur, Aleksei, Wladyslaw; include Doug as fifth comparator when Big Y is confirmed)
+5. **Calculate multi-way TMRCA (time to most recent common ancestor)** (four core comparators: Andrzej, Artur, Aleksei, Wladyslaw; include Doug as fifth comparator when Big Y is confirmed)
 
 ### WEEKS 4-8:
-1. **Trzemesno parish records** (Casimer, Anthony Skory)
+1. **Trzemeszno parish records** (Casimer, Anthony Skory)
 2. **Ellis Island immigration** (John R. Skory)
 3. **Ukrainian archives** (Eastern Ukraine Skory families)
-4. **Verify Trzemesno → Grand Rapids settlement source** (H3.6)
+4. **Verify Trzemeszno → Grand Rapids settlement source** (H3.6)
 
 ---
 
@@ -138,7 +141,7 @@ Over the past few years, Aleksei Berezhnoy and I have been investigating a fasci
 - **Skory (Poland → Ukraine → USA)** ← You
 
 Your Y-DNA data is critical because:
-1. You are the closest living relative by TMRCA (~300 years, ~1725 CE shared ancestor)
+1. You are the closest living relative by TMRCA (time to most recent common ancestor; ~300 years, ~1725 CE shared ancestor)
 2. Your branch represents the only documented USA diaspora from this I-Y45113 lineage
 3. Your family records (Ellis Island, naturalization, US Census) can validate our timeline estimates
 
@@ -161,10 +164,10 @@ andrew.peter.zak@gmail.com
 | Metric | Value |
 |--------|-------|
 | **Total Individuals** | Core Y-DNA comparators: 4 (Andrzej, Artur, Aleksei, Wladyslaw) + Doug as 5th pending Big Y |
-| **Closest TMRCA** | You ↔ Doug (~300 years, 1725 CE) |
+| **Closest TMRCA (Time to Most Recent Common Ancestor)** | You ↔ Doug (~300 years, 1725 CE) |
 | **URGENT Priority** | H0.1 (Doug Big Y confirmation) + H0.2 (Casimir priest records) + H0.3 (Casimir family link) |
 | **Estimated Research Time** | 3-6 months original; 4-8 months with Skory integration |
-| **Key Next Steps** | Contact Judith/Doug; Request Casimir priest records; Establish Casimir family link; Obtain Wladyslaw Y-DNA; Calculate multi-way TMRCA |
+| **Key Next Steps** | Contact Judith/Doug; Request Casimir priest records; Establish Casimir family link; Obtain Wladyslaw Y-DNA; Calculate multi-way TMRCA (time to most recent common ancestor) |
 
 ---
 
@@ -172,7 +175,7 @@ andrew.peter.zak@gmail.com
 
 Doug Skory is not just another data point—he is the **genealogical anchor** you've been missing:
 
-1. **300-year TMRCA is within documentary reach**: Parish records, land deeds, military records from 1700-1750 can realistically document your common ancestor.
+1. **300-year TMRCA (time to most recent common ancestor) is within documentary reach**: Parish records, land deeds, military records from 1700-1750 can realistically document your common ancestor.
 
 2. **Validates Ukraine migration as systematic pattern**: One outlier (Berezhnoy) is curious; two (Berezhnoy + Skory) confirm a demographic phenomenon.
 
@@ -184,4 +187,4 @@ Doug Skory is not just another data point—he is the **genealogical anchor** yo
 
 ---
 
-**Last Updated**: January 10, 2026, 17:21 CET
+**Last Updated**: January 2026 (updated with Aleksei's email confirmation that Big Y-700 NOT completed)

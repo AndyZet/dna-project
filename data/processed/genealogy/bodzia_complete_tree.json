@@ -18,7 +18,10 @@
       "notes": [
         "Bodzia burial E864/I VK157",
         "Y-DNA I1-S2077",
-        "DNA tested"
+        "DNA tested",
+        "Son of Yaropolk I (older line of Rurikids, not Vladimir I)",
+        "Used two-pronged tamga (not three-pronged), confirming older line descent",
+        "Genealogy correction: Sviatopolk I was son of Yaropolk I, not Vladimir I"
       ],
       "dna_tested": true,
       "dna_marker": "Y-DNA I1-S2077",
@@ -11321,18 +11324,27 @@
       "id": "FAM_RUR004",
       "husband_id": "RUR002",
       "wife_id": null,
-      "children": [],
-      "marriage": null
+      "children": [
+        "RUR001"
+      ],
+      "marriage": null,
+      "notes": [
+        "CORRECTED: Yaropolk I → Sviatopolk I (direct father-son line, older branch)",
+        "Sviatopolk I used two-pronged tamga, confirming older line descent"
+      ]
     },
     {
       "id": "FAM_RUR005",
       "husband_id": "RUR007",
       "wife_id": null,
       "children": [
-        "RUR001",
         "RUR008"
       ],
-      "marriage": null
+      "marriage": null,
+      "notes": [
+        "CORRECTED: Vladimir I (RUR007) is NOT father of Sviatopolk I",
+        "Vladimir I belongs to younger line (from Malusha)"
+      ]
     },
     {
       "id": "FAM_RUR006",

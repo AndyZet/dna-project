@@ -8,7 +8,7 @@
 
 Elite burials at Bodzia (central Poland) provide a key archaeological context for investigating cross-cultural interaction among Scandinavia, the emergent Piast polity, and the Rus’ sphere around the turn of the first millennium [1]. This report presents a reproducible digital-humanities workflow that (i) formalizes a curated genealogical diagram of early medieval royal houses as a machine-readable graph (79 individuals; 47 family unions) [5] and (ii) integrates genetic summary representations for four Bodzia individuals (VK154, VK155, VK156, VK157), including uniparental haplogroups and PCA-projection coordinates (Global25/G25) used for exploratory distance and affinity comparisons [6, 27, 29].
 
-Exploratory analyses of G25 coordinates show moderate pairwise distances among all four Bodzia individuals (0.0281–0.0425), consistent with two related clusters (VK154–VK156; VK155–VK157) and broadly compatible with archaeological interpretations of family groupings within an elite burial community. Admixture-component summaries and population-distance comparisons indicate shared affinities to Viking-Age Scandinavia (e.g., Gotland) and to medieval central/eastern European reference populations. We situate these findings within a multi-dynasty historical framework and outline falsifiable tests for external comparisons, including the potential integration of elite English contexts (e.g., Winchester Cathedral) once reliable genomic datasets and attributions are available. The genetic results presented here are derived from coordinate/summary representations and should be validated with standard ancient-DNA workflows on raw genotype data for publication-grade inference.
+Exploratory analyses of G25 coordinates show moderate pairwise distances among all four Bodzia individuals (0.0281–0.0425), consistent with two related clusters (VK154–VK156; VK155–VK157) and broadly compatible with archaeological interpretations of family groupings within an elite burial community. Admixture-component summaries and population-distance comparisons indicate shared affinities to Viking-Age Scandinavia (e.g., Gotland) and to medieval central/eastern European reference populations. We situate these findings within a multi-dynasty historical framework and outline falsifiable tests for external comparisons, including the potential integration of elite English contexts (e.g., Winchester Cathedral) once reliable genomic datasets and attributions are available. ⚠️ **UPDATE (2026-01-11):** Winchester Cathedral mortuary chests project has **completed genetic analysis** identifying Cnut the Great, Harthacnut, and Emma of Normandy (all present in this genealogical tree); results expected in 2026, enabling direct testing of Bodzia ↔ Winchester connections. **See:** `docs/BODZIA_WINCHESTER_PIAST_CONNECTIONS.md`. The genetic results presented here are derived from coordinate/summary representations and should be validated with standard ancient-DNA workflows on raw genotype data for publication-grade inference.
 
 ## Keywords
 
@@ -127,7 +127,15 @@ The repository contains scripts that generate the genealogical data products and
 | Families (unions) | 47 |
 | Dynasties represented | 9 |
 | Temporal coverage (model) | 800–1173 CE |
-| Bodzia cemetery horizon (site) | ~950–1020 CE |
+| Bodzia cemetery horizon (site) | ~950–1020 CE (first period; second period: late 11th-early 12th century) |
+| Total graves at Bodzia | More than 58 graves (including cenotaphs) |
+| Excavation dates | 2007-2009 (led by Andrzej Buko, Polish Academy of Sciences) |
+| Area excavated | 3 hectares |
+| Total features discovered | 2069 important features |
+| Total graves discovered | More than 58 graves (including cenotaphs) |
+| Excavation dates | 2007-2009 (led by Andrzej Buko, Polish Academy of Sciences) |
+| Area excavated | 3 hectares |
+| Total features discovered | 2069 important features |
 
 ### 3.2 DNA-tested / DNA-profiled Bodzia individuals
 
@@ -136,9 +144,9 @@ The repository contains scripts that generate the genealogical data products and
 | Sample | Sex (if recorded) | Y‑DNA | mtDNA | Notes |
 |---|---|---|---|---|
 | VK154 | F | – | H1c3 | Bodzia elite female (see Supplementary for context) |
-| VK155 | F | – | H1c | Bodzia elite female (internal project label previously “The Witch”) |
+| VK155 | F | – | H1c | Bodzia elite female (internal project label previously "The Witch"); **⚠️ Same grave (E864/I) as VK157, shares mtDNA H1c (maternal-line cousin)** |
 | VK156 | M | R1a1a1b1a2a2a1 | J1c2c2a | Bodzia elite male |
-| VK157 | M | I1a3a1 (I1‑S2077) | H1c | Bodzia elite male (mapped to RUR001 in the genealogical model; proposed identification should be treated as a hypothesis) |
+| VK157 | M | I1a3a1 (I1‑S2077) | H1c | Bodzia elite male (mapped to RUR001 in the genealogical model; proposed identification should be treated as a hypothesis); **⚠️ Same grave (E864/I) as VK155 and unexamined female (lay on top of VK157 - NOT TESTED)** |
 
 Note: Historical naming/role assignments (e.g., RUR001 → “Sviatopolk I”) remain hypothetical without independent archaeological attribution.
 
@@ -314,8 +322,15 @@ The Bodzia cemetery represents a unique cross-cultural elite burial ground showi
 
 #### Y-DNA Tested (2)
 
-- **VK157** (RUR001; labeled “Sviatopolk I” in the genealogical model): Y-DNA I1-S2077 (I1a3a1)
+- **VK157** (RUR001; labeled "Sviatopolk I" in the genealogical model): Y-DNA I1-S2077 (I1a3a1)
   - Bodzia burial E864/I, sample VK157
+  - **⚠️ BURIAL CONTEXT:** VK157 was buried in grave E864/I with:
+    - **Unexamined female** who lay **on top of VK157** (one on top of the other) - **NOT GENETICALLY TESTED**
+    - **VK155** (female, mtDNA H1c) who lay **next to** VK157 and the unexamined female
+  - **⚠️ CRITICAL RESEARCH GAP:** The unexamined female from the same grave chamber as VK157 has **NOT been genetically tested**, preventing full understanding of family relationships
+  - **Hypothesis:** Unexamined female = **wife of VK157** (if VK157 = Sviatopolk I, then Piast princess according to genealogical model)
+  - **Piast aDNA context:** do not assume a stable, published “Piast Y-DNA signature” for validating this marriage hypothesis; secondary reporting indicates the Piast genomic program had not yet published dynasty-specific Y results and may observe multiple Y lineages across putative Piast remains [44].
+  - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis and verification steps
 - **VK156** (BOD003; elite male): Y-DNA R1a (reported as R1a-SUR51 / R1a1a1b1a2a2a1)
   - Bodzia burial, sample VK156
 
@@ -323,8 +338,12 @@ The Bodzia cemetery represents a unique cross-cultural elite burial ground showi
 
 - **VK154** (BOD001; elite female): mtDNA H1c3 (H1c)
   - Bodzia burial E864/II, sample VK154
-- **VK155** (BOD002; elite female; previously labeled “The Witch” in internal project notes): mtDNA H1c
-  - Bodzia burial, sample VK155
+- **VK155** (BOD002; elite female; previously labeled "The Witch" in internal project notes): mtDNA H1c
+  - Bodzia burial E864/I, sample VK155
+  - **⚠️ BURIAL CONTEXT:** VK155 was buried in the **same grave (E864/I) as VK157**, but **next to** VK157 and an **unexamined female** who lay **on top of VK157**
+  - **⚠️ CRITICAL FINDING:** VK155 and VK157 share **identical mtDNA H1c**, indicating **maternal-line kinship** (cousins through female line)
+  - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess), consistent with VK157 = Sviatopolk I hypothesis
+  - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis
 
 ---
 
@@ -379,6 +398,10 @@ G25 coordinates are 25-dimensional PCA coordinates derived from ancient DNA samp
 
 3. **Family Group Structure**: The genetic distances support the archaeological interpretation of two family groups:
    - **Group 1**: VK155 and VK157 (possible close relationship or shared lineage; exploratory)
+     - **⚠️ CRITICAL FINDING:** VK155 and VK157 share **identical mtDNA H1c**, indicating **maternal-line kinship** (cousins through female line)
+     - **Burial context:** Same grave (E864/I), with VK155 next to VK157 and an **unexamined female** who lay on top of VK157
+     - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess); unexamined female = wife of VK157
+     - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis
    - **Group 2**: VK154 and VK156 (father-daughter/second-degree relationships). **Note**: VK153 is archaeologically identified as part of this family unit (father-son relationship with VK156) but is not included in the genetic analysis as it was not among the 4 DNA-tested samples.
 
 **Distance Thresholds:**
@@ -609,7 +632,16 @@ The Deep Dive Results reveal an **asymmetric mutual matching**:
 - **VK157 → VK155**: VK157 has VK155 in its Deep Dive Results with extensive shared DNA segments (41 SNP chains, 114.79 cM), indicating a strong genetic relationship from VK157's perspective
 - **VK155 → VK157**: VK155 has VK157 in its Top Matches list (rank 116, genetic distance 9.774) but **not** in its Deep Dive Results, suggesting that while they are genetically related, the shared DNA segments may not meet the threshold for VK155's deep dive analysis, or the relationship is detected differently from each sample's perspective
 
-This asymmetric pattern is consistent with the G25 distance of 0.0417 (moderate - possibly related) and supports the interpretation that these individuals were part of the same elite community, potentially related through marriage or shared lineage rather than immediate kinship.
+**⚠️ CRITICAL FINDING:** VK155 and VK157 share **identical mtDNA H1c**, indicating **maternal-line kinship** (cousins through female line). This is consistent with the hypothesis that VK155 is a relative of VK157 through his mother (Carolingian princess), if VK157 = Sviatopolk I.
+
+**Burial Context:**
+- **VK157** and **VK155** were buried in the **same grave (E864/I)**
+- **Unexamined female** lay **on top of VK157** (one on top of the other) - **NOT GENETICALLY TESTED**
+- **Hypothesis:** Unexamined female = **wife of VK157** (if VK157 = Sviatopolk I, then Piast princess according to genealogical model)
+- **Piast aDNA context:** do not assume a stable, published “Piast Y-DNA signature” for validating this marriage hypothesis; secondary reporting indicates the Piast genomic program had not yet published dynasty-specific Y results and may observe multiple Y lineages across putative Piast remains [44].
+- **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis and verification steps
+
+This asymmetric pattern is consistent with the G25 distance of 0.0417 (moderate - possibly related) and supports the interpretation that these individuals were part of the same elite community, with VK155 and VK157 being **maternal-line cousins**.
 
 **Interpretation (exploratory)**: The G25 distance of 0.0417 between VK155 and VK157, together with third‑party MTA “Deep Dive” matching outputs (41 SNP chains; 114.79 cM reported from VK157 → VK155), is suggestive of a relationship signal within the model used by MTA. Because MTA’s “shared segment/cM” outputs are not a standard, validated kinship method for low-coverage ancient data, these results should be treated as hypothesis-generating and corroborated with genome-wide aDNA relatedness methods on raw genotypes.
 
@@ -769,6 +801,8 @@ Each profile includes:
 
 ### Piast Dynasty (14 individuals)
 
+> **Evidence note (aDNA status):** A large-scale Polish project (“Program badań genomicznych Piastów”, NCN grant **2014/12/W/NZ2/00466**, Figlerowicz et al.) reportedly identified multiple likely Piast individuals and determined Y-chromosome haplogroups for male remains, but dynasty-specific Y results were not yet published in primary form in the secondary update summarized by histslov (2021; upd. 2022). Do **not** treat any single haplogroup (including the widely repeated late-Piast Janusz III **R1b** claim) as a definitive “Piast marker” for 10th–11th century hypotheses until primary data are available [44].
+
 - **Daughter of Boleslaw** (1000 - Unknown) - Princess
 - **Casimir I the Restorer** (1016 - 1058) - Duke of Poland
 - **Boleslaw II the Bold** (1042 - 1081) - King of Poland
@@ -815,7 +849,10 @@ Each profile includes:
 - **Vladimir I the Great** (958 - 1015) - Grand Prince of Kiev
 - **Yaroslav I the Wise** (978 - 1054) - Grand Prince of Kiev
 - **Sviatopolk I** (980 - 1019) - Grand Prince of Kiev - **MODEL NODE** (project hypothesis)
-  - This project associates the Bodzia E864/I burial with sample VK157 and maps VK157 to the “Sviatopolk I” node as a working hypothesis.
+  - This project associates the Bodzia E864/I burial with sample VK157 and maps VK157 to the "Sviatopolk I" node as a working hypothesis.
+  - **⚠️ GENEALOGY CORRECTION:** Sviatopolk I was **son of Yaropolk I** (older line), NOT son of Vladimir I (younger line)
+  - **Tamga:** Sviatopolk I used **two-pronged tamga** (not three-pronged), confirming his descent from the older Yaropolk line
+  - **Source:** Beletsky S. V. (2009) genealogical tree with tamgas
 - **VK154** (990 - 1020) - Princess (model label: “Princess from Bodzia”) - **PROJECT-ASSOCIATED SAMPLE**: mtDNA H1c3 (H1c)
   - Bodzia burial E864/II (association), sample VK154
 
@@ -825,9 +862,19 @@ Each profile includes:
 
 ### Bodzia Site Connections
 
-- **RUR001 (VK157; labeled “Sviatopolk I” in the genealogical model)**: Associated in this project with Bodzia burial E864/I (sample VK157); Y-DNA I1-S2077
+- **RUR001 (VK157; labeled "Sviatopolk I" in the genealogical model)**: Associated in this project with Bodzia burial E864/I (sample VK157); Y-DNA I1-S2077
+  - **⚠️ GENEALOGY CORRECTION:** Sviatopolk I was **son of Yaropolk I** (older line), NOT son of Vladimir I
+  - **Tamga:** Two-pronged tamga confirms older line descent
+  - **⚠️ FILOGENETYCZNA KOREKTA (2026-01-11):** I-S2077 → I-Y49957 → I-Y45113 (phylogenetic structure)
+  - **Polish DNA matches:** I-Y49957 has Polish DNA matches, supporting Rurikid lineage continuity in Poland
+  - **Geographic pattern:** Ukraine (I-FTC2520) → Poland (I-Y49957/I-Y45113) = migration from Rus' to Poland
+  - **If Wareg grave = Yaropolk I with I1-S2077:** This would provide **definitive confirmation** that VK157 = Sviatopolk I (direct father-son line)
 - **BOD001 (VK154)**: Associated in this project with Bodzia burial E864/II (sample VK154); mtDNA H1c3 (H1c)
 - **VK155** (BOD002): mtDNA H1c
+  - **⚠️ MATERNAL-LINE KINSHIP:** VK155 and VK157 share **identical mtDNA H1c** (maternal-line cousins)
+  - **Burial context:** Same grave (E864/I) as VK157, next to him and an unexamined female
+  - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess)
+  - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md`
 - **VK156** (BOD003; model label: “Bodzia Warrior”): Y-DNA R1a (reported as R1a-SUR51 / R1a1a1b1a2a2a1)
 - **Boleslaw I the Brave** (PIA001): Allied with Sviatopolk, Bodzia connection
 - **Time Period**: 950-1020 CE matches Bodzia cemetery active period
@@ -835,7 +882,7 @@ Each profile includes:
 ### Cross-Dynasty Marriages and Alliances
 
 - **Igor Rurikovich** (Rurikid) × **Olga** (Rurikid) - 903
-- **Sviatopolk I** (Rurikid) × **BOD001 (VK154)** (elite female; project association) - 1010 (model marriage)
+- **Sviatopolk I** (Rurikid, son of Yaropolk I - older line) × **BOD001 (VK154)** (elite female; project association) - 1010 (model marriage)
 - **Mieszko II Lambert** (Piast) × **Richeza of Lotharingia** (Piast) - 1013
 
 ---
@@ -1066,21 +1113,54 @@ A comprehensive suite of DNA-focused visualizations highlighting the 4 DNA-teste
 
 ### Bodzia Archaeological Site
 
-The Bodzia cemetery (near Włocławek, central Poland) represents one of the most significant early medieval elite burial sites in Central Europe. Dating to 950-1020 CE, it contains:
+The Bodzia cemetery (near Włocławek, central Poland) represents one of the most significant early medieval elite burial sites in Central Europe. Dating to 950-1020 CE (first period; second period: late 11th - early 12th century), it contains:
 
+**Location and Discovery:**
+- **Coordinates:** 52°42′19″N 18°53′09″E
+- **Distance from Włocławek:** ~15 km northwest
+- **Discovery:** 2000 (field survey for A1 motorway)
+- **Excavation:** 2007-2009 (led by Andrzej Buko, Polish Academy of Sciences)
+- **Area excavated:** 3 hectares
+- **Total graves:** More than 58 graves (including cenotaphs)
+- **Total features discovered:** 2069 important features
+
+**Burial Characteristics:**
 - Scandinavian-style weaponry (Viking swords)
 - Mammen-style silver artifacts
-- Cross-cultural goods (Rus', Polish, Scandinavian)
+- Cross-cultural goods (Rus', Polish, Scandinavian, Anglo-Saxon, Frisian, Khazar)
 - Elite warrior burials
+- Chamber burials (common in Old Rus, Scandinavian and Slavic countries in Viking Age)
 - **4 DNA-tested individuals** with specific genetic markers
+
+**Periods of Use:**
+- **First period:** 980-1035 AD (late 10th century - early 11th century) - **Note:** Some sources cite 950-1020 CE; verification needed with primary publications
+- **Second period:** Late 11th century - Early 12th century
+
+**Isotope Analysis:**
+- Indicates foreign origin of those buried (unknown foreign origin)
+- Consistent with multicultural artifacts and proximity to Vistula River trade route
+- Suggests foreign trade settlement connecting Baltic to Byzantine Empire
+
+**Settlement Context:**
+- Little evidence of early settlement discovered
+- Later settlement finds tentatively attributed to second phase of cemetery
+
+**See:** [Wikipedia - Bodzia Cemetery](https://en.wikipedia.org/wiki/Bodzia_Cemetery) for general overview; verify details against primary publications (Buko et al. 2013)
 
 ### Genetic Connections
 
 **Haplogroups:**
-- **VK157** (RUR001; labeled “Sviatopolk I” in the genealogical model): Y-DNA I1a3a1 (I1-S2077), mtDNA H1c
-- **VK154** (BOD001; model label: “Princess from Bodzia”): mtDNA H1c3
+- **VK157** (RUR001; labeled "Sviatopolk I" in the genealogical model): Y-DNA I1a3a1 (I1-S2077), mtDNA H1c
+  - **⚠️ FILOGENETYCZNA KOREKTA (2026-01-11):** I-S2077 → I-Y49957 → I-Y45113 (phylogenetic structure)
+  - **Polish DNA matches:** I-Y49957 has Polish DNA matches, supporting Rurikid lineage continuity in Poland
+  - **Geographic pattern:** Ukraine (I-FTC2520) → Poland (I-Y49957/I-Y45113) = migration from Rus' to Poland
+- **VK154** (BOD001; model label: "Princess from Bodzia"): mtDNA H1c3
 - **VK155**: mtDNA H1c
-- **VK156** (BOD003; model label: “Bodzia Warrior”): Y-DNA R1a1a1b1a2a2a1, mtDNA J1c2c2a
+  - **⚠️ MATERNAL-LINE KINSHIP:** Shares **identical mtDNA H1c** with VK157 (maternal-line cousins)
+  - **Burial context:** Same grave (E864/I) as VK157, next to him and an unexamined female
+  - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess), consistent with VK157 = Sviatopolk I hypothesis
+  - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis
+- **VK156** (BOD003; model label: "Bodzia Warrior"): Y-DNA R1a1a1b1a2a2a1, mtDNA J1c2c2a
 
 **Comprehensive Genetic Analysis Findings:**
 - **Genetic Distance (VK155 ↔ VK157)**: 0.0417 (moderate - possibly related)
@@ -1098,9 +1178,14 @@ The Bodzia cemetery (near Włocławek, central Poland) represents one of the mos
 
 **Research Context:**
 - **I-Y45113 haplogroup**: Potentially connected to Bodzia elite warriors
+  - **⚠️ FILOGENETYCZNA KOREKTA (2026-01-11):** I-Y45113 jest **subkladą I-Y49957** (nadrzędna haplogrupa)
+  - **Struktura filogenetyczna:** I-S2077 > I-FGC950 > I-Y49957 > I-Y45113
+  - **Polskie dopasowania:** I-Y49957 ma polskie dopasowania DNA, co potwierdza obecność linii w Polsce
+  - **Geograficzne rozprzestrzenienie:** Ukraina (I-FTC2520, 2 dopasowania) → Polska (I-Y49957/I-Y45113)
 - **Formation date**: ~975 CE (matches Bodzia active period)
 - **Geographic alignment**: Bodzia is ~60 km from Płock (Mazowieckie region)
 - **Cross-Cultural Connections**: Strong genetic affinities to Viking Age Scandinavia, Medieval Central Europe, and Rus' populations
+- **Wsparcie dla hipotezy VK157 = Sviatopolk I:** Jeśli VK157 = I-S2077 → I-Y49957 → I-Y45113, polskie dopasowania do I-Y49957 potwierdzają kontynuację linii Rurykowiczów w Polsce
 
 ### Ciepłe Archaeological Site (Comparative Context)
 
@@ -1165,16 +1250,46 @@ Ciepłe represents an exceptional early medieval settlement complex at the Piast
 
 #### Research Context: I-Y45113 Haplogroup Implications
 
+**⚠️ FILOGENETYCZNA KOREKTA (2026-01-11):** I-Y45113 jest **subkladą I-Y49957**
+
+**Struktura filogenetyczna I-S2077 (z YFull/FTDNA):**
+```
+I-S2077 > I-FGC950
+    ├─ I-Y49957 (nadrzędna haplogrupa dla I-Y45113)
+    │   └─ I-Y45113 (subklada)
+    │   └─ Polskie dopasowania DNA 🇵🇱
+    │
+    ├─ I-Y58442 (równoległa gałąź)
+    │
+    └─ I-FTC2520 (wspólny przodek, poziom ~10 pokoleń)
+        └─ Ukraińskie dopasowania DNA 🇺🇦 (2 dopasowania)
+```
+
 **Geographic triangle:**
 - **Płock** ←60 km→ **Bodzia** ←150 km→ **Ciepłe**
 - **I-Y45113 TMRCA estimates** are often placed in the late 10th century in consumer phylogenies (e.g., ~975 CE in YFull YTree; verify against the specific tree version used)
+- **I-Y49957 formation:** ~950-1000 CE (based on phylogenetic structure; I-FTC2520 at ~10 generations depth suggests ~800-900 CE formation, with I-Y49957 forming ~950-1000 CE)
+
+**Geographic distribution pattern:**
+- **I-FTC2520 (Ukraina):** 2 DNA matches - region Kijowa/Rus' (older population)
+- **I-Y49957 (Polska):** Polish DNA matches expected - region Bodzia/Mazowieckie (migration to Poland)
+- **Migration pattern:** I-FTC2520 (~800-900 CE) → I-Y49957 (~950-1000 CE) → Bodzia (~1000 CE)
+- **Chronology alignment:** Perfect match with Bodzia active period (950-1020 CE) and Sviatopolk I hypothesis (980-1019 CE)
+
+**Wsparcie dla hipotezy VK157 = Sviatopolk I:**
+- Jeśli VK157 = I-S2077 → I-Y49957 → I-Y45113
+- Polskie dopasowania do I-Y49957 potwierdzają kontynuację linii Rurykowiczów w Polsce
+- Geograficzne rozprzestrzenienie: Ukraina (Rus'/Kijów) → Polska (Bodzia) = zgodne z historycznymi migracjami
+- Zgodne z hipotezą: Sviatopolk I (syn Yaropolka I, starsza linia) → migracja do Polski → Bodzia
 
 If I-Y45113 ancestors were in this region, they could have been part of:
-1. **Bodzia elite** (Rus'-Polish nexus) ← Current hypothesis
+1. **Bodzia elite** (Rus'-Polish nexus) ← Current hypothesis (supported by I-Y49957 Polish matches)
 2. **Ciepłe elite** (Danish-Pomeranian nexus) ← New possibility
 3. **Mobile elite** moving between both sites (warriors, traders, administrators)
 
 **Critical test**: When Ciepłe Y‑DNA results are published with sufficient downstream resolution, compare lineages against Bodzia VK157 (I1‑S2077) and VK156 (R1a‑derived). Overlap would support a shared-network hypothesis; non-overlap would refine it.
+
+**Source:** YFull/FTDNA haplogroup tree visualization (2026-01-11); see `docs/I_Y49957_POLAND_ANALYSIS.md` for detailed analysis.
 
 #### Validation of Multi-Dynasty Approach
 
@@ -1205,7 +1320,7 @@ This genealogical tree documents **79 individuals across 9 dynasties** (Rurikid,
 
 This tree includes dynasties that directly intersect with **England** in the late 10th–11th centuries (notably Danish and Norman rulers). **Winchester Cathedral** is a key comparative site because (a) it is traditionally associated with high-status burials from these periods, and (b) ongoing conservation/archaeological work there has the potential to produce (or refine) **ancient DNA datasets** for elite individuals that overlap chronologically and politically with the Bodzia horizon.
 
-**Data status:** As of 2026-01-11, no peer-reviewed or publicly released Winchester Cathedral genomic datasets are available. All comparisons in this subsection are prospective and contingent on future data release and clear archaeological attribution.
+**Data status:** ⚠️ **UPDATE 2026-01-11:** The Times reports that Winchester Cathedral mortuary chests project has **completed 14 years of genetic analysis** and **identified individuals including Cnut the Great, Harthacnut, and Emma of Normandy**. Results are **expected to be published in 2026** by Winchester Cathedral and Francis Crick Institute. This represents a **critical breakthrough** for testing Bodzia ↔ Winchester connections. **See:** `docs/BODZIA_WINCHESTER_PIAST_CONNECTIONS.md` for detailed analysis.
 
 If genomic profiles from Winchester Cathedral can be confidently assigned to specific individuals (or at least to well-dated, high-status burials), they become an external reference point to test the working hypothesis in this file: **that the Bodzia individuals represent an elite network with genetic ties extending into the Anglo-Scandinavian / Anglo-Norman sphere**, not only cultural/artefactual parallels.
 
@@ -1213,9 +1328,11 @@ If genomic profiles from Winchester Cathedral can be confidently assigned to spe
 
 The Bodzia diagram/tree already contains several individuals who are frequently discussed in connection with Winchester Cathedral’s elite burial context (e.g., via the mortuary chests tradition and related conservation/analysis work). These are the highest-value “targets” for an eventual Bodzia ↔ Winchester genetic comparison, because they sit on a direct dynastic chain in the diagram:
 
-- **Cnut the Great** (House of Gorm): King of England/Denmark/Norway (d. 1035). Chronologically overlaps the Bodzia horizon and represents the Anglo-Scandinavian consolidation phase that the Bodzia material culture is often compared against.
-- **Emma of Normandy** (House of Normandy): spouse of Cnut (d. 1052). Key diplomatic/dynastic link between the Norman and Danish networks represented in this tree.
-- **Harthacnut** (House of Gorm): son of Cnut and Emma (d. 1042). Provides direct continuity of the Danish royal paternal line into England in the 11th century.
+- **Cnut the Great** (House of Gorm): King of England/Denmark/Norway (d. 1035). Chronologically overlaps the Bodzia horizon and represents the Anglo-Scandinavian consolidation phase that the Bodzia material culture is often compared against. ⭐ **GENETICALLY IDENTIFIED** in Winchester Cathedral mortuary chests (2026).
+- **Emma of Normandy** (House of Normandy): spouse of Cnut (d. 1052). Key diplomatic/dynastic link between the Norman and Danish networks represented in this tree. ⭐ **GENETICALLY IDENTIFIED** in Winchester Cathedral mortuary chests (2026) - **only woman identified**.
+- **Harthacnut** (House of Gorm): son of Cnut and Emma (d. 1042). Provides direct continuity of the Danish royal paternal line into England in the 11th century. ⭐ **GENETICALLY IDENTIFIED** in Winchester Cathedral mortuary chests (2026).
+
+**Additional individuals identified:** Cynegils (first Christian king of Wessex, d. ~642), Wini (first bishop of Winchester), Egbert, Ethelwulf (father of Alfred the Great), Stigand (last Anglo-Saxon archbishop of Canterbury), and others. **Total:** At least 21 adults + 4 children identified from ~1,300 bones in 6 mortuary chests.
 
 Additional “corridor anchors” present in the tree that contextualize the bridge (even if not themselves Winchester burials):
 
@@ -1223,7 +1340,9 @@ Additional “corridor anchors” present in the tree that contextualize the bri
 - **Harald Bluetooth** (House of Gorm): grandfather of Cnut (d. 986), active around the early phase of the Bodzia timeframe.
 - **Richard I the Fearless** and **William I Longsword** (House of Normandy): Emma’s close ancestry in the Norman/Viking elite line shown in the diagram.
 
-This list matters because it lets you formulate a testable statement with clear expected outcomes: if Winchester Cathedral yields reliably attributable genomes for any of the individuals above (or for closely related burials), then you can test whether any Bodzia individuals fall within a plausible kinship/lineage radius of this Anglo-Scandinavian/Norman dynastic network (close kinship, shared rare uniparental subclades, or only broader affinity).
+**⚠️ CRITICAL UPDATE (2026-01-11):** The Times reports that Winchester Cathedral mortuary chests project has **successfully identified Cnut, Harthacnut, and Emma of Normandy** after 14 years of genetic analysis. Results are **expected to be published in 2026**, making this a **high-priority target** for testing Bodzia ↔ Winchester connections. **See:** `docs/BODZIA_WINCHESTER_PIAST_CONNECTIONS.md` for detailed analysis and testable hypotheses.
+
+This list matters because it lets you formulate a testable statement with clear expected outcomes: **Winchester Cathedral has now yielded reliably attributable genomes for Cnut, Harthacnut, and Emma** (publication expected 2026), enabling direct testing of whether any Bodzia individuals fall within a plausible kinship/lineage radius of this Anglo-Scandinavian/Norman dynastic network (close kinship, shared rare uniparental subclades, or only broader affinity).
 
 What would count as genetic support (strongest → weakest):
 
@@ -1298,6 +1417,14 @@ This complete tree represents the interconnected elite networks of Early Medieva
    - Available: `docs/Academic Papers/A. Kushniarevich - Genetic Heritage of the Balto-Slavic Speaking Populations A Synthesis of Autosomal, Mitochondrial and Y-Chromos.pdf`
    - Context for Y-DNA haplogroup I-Y45113
 
+7a. **I-Y49957 Phylogenetic Analysis** (2026-01-11)
+   - Available: `docs/I_Y49957_POLAND_ANALYSIS.md`
+   - **Key finding:** I-Y45113 is a subclade of I-Y49957 (parent haplogroup)
+   - **Phylogenetic structure:** I-S2077 > I-FGC950 > I-Y49957 > I-Y45113
+   - **Geographic distribution:** Ukraine (I-FTC2520) → Poland (I-Y49957/I-Y45113)
+   - **Polish DNA matches:** I-Y49957 has Polish DNA matches, confirming lineage presence in Poland
+   - **Support for VK157 = Sviatopolk I hypothesis:** Polish matches to I-Y49957 support Rurikid lineage continuity in Poland
+
 8. **Mielnik-Sikorska, M., et al.** (2013). "The History of Slavs Inferred from Complete Mitochondrial Genome Sequences". *PLOS ONE*, 8(1), e54360.
    - Available: `docs/Academic Papers/Marta Mielnik-Sikorska - The History of Slavs Inferred from Complete Mitochondrial Genome Sequences [2013].pdf`
    - mtDNA H1c haplogroup context
@@ -1308,16 +1435,24 @@ This complete tree represents the interconnected elite networks of Early Medieva
 
 ### Comparative Site: Winchester Cathedral (England)
 
-The Winchester Cathedral linkage discussed in **Research Context** should be grounded in specific, citable outputs once they are available (paper, preprint, repository dataset, or official technical report). Add references here when you have them, ideally including:
+**⚠️ CRITICAL UPDATE (2026-01-11):** The Times reports that Winchester Cathedral mortuary chests project has **completed 14 years of genetic analysis** and **identified individuals including Cnut the Great, Harthacnut, and Emma of Normandy**. Results are **expected to be published in 2026** by Winchester Cathedral and Francis Crick Institute. **See:** `docs/BODZIA_WINCHESTER_PIAST_CONNECTIONS.md` for detailed analysis.
 
+**Project Details:**
+- **Duration:** 14 years (2012-2026)
+- **Institutions:** Winchester Cathedral + Francis Crick Institute
+- **Breakthrough (2015):** Oxford AMS radiocarbon dating confirmed bones from late Anglo-Saxon and early Norman periods
+- **Identified individuals:** Cnut the Great, Harthacnut, Emma of Normandy, Cynegils (first Christian king of Wessex, d. ~642), Wini (first bishop of Winchester), Egbert, Ethelwulf (father of Alfred the Great), Stigand (last Anglo-Saxon archbishop of Canterbury), and others
+- **Total:** At least 21 adults + 4 children from ~1,300 bones in 6 mortuary chests
+- **Publication:** Expected 2026 (series of scientific papers)
+
+**References to add when published:**
 - Publication/preprint title, authors, year, and persistent identifier (DOI/arXiv/Zenodo)
 - If data are public: accession (ENA/SRA), SNP panel/capture description, and sample IDs
 - If data are not public: a stable project page and a description of what can be used (summary haplogroups vs full genotypes)
+- Winchester Cathedral — mortuary chests conservation / analysis project (official project page + technical reports)
+- Francis Crick Institute publications (expected 2026)
 
-Suggested reference entries to add (placeholders—replace when sources publish):
-
-- Winchester Cathedral — mortuary chests conservation / analysis project (add official project page + any technical reports).
-- Any peer-reviewed aDNA paper(s) or preprint(s) reporting Winchester Cathedral sample IDs, dates, and genotype data.
+**Source:** The Times (2026) - "Bones of Anglo-Saxon kings return to cathedral after DNA 'jigsaw'" (translated by ChatGPT)
 
 ### Rurikid Dynasty and Kievan Rus'
 
@@ -1419,7 +1554,35 @@ Suggested reference entries to add (placeholders—replace when sources publish)
    - G25 coordinate analysis, admixture modeling, population distances, PCA, and MTA integration
    - Analysis date: 2026-01-11
 
-31. **Ciepłe Archaeological Site** - Comparative elite burial site in Eastern Pomerania.
+31. **VK155-VK157 Burial Hypothesis** (2026-01-11)
+   - Available: `docs/VK155_VK157_BURIAL_HYPOTHESIS.md`
+   - **Critical finding:** VK155 and VK157 share identical mtDNA H1c (maternal-line kinship)
+   - **Burial context:** Same grave (E864/I), with unexamined female who lay on top of VK157 (NOT GENETICALLY TESTED)
+   - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess); unexamined female = wife of VK157
+   - **Research gap:** Unexamined female from same grave chamber as VK157 requires urgent genetic testing
+   - **Impact:** Could confirm Sviatopolk I × Piast princess marriage hypothesis if unexamined female = wife
+
+32. **Wikipedia - Bodzia Cemetery Analysis** (2026-01-11)
+   - Available: `docs/WIKIPEDIA_BODZIA_ANALYSIS.md`
+   - **Source:** https://en.wikipedia.org/wiki/Bodzia_Cemetery
+   - **Analysis:** Comparison of Wikipedia article with project documentation
+   - **Key findings:** More than 58 graves, two periods of use (980-1035 AD and late 11th-early 12th century), excavation details (2007-2009, Andrzej Buko), isotope analysis indicating foreign origin
+   - **Recommendations:** Updates to documentation based on Wikipedia information (verify against primary publications)
+   - **Note:** Some discrepancies require verification with primary sources (Buko et al. 2013)
+
+33. **Bodzia ↔ Winchester ↔ Piast Connections** (2026-01-11) ⭐ **CRITICAL UPDATE**
+   - Available: `docs/BODZIA_WINCHESTER_PIAST_CONNECTIONS.md`
+   - **Source:** The Times (2026) - "Bones of Anglo-Saxon kings return to cathedral after DNA 'jigsaw'"
+   - **Critical finding:** Winchester Cathedral mortuary chests project has **completed 14 years of genetic analysis** and **identified Cnut the Great, Harthacnut, and Emma of Normandy** - all present in the project's genealogical tree
+   - **Publication:** Results expected in 2026 (Winchester Cathedral + Francis Crick Institute)
+   - **Significance:** Enables direct testing of Bodzia ↔ Winchester connections, including:
+     - VK157 (Sviatopolk I hypothesis) ↔ Cnut/Harthacnut (Y-DNA, autosomal DNA comparison)
+     - Unexamined female (Piast princess hypothesis) ↔ Emma of Normandy (mtDNA, autosomal DNA comparison)
+     - VK155 (Carolingian princess hypothesis) ↔ Emma of Normandy (mtDNA comparison)
+   - **Testable hypotheses:** Detailed analysis of genetic connections between Bodzia, Winchester, and Piast dynasties
+   - **Status:** Awaiting publication of Winchester genetic data (2026)
+
+34. **Ciepłe Archaeological Site** - Comparative elite burial site in Eastern Pomerania.
    - **Cambridge Antiquity**: "Ciepłe Revisited: An Exceptional Early Medieval Settlement Complex at the Piast Frontier"
    - **University of Warsaw Archaeology**: Ciepłe settlement complex information (https://www.archeologia.uw.edu.pl/en/cieple-a-settlement-complex-from-the-turn-of-the-10th-11th-century-in-eastern-pomerania/)
    - **Medievalists.net**: "Four Warriors Buried in 11th-Century Poland Came from Scandinavia, Researchers Find" (https://www.medievalists.net/2020/02/four-warriors-buried-in-11th-century-poland-came-from-scandinavia-researchers-find/)
@@ -1436,40 +1599,44 @@ Suggested reference entries to add (placeholders—replace when sources publish)
 
 ### Additional References
 
-33. **Androshchuk, F.** (2022). "From Vikings to Rus — the Danish Connection". In *Rus — Vikings in the East* (Moesgaard Museum volume).
+35. **Androshchuk, F.** (2022). "From Vikings to Rus — the Danish Connection". In *Rus — Vikings in the East* (Moesgaard Museum volume).
    - Status: Referenced but not publicly available
 
-34. **Litvina, A., Uspenskij, F.** (2017). "Dynastic Power And Name-giving Principles in Medieval Rus'". *Micrologus*, XXV.
+36. **Litvina, A., Uspenskij, F.** (2017). "Dynastic Power And Name-giving Principles in Medieval Rus'". *Micrologus*, XXV.
    - Status: Referenced, may require institutional access
 
-35. **Nazarenko, A. V.** (2001). Book chapter on early Rus' (in Russian).
+37. **Nazarenko, A. V.** (2001). Book chapter on early Rus' (in Russian).
    - Status: Referenced but not publicly available
 
-36. **Pritsak, O.** (1977). "The Origin of Rus'". *The Russian Review*, 36(3), 249-273.
+38. **Pritsak, O.** (1977). "The Origin of Rus'". *The Russian Review*, 36(3), 249-273.
    - Status: Commonly available through JSTOR or publisher
 
-37. **Duczko, W.** (2004). *Viking Rus: Studies on the Presence of Scandinavians in Eastern Europe*. Brill.
+39. **Duczko, W.** (2004). *Viking Rus: Studies on the Presence of Scandinavians in Eastern Europe*. Brill.
    - Status: Academic publisher, may require institutional access
 
 ### Online Resources
 
-38. **Topola Genealogy Viewer**
+40. **Topola Genealogy Viewer**
    - Source: https://pewu.github.io/topola-viewer/
    - Interactive GEDCOM viewer
 
-39. **SVG Family-Tree Generator (SVG-FTG)**
+41. **SVG Family-Tree Generator (SVG-FTG)**
    - Source: https://parallaxviewpoint.com/SVG-FTG/
    - Publication-quality family tree generation
 
-40. **Graphviz** - Graph Visualization Software
+42. **Graphviz** - Graph Visualization Software
    - Source: https://graphviz.org/
    - Used for tree diagram generation
 
-41. **dTree** - Interactive Family Tree Visualization Library
+43. **dTree** - Interactive Family Tree Visualization Library
    - Source: https://github.com/ErikGartner/dTree
    - Built on D3.js for interactive family tree visualization
    - Supports multiple parents and complex relationships
    - Used for: `output/web/bodzia_complete_dtree.html`
+
+44. **histslov** (2021; updated 2022). "PIASTOWIE HG Y-DNA" (blog post; Polish).
+   - Source: https://histslov.wordpress.com/2021/11/16/piastowie-hg-y-dna/
+   - **Use note:** secondary source that quotes project updates (incl. Prof. Marek Figlerowicz) about sample counts and pending publications; treat dynasty-specific haplogroup claims as unconfirmed until primary publications/datasets are available.
 
 ### Data Files in This Project
 

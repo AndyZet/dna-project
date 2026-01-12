@@ -2,39 +2,41 @@
 
 **Last Updated:** January 10, 2026 (SNP/STR/YFull alignment)  
 **Based on:** Comprehensive analysis from Perplexity.md  
-**Y-DNA Haplogroup (current evidence):** Andrzej = I-Y224059 (downstream of I-Y45113). Aleksei Berezhnoy = I-Y45233 (sister branch under I-Y45113, per YFull).
+**Y-DNA Haplogroup (current evidence):** Andrzej = I-Y224059 (downstream of I-Y45113). Aleksei Berezhnoy = I-Y45233 (sister branch under I-Y45113, per YFull (YTree database)).
 
 **Current Data Basis:**
 - SNPs: `data/raw/y_dna_results/SNP_for_YF079056_20260110.csv` shows Y45113 positive and terminal I-Y224059 for Andrzej (sample YF079056).
-- SNP matches (YFull): `data/raw/y_dna_results/SNP_matches_for_YF079056.csv` lists YF089989 (I-Y224059, Artur Garboś; MDA Józef Garboś b. 1710, Poland; I-Y224059 TMRCA 700 ybp) and YF003943/YF108111 (I-Y45233, Ukraine; I-Y45113 TMRCA 1050 ybp).
+- SNP matches (YFull): `data/raw/y_dna_results/SNP_matches_for_YF079056.csv` lists YF089989 (I-Y224059, Artur Garboś; MDA Józef Garboś b. 1710, Poland; I-Y224059 TMRCA (time to most recent common ancestor) 700 ybp (years before present)) and YF003943/YF108111 (I-Y45233, Ukraine; I-Y45113 TMRCA 1050 ybp).
 - STRs: `data/raw/y_dna_results/STR_for_YF079056_20260110.csv` is partial. Coverage summary: Y37 = 21/37 values, Y67 = 47/67, Y111 = 78/111; uncertain calls include DYS389II and DYS576.
 - STR matches (YFull): `data/raw/y_dna_results/YFull _ STR matches.pdf` lists 8 close matches including YF089989 (I-Y224059, 7 differences over 462 STRs, distance 0.015) and YF003943 (I-Y45233, 15 differences over 431 STRs, distance 0.035).
 - STR matches (extended): `data/raw/y_dna_results/YFull _ STR matches3.pdf` lists distant matches across multiple I subclades; useful for context only.
 - STR statistics: `data/raw/y_dna_results/STR_statistic_for_YF079056.csv` lists private mutation flags (DYS608, DYS562, DYS389II, DYS471, DYS576) and branch-specific STR summaries for I-Y224059 and I-Y45113.
-- Wladyslaw Mazgaj is reported by Aleksei as a Big Y cousin; Y111 distance 10 from Aleksei; earliest known paternal ancestor Franciszek Mazgaj b. 1779, Poland; terminal SNP/kit not yet captured here.
-- No raw SNP/STR datasets for Wladyslaw Mazgaj are present in this workspace; Artur is represented by YFull kit YF089989 (user-confirmed).
+- Wladyslaw Mazgaj is reported by Aleksei as a Big Y cousin; Y111 distance 10 from Aleksei; earliest known paternal ancestor Franciszek Mazgaj b. 1779, Poland; terminal SNP (Terminal Hg: haplogroup branch with youngest estimated age)/kit not yet captured here.
+- No raw SNP/STR datasets for Wladyslaw Mazgaj are present in this workspace; Artur is represented by YFull kit (YFxxxxx series identifier) YF089989 (user-confirmed).
 
 ---
 
 ## TIER 0: URGENT PRE-VERIFICATION (SKORY INTEGRATION)
 
 ### **H0.1: Doug Skory Big Y-700 Confirmation**
-**Status:** Unknown (pending contact)  
-**Confidence:** 50%  
+**Status:** Not Completed (4-year delay; Aleksei confirms test not ordered as of January 2026)  
+**Confidence:** 25% (down from 50%; higher abandonment risk after 4-year delay)  
 **Priority:** 🔴 URGENT
 
-**Hypothesis:** Doug Skory’s Big Y-700 test was completed and places him under I-Y45113 (likely I-Y224059 or I-Y45233), adding a fifth modern comparator to the core Y-DNA set.
+**Hypothesis:** Doug Skory's Big Y-700 test was completed and places him under I-Y45113 (likely I-Y224059 or I-Y45233), adding a fifth modern comparator to the core Y-DNA set.
+
+**Update (January 2026):** Aleksei confirms: "Unfortunately, Skory did not order the BigY test yet. We need to contact him and his relatives again about it." Despite funding commitment from February 2022 ($239), test remains uncompleted after 4-year delay. Immediate re-contact required.
 
 **Evidence Required:**
 - Confirmation of Big Y-700 completion
-- FTDNA kit number or YFull link (if available)
+- FTDNA kit number or YFull link (YFxxxxx kit identifier, if available)
 - Raw SNP data (optional but preferred)
 
 **Verification Steps:**
 1. Contact Judith/Doug to confirm Big Y-700 status
 2. Obtain kit number and access to results
 3. Upload to YFull if not already done
-4. Add Doug to TMRCA analysis (H5.3) once data is available
+4. Add Doug to TMRCA (time to most recent common ancestor) analysis (H5.3) once data is available
 
 **Expected Outcome:** Confirms or rules out Doug as a fifth comparator under I-Y45113.
 
@@ -100,8 +102,8 @@
 ## TIER 1: FOUNDATIONAL Y-DNA HYPOTHESES (CRITICAL PRIORITY)
 
 ### **H1.1: Patrilineal Y-DNA Connection**
-**Status:** Partially Supported (Andrzej + Artur I-Y224059; Aleksei I-Y45233; Wladyslaw reported Big Y cousin, terminal SNP pending)  
-**Confidence:** 70%  
+**Status:** Partially Supported (Andrzej + Artur I-Y224059; Aleksei I-Y45233; Wladyslaw Y-STR confirmed, terminal SNP (Terminal Hg) pending)  
+**Confidence:** 73% (up from 70%; Wladyslaw's confirmed Y-STR distances strengthen clustering)  
 **Priority:** 🔴 URGENT
 
 **Hypothesis:** Andrzej Radzimowski and a documented Garboś line share I-Y224059; Aleksei Berezhnoy is I-Y45233 within the same parent branch I-Y45113. If Wladyslaw Mazgaj is also under I-Y45113, the shared patrilineal ancestor predates the split between I-Y224059 and I-Y45233.
@@ -111,17 +113,19 @@
 - YFull SNP matches show YF089989 (I-Y224059; Artur Garboś; MDA Józef Garboś b. 1710, Poland).
 - YFull SNP matches show YF003943/YF108111 as I-Y45233 (Ukraine).
 - YFull STR matches include close matches to YF089989 (7/462) and YF003943 (15/431).
-- Aleksei reports Wladyslaw Mazgaj as a Big Y cousin; Y111 distance 10 from Aleksei; earliest known paternal ancestor Franciszek Mazgaj b. 1779, Poland.
+- Aleksei confirms Wladyslaw Mazgaj Y-STR distances: 4/37, 6/67, 10/111 from Aleksei (January 2026).
+- Aleksei predicts: "It is very likely that Wladislaw will form a new young sub branch together with Artur" (suggests I-Y224059 placement).
+- Aleksei notes identical Y111 distance (10/111) for both Wladyslaw and Doug Skory, suggesting potential sub-branch formation (see H1.5).
 
 **Evidence Required:**
-- Terminal SNP/kit/YFull link for Wladyslaw Mazgaj; raw STR/SNP data if available
+- Terminal SNP (Terminal Hg: haplogroup branch with youngest estimated age)/kit/YFull link (YFxxxxx kit identifier) for Wladyslaw Mazgaj; raw STR/SNP data if available
 - Optional: raw SNP/STR data for Aleksei for independent verification
 
 **Verification Steps:**
 1. Anchor Andrzej's haplogroup using SNP and YFull matches (I-Y224059)
 2. Record YF089989 as Artur Garboś's YFull kit; add documentation if needed
-3. Obtain Wladyslaw's terminal SNP/kit (and upload to YFull if possible); place him on the I-Y45113 tree
-4. Use YFull TMRCA plus comparable STRs for refined MRCA dating (including Wladyslaw if data allows)
+3. Obtain Wladyslaw's terminal SNP (Terminal Hg)/kit (and upload to YFull if possible); place him on the I-Y45113 tree
+4. Use YFull TMRCA (time to most recent common ancestor) plus comparable STRs for refined MRCA dating (including Wladyslaw if data allows)
 
 **Expected Outcome:** Confirms whether all four sit under I-Y45113 and identifies which sub-branches connect directly (I-Y224059 vs I-Y45233). If Wladyslaw is I-Y45113, confidence increases; if not, this becomes a two-branch model.
 
@@ -170,23 +174,57 @@
 ---
 
 ### **H1.4: Wladyslaw Mazgaj Y-DNA Placement**
-**Status:** Partially Supported (reported Big Y cousin)  
-**Confidence:** 75%  
+**Status:** Partially Supported (Y-STR distances confirmed; terminal SNP (Terminal Hg) pending)  
+**Confidence:** 78% (up from 75%; clean Y-STR data confirms cousin-level connection)  
 **Priority:** 🔴 URGENT
 
 **Hypothesis:** Wladyslaw Mazgaj is within I-Y45113 (likely I-Y224059 or I-Y45233), consistent with the Radzimowski-Garboś-Berezhnoy cluster.
 
+**Evidence Present (January 2026 Update):**
+- Aleksei confirms Y-STR distances: 4/37, 6/67, 10/111 mutations from Aleksei
+- Y111 distance of 10/111 confirms cousin-level connection (consistent with I-Y45113)
+- Aleksei notes: "Wladislaw Mazgay is not my Family Finder cousin" (no autosomal DNA sharing, consistent with deep-lineage patrilineal connection)
+
 **Evidence Required:**
-- Wladyslaw's terminal SNP/kit/YFull link
-- Optional STR panel to compare distances with Andrzej/Artur/Aleksei (Y111 distance reported as 10 from Aleksei)
+- Wladyslaw's terminal SNP (Terminal Hg)/kit/YFull link (YFxxxxx kit identifier; Aleksei suggests contacting Wladyslaw to join YFull)
+- Full Y-STR haplotype for comparison with Doug Skory (Aleksei suggests: "Mazgay and Skory can be very close to each other if their mutations are the same")
 
 **Verification Steps:**
-1. Obtain Wladyslaw's terminal SNP/kit (and YFull upload if possible)
-2. Place his terminal SNP on the I-Y45113 tree
-3. Confirm Y111 haplotype; incorporate distance into TMRCA calculations (H5.3)
+1. Obtain Wladyslaw's terminal SNP (Terminal Hg)/kit (and YFull upload (BAM or VCF file) if possible)
+2. Place his terminal SNP (Terminal Hg) on the I-Y45113 tree
+3. Confirm Y111 haplotype; incorporate distance into TMRCA (time to most recent common ancestor) calculations (H5.3)
 4. Update H1.1 confidence based on placement
 
 **Expected Outcome:** Confirms or rejects the four-way patrilineal hypothesis.
+
+---
+
+### **H1.5: Wladyslaw-Doug Skory Sub-Branch Formation** (NEW)
+**Status:** Pending Verification  
+**Confidence:** 40% (conditional on haplotype comparison)  
+**Priority:** 🔴 URGENT
+
+**Hypothesis:** Wladyslaw Mazgaj and Doug Skory form a distinct sub-branch within I-Y45113 (likely under I-Y224059), closer to each other than either is to Aleksei, suggesting a shared ancestor more recent than the I-Y45113 split (~1050 ybp (years before present)) but older than the I-Y224059 formation (~700 ybp).
+
+**Evidence Present (January 2026):**
+- Aleksei notes identical Y111 distance (10/111) for both Wladyslaw and Doug from Aleksei
+- Different intermediate marker patterns (Wladyslaw: 4/37, 6/67; Doug: 2/25, 4/37, 6/67) suggest they are NOT siblings but may be cousins
+- Aleksei suggests: "So Mazgay and Skory can be very close to each other if their mutations are the same"
+- Aleksei predicts: "It is very likely that Wladislaw will form a new young sub branch together with Artur"
+
+**Evidence Required:**
+- Direct haplotype comparison between Wladyslaw and Doug (full Y-STR panels)
+- Terminal SNP (Terminal Hg) placement for both (YFull uploads (BAM or VCF files from Big Y tests))
+- Confirmation that their mutations align (Aleksei's suggestion)
+
+**Verification Steps:**
+1. Obtain full Y-STR haplotypes for both Wladyslaw and Doug
+2. Compare marker-by-marker for alignment
+3. Determine terminal SNP (Terminal Hg) placement for both (YFull uploads)
+4. Calculate pairwise TMRCA (time to most recent common ancestor) if sub-branch confirmed
+5. Compare with Artur's haplotype to test "new sub branch together with Artur" hypothesis
+
+**Expected Outcome:** Confirms or refutes close relationship between Wladyslaw and Doug; refines phylogenetic model; may identify new sub-branch under I-Y224059.
 
 ---
 
@@ -285,13 +323,18 @@
 
 ### **H3.3: Berezhnoy = Ukrainian Migration Branch**
 **Status:** Pending Verification  
-**Confidence:** 40%  
+**Confidence:** 45% (up from 40%; Aleksei's Polish fluency + Wladyslaw's Ukrainian maternal ancestry support migration narrative)  
 **Priority:** 🟡 HIGH
 
-**Hypothesis:** Aleksei Berezhnoy is confirmed I-Y45233 (YFull; Ukrainian origin in matches), and his ancestors may include a Polish branch that migrated to Ukraine in the 19th century and adopted the Ukrainian surname "Berezhnoy." Documentary evidence is still required.
+**Hypothesis:** Aleksei Berezhnoy is confirmed I-Y45233 (YFull (YTree database); Ukrainian origin in matches), and his ancestors may include a Polish branch that migrated to Ukraine in the 19th century and adopted the Ukrainian surname "Berezhnoy." Documentary evidence is still required.
+
+**Evidence Present (January 2026 Update):**
+- Aleksei notes: "As you know, I can read Polish without asking google to translate unknown words" (suggests Polish cultural continuity)
+- Wladyslaw's maternal ancestor "Anastasia Sheszcuk" has "Ukrainian by origin" names (Aleksei's observation)
+- Mixed Polish-Ukrainian heritage pattern consistent with migration narrative
 
 **Evidence Required:**
-- Berezhnoy family history indicating Polish origins beyond YFull country labels
+- Berezhnoy family history indicating Polish origins beyond YFull country labels (from YTree sample metadata)
 - Migration records from Poland to Ukraine (1800-1900)
 - Ukrainian archival records showing surname adoption
 - Autosomal DNA showing elevated Polish ancestry
@@ -315,11 +358,11 @@
 
 **Evidence Required:**
 - Big Y-700 confirmation and haplogroup placement (H0.1)
-- Documentary evidence for Trzemesno → Ukraine → USA migration path
+- Documentary evidence for Trzemeszno → Ukraine → USA migration path
 
 **Verification Steps:**
 1. Confirm Big Y-700 status and haplogroup placement
-2. Collect parish/immigration records (Trzemesno, Ukraine, Ellis Island)
+2. Collect parish/immigration records (Trzemeszno, Ukraine, Ellis Island)
 3. Add Doug’s SNP data to TMRCA calculations (H5.3)
 
 **Expected Outcome:** Establishes a second documented Ukrainian migration branch (alongside Berezhnoy) and strengthens diaspora pattern evidence. Together with potential Radzimowski collateral lines, this supports H3.5 (Three Parallel Ukraine Migration Branches).
@@ -494,25 +537,32 @@
 
 ---
 
-### **H5.3: Y-DNA TMRCA Calculation**
-**Status:** Pending Verification  
-**Confidence:** 55%  
+### **H5.3: Y-DNA TMRCA (Time to Most Recent Common Ancestor) Calculation**
+**Status:** Partially Supported (clean Y-STR data now available; Doug excluded until Big Y completed)  
+**Confidence:** 68% (up from 55%; clean Y-STR distance data available; YFull age refinement confirmed)  
 **Priority:** 🔴 URGENT
 
-**Hypothesis:** With comparable Y-STR or SNP data from the four core individuals (Andrzej, Artur, Aleksei, Wladyslaw), a TMRCA estimate can be calculated. Doug Skory can be added as a fifth comparator once Big Y-700 is confirmed (H0.1). Method confidence is high, but date precision is moderate due to partial STR coverage, so YFull STR distances and YFull branch TMRCA estimates are the best available proxies.
+**Hypothesis:** With comparable Y-STR or SNP data from the four core individuals (Andrzej, Artur, Aleksei, Wladyslaw), a TMRCA (time to most recent common ancestor) estimate can be calculated. Doug Skory can be added as a fifth comparator once Big Y-700 is confirmed (H0.1). Method confidence is high, but date precision is moderate due to partial STR coverage, so YFull STR distances (from YTree analysis) and YFull branch TMRCA estimates are the best available proxies.
+
+**Evidence Present (January 2026 Update):**
+- Aleksei confirms clean Y-STR distances: Wladyslaw (4/37, 6/67, 10/111 from Aleksei); Doug Skory (2/25, 4/37, 6/67, 10/111 from Aleksei)
+- YFull age refinement confirmed: I-Y224059 TMRCA (time to most recent common ancestor) ~700 ybp (years before present; Aleksei notes: "I did not know that YFull decreased the age of our branch to 700 years")
+- Doug Skory Big Y-700 NOT completed (H0.1); excluded from calculations until completed
 
 **Evidence Required:**
-- Consistent Y-STR panels (Y37/Y67/Y111) for all four individuals, or Big Y/YFull results
+- Consistent Y-STR panels (Y37/Y67/Y111) for all four individuals, or Big Y/YFull (comprehensive Y-DNA test; YFull analyzes BAM/VCF files) results
+- Wladyslaw terminal SNP (Terminal Hg) placement (YFull upload (BAM or VCF file) recommended by Aleksei)
+- Doug Skory Big Y-700 completion (H0.1)
 - Cleaned STR calls (resolve `?` entries; reduce `n/a` gaps)
 - Documented mutation rate assumptions and comparison method
 
 **Verification Steps:**
-1. Use YFull STR distances as interim estimates (e.g., YF089989 7/462; YF003943 15/431)
+1. Use YFull STR distances (from YTree analysis) as interim estimates (e.g., YF089989 7/462; YF003943 15/431)
 2. Obtain full STR panels or Big Y results for all four individuals
 3. Normalize marker sets to a shared panel
-4. Calculate pairwise distances and TMRCA with confidence intervals
+4. Calculate pairwise distances and TMRCA (time to most recent common ancestor) with confidence intervals
 
-**Expected Outcome:** A dated estimate of lineage divergence with clear uncertainty bounds, cross-checked against YFull branch TMRCA values.
+**Expected Outcome:** A dated estimate of lineage divergence with clear uncertainty bounds, cross-checked against YFull branch TMRCA (YTree branch age estimates) values.
 
 ---
 
@@ -546,7 +596,7 @@
 **Hypothesis:** Marcin Radzimowski (Tarnobrzeg, Podkarpackie) is a collateral relative (MyHeritage match: ~5th cousin, ~21 cM shared DNA) within the Podkarpackie cluster and may carry an I-Y45113 lineage.
 
 **Evidence Required:**
-- Marcin's Y-DNA test (Y37/Y67/Y111 or Big Y/YFull)
+- Marcin's Y-DNA test (Y37/Y67/Y111 or Big Y/YFull (comprehensive Y-DNA test; YFull analyzes BAM/VCF files))
 - Confirmation of the autosomal match (segment data) and genealogical tree
 - Location/time alignment with Tarnobrzeg/Jadachy/Sokołów Małopolski cluster
 
@@ -588,7 +638,7 @@
 Subject: Inquiry on Ciepłe aDNA/Y‑DNA results for comparative genealogy  
 Hello Dr. Wadyl / Ciepłe Project Team,  
 I’m conducting a genealogical study of a Radzimowski male line documented in the Gniew/Piaseczno area (17th–20th c.). We have Y‑DNA results (I‑Y45113) and are exploring whether any published or unpublished aDNA/Y‑DNA data from the Ciepłe cemetery might be suitable for comparison.  
-Could you advise whether Y‑DNA haplogroups or BAM/VCF-level data are available (or planned) for the Ciepłe burials, and if external comparison is possible?  
+Could you advise whether Y‑DNA haplogroups or BAM/VCF-level data (BAM: compressed binary alignment; VCF: variant call format) are available (or planned) for the Ciepłe burials, and if external comparison is possible?  
 Thank you for your time, and I’m happy to share our summary and consented Y‑DNA details if helpful.  
 Best regards,  
 [Name / affiliation]  
@@ -597,9 +647,9 @@ Best regards,
 **aDNA/Y‑DNA Comparison Checklist:**
 1. Confirm Ciepłe sample list and accession IDs in publications  
 2. Determine if Y‑DNA haplogroups are reported; request if not published  
-3. Ensure modern Y‑DNA test type and coverage (Big Y/YFull) are documented  
+3. Ensure modern Y‑DNA test type and coverage (Big Y/YFull (comprehensive Y-DNA test)) are documented  
 4. Normalize terminology (Y‑SNP nomenclature and build version)  
-5. Compare haplogroup placement on a common tree (YFull/FTDNA)  
+5. Compare haplogroup placement on a common tree (YFull/FTDNA (YTree vs FTDNA's Y-DNA tree))  
 6. Record uncertainty (coverage, contamination, sample quality)  
 7. Document permissions and ethical constraints for any data use  
 
@@ -623,7 +673,7 @@ Best regards,
 1. Contact Ukrainian Radzymowski descendants
 2. Request Y-DNA testing from male-line relatives
 3. Compare Y-DNA with Polish Radzimowski
-4. Calculate TMRCA between branches
+4. Calculate TMRCA (time to most recent common ancestor) between branches
 
 **Expected Outcome:** Documents two-branch structure (Polish vs. Ukrainian).
 
@@ -675,7 +725,7 @@ Best regards,
 ---
 
 ### **H7.2: Berezhnoy Not Connected**
-**Status:** Disfavored (YFull confirms Aleksei I-Y45233 under I-Y45113)  
+**Status:** Disfavored (YFull (YTree database) confirms Aleksei I-Y45233 under I-Y45113)  
 **Confidence:** 10%  
 **Priority:** 🟢 LOW
 
@@ -698,10 +748,11 @@ Best regards,
 ## VERIFICATION PRIORITY ROADMAP
 
 ### **Phase 0: Immediate**
-0. Confirm Doug Skory Big Y-700 status (H0.1)
-1. Validate Casimir Skory priest records and death date (H0.2)
-2. Obtain Wladyslaw Mazgaj terminal SNP/kit/YFull link (H1.4)
-3. Establish Casimir ↔ Anthony/Casimer Skory relationship (H0.3)
+0. **RE-CONTACT Doug Skory** (H0.1) - Aleksei confirms test NOT completed; restart funding process
+1. Contact Wladyslaw Mazgaj for YFull upload (H1.4) - Aleksei recommends contacting directly
+2. Compare Wladyslaw ↔ Doug Skory haplotypes (H1.5) - Test Aleksei's suggestion of close relationship
+3. Validate Casimir Skory priest records and death date (H0.2)
+4. Establish Casimir ↔ Anthony/Casimer Skory relationship (H0.3)
 
 ### **Phase 1: Critical (Week 1)**
 1. Confirm Andrzej's Y-DNA haplogroup (supported by SNP file)
@@ -745,7 +796,7 @@ Best regards,
 - Wladyslaw Mazgaj (via Aleksei): terminal SNP confirmation and Y111/Big Y details (H1.4/H5.3)
 
 **MEDIUM (Ongoing)**
-- Trzemesno/Tarnobrzeg parish and migration records (H3.1/H3.4)
+- Trzemeszno/Tarnobrzeg parish and migration records (H3.1/H3.4)
 - MyHeritage extended family search (H5.4)
 - Grand Rapids archive verification (Echo microfilm, St. Adalbert records) (H3.6)
 - Pelplin Diocese/Geneteka verification for northern Radzimowski cluster (H3.7)
@@ -764,9 +815,9 @@ Best regards,
 
 ## KEY METRICS
 
-- **Total Hypotheses:** 28
+- **Total Hypotheses:** 29 (added H1.5: Wladyslaw-Doug Skory Sub-Branch Formation)
 - **High Confidence (70%+):** 4 confirmed (H0.2, H1.1, H1.4, H5.5) + 2 conditional (H3.4, H3.5)
-- **Critical Priority (🔴 URGENT):** 7 (Doug confirmation, Casimir priest link, Casimir family link, Y-DNA connection, Wladyslaw placement, Skory migration branch, TMRCA)
+- **Critical Priority (🔴 URGENT):** 8 (Doug confirmation, Wladyslaw YFull upload, Wladyslaw-Doug haplotype comparison, Casimir priest link, Casimir family link, Y-DNA connection, Wladyslaw placement, Skory migration branch, TMRCA)
 - **Estimated Research Time:** 3-6 months core; 4-8 months with Skory integration
 - **Potential Outcome:** A validated patrilineal linkage with defensible dating; historical attribution only if independently supported
 
@@ -775,9 +826,10 @@ Best regards,
 ## NOTES
 
 - Current SNP/STR evidence covers Andrzej (I-Y224059); Aleksei is placed at I-Y45233 via YFull matches, but no raw SNP/STR file is present here for him.
-- YFull tree data provided by the user indicates: I-Y45113 formed ~3800 ybp (TMRCA ~1050 ybp), I-Y224059 formed ~1050 ybp (TMRCA ~700 ybp), I-Y45233 formed ~1050 ybp (TMRCA ~200 ybp).
+- YFull tree data provided by the user indicates: I-Y45113 formed ~3800 ybp (years before present, per YFull definition: years ago before current year, not 1950-based) (TMRCA ~1050 ybp), I-Y224059 formed ~1050 ybp (TMRCA ~700 ybp), I-Y45233 formed ~1050 ybp (TMRCA ~200 ybp).
+- **January 2026 Update (Aleksei's email):** YFull age refinement to ~700 ybp confirmed; Aleksei notes surprise at this update. Wladyslaw Y-STR distances confirmed (4/37, 6/67, 10/111 from Aleksei). Doug Skory Y-STR distances confirmed (2/25, 4/37, 6/67, 10/111 from Aleksei). Doug Skory Big Y-700 NOT completed despite 2022 funding commitment. Wladyslaw is NOT Aleksei's Family Finder cousin (no autosomal DNA sharing, consistent with deep-lineage patrilineal connection).
 - `data/raw/y_dna_results/STR_statistic_for_YF079056.csv` flags private mutations (DYS608, DYS562, DYS389II, DYS471, DYS576) and branch-level STR stats for I-Y224059 and I-Y45113.
-- `data/raw/y_dna_results/YFull _ STR matches3.pdf` is a longer distant-match list with diverse terminal haplogroups; it adds breadth but not direct lineage proof.
+- `data/raw/y_dna_results/YFull _ STR matches3.pdf` is a longer distant-match list with diverse terminal haplogroups (Terminal Hg: youngest branch); it adds breadth but not direct lineage proof.
 - Autosomal ancient DNA matching at low SNP counts should be treated as exploratory signals, not proof of direct descent.
 - Confidence levels are provisional and should be updated only with verifiable genetic or archival evidence.
 - Negative control hypotheses help rule out alternative explanations.
@@ -786,5 +838,5 @@ Best regards,
 
 ---
 
-**Last Review Date:** January 2026  
-**Next Review:** After Phase 1 completion
+**Last Review Date:** January 2026 (updated with Aleksei's email analysis)  
+**Next Review:** After Doug Skory and Wladyslaw Mazgaj contact/responses

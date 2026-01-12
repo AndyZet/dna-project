@@ -1,150 +1,84 @@
-# Logical Consistency Analysis: HYPOTHESIS_LIST.md vs HYPOTHESIS_SKORY.md
+# Consistency Analysis: Hypothesis Files + Bodzia Report
 
-**Analysis Date:** January 2026  
+**Analysis Date:** 2026-01-11  
 **Files Analyzed:**
 - `docs/HYPOTHESIS_LIST.md`
 - `docs/HYPOTHESIS_SKORY.md`
+- `docs/ALEKSEI_EMAIL_ANALYSIS_2026.md`
+- `docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md`
 
 ---
 
-## ✅ CONSISTENT ELEMENTS
+## ✅ Consistent Elements
 
-### 1. Hypothesis Definitions (H0.1, H0.2, H0.3, H3.4, H3.5)
-All shared hypotheses have **identical** status, confidence, and priority:
-- **H0.1**: Status "Unknown", Confidence 50%, Priority URGENT ✅
-- **H0.2**: Status "Supported", Confidence 95%, Priority URGENT ✅
-- **H0.3**: Status "Pending Verification", Confidence 55%, Priority URGENT ✅
-- **H3.4**: Status "Pending Verification", Confidence 75% (conditional), Priority URGENT ✅
-- **H3.5**: Status "Emerging Pattern", Confidence 70%, Priority HIGH ✅
+### 1. Core Y-DNA framing and hypothesis set
+Across `docs/HYPOTHESIS_LIST.md`, `docs/HYPOTHESIS_SKORY.md`, and `docs/ALEKSEI_EMAIL_ANALYSIS_2026.md`, the following are consistent:
 
-### 2. Core Data Points
-Both files agree on:
-- Core Y-DNA comparator set: Andrzej, Artur, Aleksei, Wladyslaw
-- Doug as potential 5th comparator (pending Big Y-700)
-- TMRCA estimates (~300 years, ~1725 CE for Doug)
+- Core Y-DNA comparator set (confirmed): Andrzej, Artur, Aleksei, Wladyslaw
+- Doug Skory as a potential fifth comparator once Big Y-700 exists (H0.1)
+- January 2026 update from Aleksei: Doug Big Y-700 not ordered; Wladyslaw and Doug Y-STR distances reported; Aleksei surprised by the I‑Y224059 age refinement on YFull
+- Hypothesis numbering is aligned for H0.1/H0.2/H0.3/H1.1/H1.4/H1.5/H3.4/H3.5 (same IDs, same intent)
 
-### 3. Contact Information
-- Judith Skory (primary contact)
-- Doug Skory email: dskory1820@aol.com
-- Timeline: Big Y-700 funded Feb 2022, last contact Nov 2022
+### 2. Shared hypothesis statuses/confidences (current state)
+The “Skory integration” and “Aleksei email” updates are already incorporated into the master list, and match the dedicated Skory and email-analysis documents:
 
----
+- H0.1: Big Y-700 not completed; confidence reduced to 25%
+- H1.4: Wladyslaw placement likely within I‑Y45113; confidence raised to 78% after STR distances
+- H1.5: Proposed Wladyslaw ↔ Doug sub-branch hypothesis exists (pending haplotype comparison)
+- H3.4/H3.5: Skory migration branch and “three parallel branches” are framed as conditional/pattern-level hypotheses
 
-## ⚠️ INCONSISTENCIES FOUND
+### 3. Bodzia treatment is directionally consistent with the hypotheses
+`docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md` is careful about:
+- Exploratory vs publication-grade inference
+- “Affinity” vs “direct descent”
 
-### 1. **Title Mismatch** (Minor)
-**Location:**
-- `HYPOTHESIS_LIST.md` line 1: "Radzimowski-Garboś-Mazgaj-Berezhnoy Investigation"
-- `HYPOTHESIS_SKORY.md` line 1: "Radzimowski-Garboś-Mazgaj-Berezhnoy-Skory Investigation"
-
-**Issue:** Main hypothesis file title doesn't include "Skory" despite having Tier 0 Skory integration.
-
-**Recommendation:** Update `HYPOTHESIS_LIST.md` title to include Skory for consistency.
+That matches the caution in `docs/HYPOTHESIS_LIST.md` around Bodzia (e.g., “affinity signal is not proof of direct descent”).
 
 ---
 
-### 2. **"Fourth Data Point" vs "Fifth Comparator"** (Terminology Confusion)
-**Location:**
-- `HYPOTHESIS_SKORY.md` line 9: "critical **fourth data point**"
-- `HYPOTHESIS_SKORY.md` line 22: "**fourth complete SNP dataset**"
-- `HYPOTHESIS_LIST.md` line 26: "adding a **fifth modern comparator**"
-- `HYPOTHESIS_LIST.md` line 784: "Doug becomes a **fifth comparator**"
+## ⚠️ Inconsistencies / Gaps
 
-**Issue:** Inconsistent counting terminology. If core set = 4 (Andrzej, Artur, Aleksei, Wladyslaw), then Doug = 5th. But `HYPOTHESIS_SKORY.md` calls him "fourth data point."
+### 1. Place-name spelling drift (fixed where it mattered most)
+The hypothesis documents previously mixed `Trzemesno` and `Trzemeszno` for the same town.
 
-**Possible Explanation:** 
-- "Fourth data point" might refer to Skory as the 4th **family** (after Radzimowski, Garboś, Mazgaj/Berezhnoy)
-- "Fifth comparator" refers to Doug as the 5th **individual** in the Y-DNA comparison set
+- `Trzemeszno` is now consistently used in `docs/HYPOTHESIS_LIST.md` and `docs/HYPOTHESIS_SKORY.md`.
+- `docs/ALEKSEI_EMAIL_ANALYSIS_2026.md` already used `Trzemeszno`.
 
-**Recommendation:** Clarify terminology:
-- Use "fifth Y-DNA comparator" for Doug (consistent with 4 core + 1 pending)
-- Use "fourth family" if referring to Skory as a family unit
-- Add a note explaining the distinction
+Recommendation: Keep `Trzemeszno` as the canonical spelling, and only deviate when quoting a source verbatim.
 
----
+### 2. Over-specific confidence qualifier in H3.4 (fixed)
+`docs/HYPOTHESIS_SKORY.md` previously tied H3.4’s confidence to Doug being specifically `I‑Y45233`, while `docs/HYPOTHESIS_LIST.md` treated the confidence as conditional on Big Y confirmation under the broader I‑Y45113 framework.
 
-### 3. **"Third Ukrainian Migration Branch" Terminology** (Needs Clarification)
-**Location:**
-- `HYPOTHESIS_SKORY.md` line 13: "**Third Independent Ukrainian Migration Branch**"
-- `HYPOTHESIS_LIST.md` line 325: "Establishes a **third migration branch**"
+This is now aligned: H3.4 confidence is conditional on Big Y-700 confirmation under I‑Y45113.
 
-**Issue:** What are the first two branches?
-- **Branch 1:** Berezhnoy (H3.3) - Poland → Ukraine → Germany/Russia ✅
-- **Branch 2:** ??? (Not clearly identified)
-- **Branch 3:** Skory (H3.4) - Poland → Ukraine → USA ✅
+### 3. Bodzia findings aren’t fully “fed back” into the hypothesis list
+`docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md` includes Y-DNA calls for the two Bodzia males:
+- VK157: `I1‑S2077`
+- VK156: `R1a` (reported as `R1a‑SUR51`)
 
-**Possible Interpretations:**
-1. If counting only **completed/confirmed** branches: Berezhnoy = 1st, Skory = 2nd (not "third")
-2. If counting **potential** branches: Berezhnoy = 1st, Radzimowski collateral lines = 2nd (hypothetical), Skory = 3rd
-3. If counting **documented** branches: Berezhnoy = 1st, ??? = 2nd, Skory = 3rd
+But `docs/HYPOTHESIS_LIST.md` still frames the Bodzia link (H1.3) as needing Y-haplogroup confirmation for Bodzia samples relative to I‑Y45113, without explicitly incorporating the above calls.
 
-**Recommendation:** Clarify in both files:
-- Option A: Change "Third" to "Second" if only counting confirmed branches (Berezhnoy + Skory)
-- Option B: Explicitly list all three branches: "Berezhnoy, [Second Branch Name], and Skory"
-- Option C: Use "Additional Ukrainian Migration Branch" instead of numbered position
+Recommendation: Update H1.3 to cite these two haplogroup calls as evidence (even if only “broad-level, non-matching unless proven otherwise”), and adjust confidence accordingly.
+
+### 4. “Comparator count” terminology can still be confusing
+`docs/HYPOTHESIS_SKORY.md` mixes:
+- Doug as the “critical fifth comparator” (individual count)
+- Skory as a “fourth family” (family count)
+
+Recommendation: Add a 1-line glossary note in both hypothesis docs:
+- “Comparator” = individual Y-DNA sample
+- “Family” = documentary surname/lineage unit
 
 ---
 
-### 4. **H3.5 Dependency Statement** (Minor Wording Difference)
-**Location:**
-- `HYPOTHESIS_LIST.md` line 331: "Confidence: 70% **(dependent on H3.4 confirmation)**"
-- `HYPOTHESIS_SKORY.md` line 95: "Confidence: 70%" (no dependency stated)
+## Recommended Next Edits (High Signal)
 
-**Issue:** `HYPOTHESIS_SKORY.md` doesn't explicitly state dependency on H3.4, though it's implied.
-
-**Recommendation:** Add dependency statement to `HYPOTHESIS_SKORY.md` for clarity.
+1. Update `docs/HYPOTHESIS_LIST.md` H1.3 (Bodzia) to incorporate VK156/VK157 haplogroup calls from `docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md`.
+2. Add a short “terminology note” (comparator vs family) to `docs/HYPOTHESIS_LIST.md` and `docs/HYPOTHESIS_SKORY.md`.
+3. Standardize “Last Updated” date precision across the hypothesis docs (either month-only or ISO date), to avoid implying different evidence cutoffs.
 
 ---
 
-### 5. **TMRCA Calculation Reference** (Minor)
-**Location:**
-- `HYPOTHESIS_LIST.md` line 502: "With comparable Y-STR or SNP data from **all four individuals**"
-- `HYPOTHESIS_SKORY.md` line 115: "Calculate multi-way TMRCA (**core four**; include Doug when Big Y is confirmed)"
+## Overall Assessment
 
-**Issue:** Both refer to "four" but should clarify: 4 core (Andrzej, Artur, Aleksei, Wladyslaw) + Doug (pending) = 5 total when complete.
-
-**Recommendation:** Clarify: "four core individuals" or "four confirmed comparators" to distinguish from potential 5th (Doug).
-
----
-
-### 6. **Last Updated Dates** (Minor)
-**Location:**
-- `HYPOTHESIS_LIST.md` line 3: "**Last Updated:** January 2026 (SNP/STR/YFull alignment)"
-- `HYPOTHESIS_SKORY.md` line 2: "## Last Updated: January 10, 2026"
-
-**Issue:** Different date precision (month vs. specific date).
-
-**Recommendation:** Standardize date format (prefer specific date: "January 10, 2026").
-
----
-
-## 📋 SUMMARY OF RECOMMENDED FIXES
-
-### High Priority:
-1. ✅ **Clarify "Third Ukrainian Migration Branch"** - Explicitly list all branches or change to "Second" if only counting confirmed
-2. ✅ **Standardize counting terminology** - Use "fifth Y-DNA comparator" consistently, clarify "fourth family" vs "fifth individual"
-
-### Medium Priority:
-3. ✅ **Update HYPOTHESIS_LIST.md title** - Add "Skory" to title for consistency
-4. ✅ **Add H3.5 dependency statement** - Include "(dependent on H3.4 confirmation)" in HYPOTHESIS_SKORY.md
-5. ✅ **Clarify TMRCA references** - Use "four core individuals" or "four confirmed comparators"
-
-### Low Priority:
-6. ✅ **Standardize date format** - Use "January 10, 2026" in both files
-
----
-
-## ✅ OVERALL ASSESSMENT
-
-**Logical Consistency:** **GOOD** ✅
-
-The files are **substantially consistent** with only minor terminology and clarity issues. No **contradictory facts** or **conflicting hypotheses** were found. All inconsistencies are:
-- Terminology/clarity issues (not logical contradictions)
-- Minor formatting differences
-- Missing clarifications (not errors)
-
-**Recommendation:** Apply the fixes above to improve clarity and consistency, but the files are **functionally consistent** and can be used as-is.
-
----
-
-**Analysis Completed:** January 2026
+**Consistency:** Good. The documents do not contradict each other on major facts; inconsistencies are mainly terminology, spelling drift, and a few places where newer evidence (Bodzia) hasn’t been propagated into the hypothesis list.
