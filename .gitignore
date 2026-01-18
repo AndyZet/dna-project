@@ -67,6 +67,7 @@ env/
 *.swo
 *~
 .osgrep/
+.claude/
 
 # OS
 .DS_Store

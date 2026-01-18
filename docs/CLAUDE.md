@@ -7,6 +7,25 @@
 
 | ID | Time | T | Title | Read |
 |----|------|---|-------|------|
-| #407 | 1:11 PM | 🔵 | Bodzia hypothesis presentation document reviewed | ~396 |
-| #404 | 1:10 PM | ⚖️ | Hypothesis revision based on Ukrainian Radzimovsky Wikipedia evidence | ~577 |
+| #418 | 1:18 PM | ✅ | NotebookLM presentation updated with corrected Polish fluency evidence and revised migration confidence | ~535 |
+| #417 | " | ✅ | Corrected Berezhnoy migration narrative in presentation document | ~447 |
+| #416 | 1:17 PM | ✅ | Berezhnoy Polish cultural connection evidence corrected in presentation | ~509 |
+| #415 | " | ✅ | H3.3 Berezhnoy migration hypothesis confidence reduced to 25% | ~401 |
+| #414 | " | ✅ | H3.3 confidence further reduced to 25% after Aleksei's Polish fluency revealed as self-taught | ~416 |
+| #412 | 1:16 PM | ✅ | Hypothesis H3.3 corrected after discovering Aleksei's Polish fluency was self-taught | ~394 |
+| #409 | 1:12 PM | ⚖️ | Geographic migration model revised from three-branch to multi-branch with bidirectional flow | ~466 |
+| #408 | 1:11 PM | ✅ | Bodzia hypothesis document updated with Ukrainian Radzimovsky research implications | ~488 |
+| #407 | " | 🔵 | Bodzia hypothesis presentation document reviewed | ~396 |
+| #406 | " | ✅ | Migration hypothesis revised to acknowledge uncertainty in Poland→Ukraine narrative | ~444 |
+| #405 | 1:10 PM | 🔵 | Poland to Ukraine migration pattern documented for I-Y45113 lineages | ~509 |
+| #404 | " | ⚖️ | Hypothesis revision based on Ukrainian Radzimovsky Wikipedia evidence | ~577 |
+| #403 | " | ✅ | Hypothesis confidence adjustments based on Ukrainian Radzimovsky evidence | ~461 |
+| #402 | 1:09 PM | ✅ | Updated Ukrainian Radzymowski hypothesis with Wikipedia evidence | ~481 |
+| #401 | " | ✅ | Berezhnoy migration hypothesis revised based on Ukrainian Radzimovsky evidence | ~586 |
+| #399 | 1:01 PM | 🔵 | Comprehensive research hypothesis framework documenting Y-DNA genealogy investigation | ~599 |
+| #398 | 1:00 PM | 🔵 | Research context gathered for genetic genealogy analysis of APR-VK157-Artur-Alexey connections | ~546 |
+| #397 | 12:57 PM | 🔵 | APR sample (Andrzej) documented as I-Y224059 in existing genealogical research | ~427 |
+| #396 | 12:55 PM | 🔵 | VK157 assigned I-S2077 haplogroup with phylogenetic corrections to I-Y49957/I-Y45113 | ~543 |
+| #395 | " | 🔵 | Comprehensive Bodzia genealogical and genetic documentation revealed | ~556 |
+| #374 | 12:31 PM | 🔵 | VK157 documented as haplogroup I1-S2077 in project files | ~432 |
 </claude-mem-context>
