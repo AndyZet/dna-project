@@ -920,23 +920,29 @@ To confirm the I-Z63 elite network hypothesis:
 ---
 
 ### **H3.2: Podkarpackie Regional Cluster**
-**Status:** Pending Verification  
-**Confidence:** 60%  
+**Status:** Partially Supported
+**Confidence:** 70% (up from 60%; Mazgaj location independently confirmed)
 **Priority:** 🟡 HIGH
 
 **Hypothesis:** Radzimowski, Garboś, and Mazgaj families formed a geographic cluster in Podkarpackie (within ~45 km) during 1700-1850 CE, suggesting local social ties. This supports proximity, not direct kinship by itself.
 
+**Evidence Present (January 2026 Update):**
+- **Jadwiga Tolk confirmation:** Mazgaj family documented in Sokołów Małopolski, 1800-1850; connected to pottery craft (garncarstwo)
+- Geographic locations: Baranów Sandomierski (Radzimowski), Jadachy (Garboś), **Sokołów Małopolski (Mazgaj — confirmed)**
+- Jadwiga's genealogical research traces Mazgaj roots to early 19th century in this region
+
 **Evidence Required:**
-- Geographic locations: Baranów Sandomierski (Radzimowski), Jadachy (Garboś), Sokołów Małopolski (Mazgaj)
 - Parish records showing intermarriages
 - Shared godparents and witnesses
 - Cadastral records showing adjacent land holdings
+- Potter guild records from Sokołów Małopolski (may identify Mazgaj family members)
 
 **Verification Steps:**
-1. Map all three families' locations (1700-1850)
+1. ~~Map all three families' locations (1700-1850)~~ — Mazgaj location confirmed
 2. Search parish records for cross-marriages
 3. Analyze godparent networks
 4. Review Austrian cadastral records for land patterns
+5. **NEW:** Search Sokołów Małopolski potter guild/craft records (1800-1850)
 
 **Expected Outcome:** Confirms local network and social connections.
 
