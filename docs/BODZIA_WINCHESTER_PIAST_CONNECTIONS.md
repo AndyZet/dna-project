@@ -195,9 +195,9 @@ PIAST DYNASTY (Polish Elite)
 - Weryfikacja hipotezy o "Piast princess" w grobie E864/I
 - Potwierdzenie sieci małżeństw między dynastiami (Rurikid, Piast, Gorm, Normandy)
 
-### Hipoteza 3: VK155 ↔ Emma z Normandii (Karolińska Księżniczka)
+### Hipoteza 3: VK155 ↔ Emma z Normandii (zachodnioeuropejska linia dynastyczna)
 
-**Jeśli VK155 = krewna po matce Sviatopolka (karolińska księżniczka):**
+**Jeśli VK155 = krewna po matce Sviatopolka (zachodnioeuropejska księżniczka dynastyczna; hipoteza karolińsko‑ottońska):**
 
 **Test genetyczny:**
 - **mtDNA:** Porównanie z Emmą z Normandii (H1c vs mtDNA Emmy)
@@ -205,12 +205,12 @@ PIAST DYNASTY (Polish Elite)
 
 **Oczekiwane wyniki:**
 - Jeśli mtDNA VK155 = mtDNA Emmy → możliwe pokrewieństwo po linii żeńskiej
-- Jeśli autosomal DNA pokazuje pokrewieństwo → potwierdzenie hipotezy karolińskiej księżniczki
+- Jeśli autosomal DNA pokazuje pokrewieństwo → potwierdzenie hipotezy zachodnioeuropejskiej linii dynastycznej
 - Jeśli brak pokrewieństwa → różne linie
 
 **Znaczenie:**
-- Weryfikacja hipotezy o karolińskiej księżniczce jako matce Sviatopolka
-- Potwierdzenie sieci powiązań między Carolingian, Norman, Rus' elites
+- Weryfikacja hipotezy o zachodnioeuropejskim pochodzeniu matki Sviatopolka (linia karolińsko‑ottońska)
+- Potwierdzenie sieci powiązań między Zachodem (Karolingowie/Ottonowie/Normandia) a elitami Rus'
 
 ---
 
@@ -309,16 +309,16 @@ PIAST DYNASTY (Polish Elite)
 **Jeśli nieprzebadana dziewczyna pokazuje pokrewieństwo z Piastami (gdy dostępne):**
 - ✅ **DEFINITYWNE POTWIERDZENIE:** Nieprzebadana dziewczyna = Piast princess
 
-### Hipoteza VK155 = Karolińska Księżniczka
+### Hipoteza VK155 = Zachodnioeuropejska Księżniczka (karolińsko‑ottońska)
 
 **Wsparcie z Winchester:**
-- ✅ **Emma z Normandii** jako przykład karolińskiej/normańskiej linii
+- ✅ **Emma z Normandii** jako przykład zachodniej linii dynastycznej (Normandia; powiązania frankijskie)
 - ✅ **Dane genetyczne Emmy:** Dostępne w 2026 roku
 - ✅ **Porównanie mtDNA:** Możliwość testowania hipotezy
 
 **Jeśli mtDNA VK155 = mtDNA Emmy:**
-- ✅ **Potwierdzenie:** VK155 może być związana z karolińską/normańską linią
-- ✅ **Wsparcie:** Hipoteza o karolińskiej księżniczce jako matce Sviatopolka
+- ✅ **Potwierdzenie:** VK155 może być związana z zachodnioeuropejską linią dynastyczną
+- ✅ **Wsparcie:** Hipoteza o zachodnioeuropejskim pochodzeniu matki Sviatopolka
 
 ---
 
@@ -369,7 +369,7 @@ PIAST DYNASTY (Polish Elite)
 3. **Weryfikacja hipotez:**
    - VK157 = Sviatopolk I → porównanie z Cnut/Harthacnut
    - Nieprzebadana dziewczyna = Piast princess → porównanie z Emmą i Piastami
-   - VK155 = karolińska księżniczka → porównanie z Emmą
+   - VK155 = zachodnioeuropejska linia dynastyczna → porównanie z Emmą
 
 ### Następne Kroki:
 

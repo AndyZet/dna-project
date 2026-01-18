@@ -41,9 +41,9 @@
 - G25 distance: 0.0417 (moderate - possibly related)
 - MTA Deep Dive: VK157 → VK155: 41 SNP chains, 114.79 cM shared DNA
 
-**Hipoteza użytkownika:**
-- **VK155** = krewna po matce Sviatopolka I (karolińskiej księżniczce)
-- Jeśli VK157 = Sviatopolk I, to VK155 jest jego kuzynką po matce (matka Sviatopolka była karolińską księżniczką)
+**Hipoteza robocza (aktualizacja 2026-01; korespondencja):**
+- **VK155** = krewna po matce Sviatopolka I (zachodnioeuropejska księżniczka dynastyczna; hipoteza karolińsko‑ottońska)
+- Jeśli VK157 = Sviatopolk I, to VK155 jest jego kuzynką po matce (matka Sviatopolka mogła pochodzić z zachodnioeuropejskiego rodu dynastycznego)
 
 ---
 
@@ -117,7 +117,7 @@
 **Struktura rodzinna:**
 - **VK157** = Sviatopolk I (syn Yaropolka I, starsza linia Rurykowiczów)
 - **Nieprzebadana dziewczyna** = żona Sviatopolka I (prawdopodobnie Piast princess, zgodnie z hipotezą genealogiczną)
-- **VK155** = krewna po matce Sviatopolka I (karolińska księżniczka)
+- **VK155** = krewna po matce Sviatopolka I (zachodnioeuropejska księżniczka dynastyczna; hipoteza karolińsko‑ottońska)
 
 **Potwierdzenie hipotezy genealogicznej:**
 - Jeśli nieprzebadana dziewczyna = żona VK157 z **inną mtDNA** niż H1c:
@@ -197,7 +197,7 @@ W tej hipotezie pojawia się wątek „Piast princess” (żona VK157/Sviatopolk
 
 3. **VK155 jako krewna po matce:**
    - Wspólna mtDNA H1c z VK157 potwierdza kuzynostwo po linii żeńskiej
-   - Zgodne z hipotezą: VK155 = krewna po matce Sviatopolka I (karolińska księżniczka)
+   - Zgodne z hipotezą: VK155 = krewna po matce Sviatopolka I (zachodnioeuropejska księżniczka dynastyczna; hipoteza karolińsko‑ottońska)
 
 ### Następne Kroki:
 

@@ -342,7 +342,7 @@ The Bodzia cemetery represents a unique cross-cultural elite burial ground showi
   - Bodzia burial E864/I, sample VK155
   - **⚠️ BURIAL CONTEXT:** VK155 was buried in the **same grave (E864/I) as VK157**, but **next to** VK157 and an **unexamined female** who lay **on top of VK157**
   - **⚠️ CRITICAL FINDING:** VK155 and VK157 share **identical mtDNA H1c**, indicating **maternal-line kinship** (cousins through female line)
-  - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess), consistent with VK157 = Sviatopolk I hypothesis
+  - **Hypothesis:** VK155 = relative of VK157 through his mother (West-European dynastic princess; Carolingian/Ottonian-line hypothesis), consistent with VK157 = Sviatopolk I hypothesis
   - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis
 
 ---
@@ -400,7 +400,7 @@ G25 coordinates are 25-dimensional PCA coordinates derived from ancient DNA samp
    - **Group 1**: VK155 and VK157 (possible close relationship or shared lineage; exploratory)
      - **⚠️ CRITICAL FINDING:** VK155 and VK157 share **identical mtDNA H1c**, indicating **maternal-line kinship** (cousins through female line)
      - **Burial context:** Same grave (E864/I), with VK155 next to VK157 and an **unexamined female** who lay on top of VK157
-     - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess); unexamined female = wife of VK157
+     - **Hypothesis:** VK155 = relative of VK157 through his mother (West-European dynastic princess; Carolingian/Ottonian-line hypothesis); unexamined female = wife of VK157
      - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis
    - **Group 2**: VK154 and VK156 (father-daughter/second-degree relationships). **Note**: VK153 is archaeologically identified as part of this family unit (father-son relationship with VK156) but is not included in the genetic analysis as it was not among the 4 DNA-tested samples.
 
@@ -632,7 +632,7 @@ The Deep Dive Results reveal an **asymmetric mutual matching**:
 - **VK157 → VK155**: VK157 has VK155 in its Deep Dive Results with extensive shared DNA segments (41 SNP chains, 114.79 cM), indicating a strong genetic relationship from VK157's perspective
 - **VK155 → VK157**: VK155 has VK157 in its Top Matches list (rank 116, genetic distance 9.774) but **not** in its Deep Dive Results, suggesting that while they are genetically related, the shared DNA segments may not meet the threshold for VK155's deep dive analysis, or the relationship is detected differently from each sample's perspective
 
-**⚠️ CRITICAL FINDING:** VK155 and VK157 share **identical mtDNA H1c**, indicating **maternal-line kinship** (cousins through female line). This is consistent with the hypothesis that VK155 is a relative of VK157 through his mother (Carolingian princess), if VK157 = Sviatopolk I.
+**⚠️ CRITICAL FINDING:** VK155 and VK157 share **identical mtDNA H1c**, indicating **maternal-line kinship** (cousins through female line). This is consistent with the hypothesis that VK155 is a relative of VK157 through his mother (West-European dynastic princess; Carolingian/Ottonian-line hypothesis), if VK157 = Sviatopolk I.
 
 **Burial Context:**
 - **VK157** and **VK155** were buried in the **same grave (E864/I)**
@@ -853,6 +853,9 @@ Each profile includes:
   - **⚠️ GENEALOGY CORRECTION:** Sviatopolk I was **son of Yaropolk I** (older line), NOT son of Vladimir I (younger line)
   - **Tamga:** Sviatopolk I used **two-pronged tamga** (not three-pronged), confirming his descent from the older Yaropolk line
   - **Source:** Beletsky S. V. (2009) genealogical tree with tamgas
+  - **Historical note (sources differ):** Sviatopolk is sometimes described as Vladimir’s son; a common reconciliation is biological son of Yaropolk and adopted by Vladimir after Yaropolk’s death (“son of two fathers”).
+  - **Maternal-origin hypothesis (correspondence; Jan 2026):** Yaropolk’s wife (Sviatopolk’s mother) may have been from a West-European imperial/dynastic milieu (Ottonian/imperial hypothesis), not a “Greek nun”; treat as unverified until anchored in primary historiography.
+  - **See also:** `docs/YAROPOLK_SVIATOPOLK_GENEALOGY_CORRECTION.md`
 - **VK154** (990 - 1020) - Princess (model label: “Princess from Bodzia”) - **PROJECT-ASSOCIATED SAMPLE**: mtDNA H1c3 (H1c)
   - Bodzia burial E864/II (association), sample VK154
 
@@ -873,7 +876,7 @@ Each profile includes:
 - **VK155** (BOD002): mtDNA H1c
   - **⚠️ MATERNAL-LINE KINSHIP:** VK155 and VK157 share **identical mtDNA H1c** (maternal-line cousins)
   - **Burial context:** Same grave (E864/I) as VK157, next to him and an unexamined female
-  - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess)
+  - **Hypothesis:** VK155 = relative of VK157 through his mother (West-European dynastic princess; Carolingian/Ottonian-line hypothesis)
   - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md`
 - **VK156** (BOD003; model label: “Bodzia Warrior”): Y-DNA R1a (reported as R1a-SUR51 / R1a1a1b1a2a2a1)
 - **Boleslaw I the Brave** (PIA001): Allied with Sviatopolk, Bodzia connection
@@ -882,8 +885,13 @@ Each profile includes:
 ### Cross-Dynasty Marriages and Alliances
 
 - **Igor Rurikovich** (Rurikid) × **Olga** (Rurikid) - 903
-- **Sviatopolk I** (Rurikid, son of Yaropolk I - older line) × **BOD001 (VK154)** (elite female; project association) - 1010 (model marriage)
+- **Sviatopolk I** (Rurikid, son of Yaropolk I - older line) × **BOD001 (VK154)** (elite female; project association) - 1010 (model marriage; note: the unexamined female in grave E864/I is the primary spouse candidate archaeologically, but remains untested)
 - **Mieszko II Lambert** (Piast) × **Richeza of Lotharingia** (Piast) - 1013
+
+### Correspondence-driven next steps (Jan 2026; operational)
+
+- **MTA autosomal re-run:** Re-upload the autosomal file to MyTrueAncestry to trigger reprocessing under the updated matching algorithm (per user report, processing is not automatic without re-upload).
+- **GEDmatch (exploratory):** If pursued, use only legally obtained aDNA genotypes (e.g., ENA `PRJEB37976`: https://www.ebi.ac.uk/ena/browser/view/PRJEB37976) and verify GEDmatch ToS/ethics before any upload; keep sample IDs/pseudonyms and sharing strictly controlled.
 
 ---
 
@@ -1158,7 +1166,7 @@ The Bodzia cemetery (near Włocławek, central Poland) represents one of the mos
 - **VK155**: mtDNA H1c
   - **⚠️ MATERNAL-LINE KINSHIP:** Shares **identical mtDNA H1c** with VK157 (maternal-line cousins)
   - **Burial context:** Same grave (E864/I) as VK157, next to him and an unexamined female
-  - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess), consistent with VK157 = Sviatopolk I hypothesis
+  - **Hypothesis:** VK155 = relative of VK157 through his mother (West-European dynastic princess; Carolingian/Ottonian-line hypothesis), consistent with VK157 = Sviatopolk I hypothesis
   - **See:** `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` for detailed analysis
 - **VK156** (BOD003; model label: "Bodzia Warrior"): Y-DNA R1a1a1b1a2a2a1, mtDNA J1c2c2a
 
@@ -1558,7 +1566,7 @@ This complete tree represents the interconnected elite networks of Early Medieva
    - Available: `docs/VK155_VK157_BURIAL_HYPOTHESIS.md`
    - **Critical finding:** VK155 and VK157 share identical mtDNA H1c (maternal-line kinship)
    - **Burial context:** Same grave (E864/I), with unexamined female who lay on top of VK157 (NOT GENETICALLY TESTED)
-   - **Hypothesis:** VK155 = relative of VK157 through his mother (Carolingian princess); unexamined female = wife of VK157
+   - **Hypothesis:** VK155 = relative of VK157 through his mother (West-European dynastic princess; Carolingian/Ottonian-line hypothesis); unexamined female = wife of VK157
    - **Research gap:** Unexamined female from same grave chamber as VK157 requires urgent genetic testing
    - **Impact:** Could confirm Sviatopolk I × Piast princess marriage hypothesis if unexamined female = wife
 
@@ -1578,7 +1586,7 @@ This complete tree represents the interconnected elite networks of Early Medieva
    - **Significance:** Enables direct testing of Bodzia ↔ Winchester connections, including:
      - VK157 (Sviatopolk I hypothesis) ↔ Cnut/Harthacnut (Y-DNA, autosomal DNA comparison)
      - Unexamined female (Piast princess hypothesis) ↔ Emma of Normandy (mtDNA, autosomal DNA comparison)
-     - VK155 (Carolingian princess hypothesis) ↔ Emma of Normandy (mtDNA comparison)
+     - VK155 (West-European dynastic-line hypothesis) ↔ Emma of Normandy (mtDNA comparison)
    - **Testable hypotheses:** Detailed analysis of genetic connections between Bodzia, Winchester, and Piast dynasties
    - **Status:** Awaiting publication of Winchester genetic data (2026)
 

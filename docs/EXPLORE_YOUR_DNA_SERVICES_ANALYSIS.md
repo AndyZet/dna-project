@@ -35,7 +35,7 @@
 **Zastosowanie:**
 - Analiza VK157 (hipoteza Sviatopolk I) - porównanie z próbkami Rurikid
 - Analiza nieprzebadanej dziewczyny (jeśli dostępna) - identyfikacja jako Piast princess
-- Analiza VK155 - weryfikacja hipotezy o karolińskiej księżniczce
+- Analiza VK155 - weryfikacja hipotezy o zachodnioeuropejskiej linii dynastycznej (karolińsko‑ottońskiej)
 - Porównanie z próbkami z okresu 950-1050 CE z różnych cywilizacji
 
 **Rekomendacja:** ⭐⭐⭐⭐⭐ **PRIORYTET 1** - Największa wartość dla projektu
@@ -168,7 +168,7 @@
 **Zastosowanie:**
 - Analiza VK157 → weryfikacja hipotezy Sviatopolk I (Rurikid)
 - Analiza nieprzebadanej dziewczyny → weryfikacja hipotezy Piast princess
-- Analiza VK155 → weryfikacja hipotezy karolińskiej księżniczki
+- Analiza VK155 → weryfikacja hipotezy zachodnioeuropejskiej linii dynastycznej (karolińsko‑ottońskiej)
 - Porównanie z próbkami z różnych cywilizacji okresu 950-1050 CE
 
 ### Priorytet 2: **Advanced Ancestry Report** (16€) ⭐⭐⭐⭐
@@ -213,9 +213,9 @@
    - Weryfikacja hipotezy Piast princess
    - Identyfikacja pochodzenia geograficznego
 
-3. **Weryfikacja Hipotezy VK155 = Karolińska Księżniczka:**
-   - Porównanie z próbkami Carolingian period
-   - Weryfikacja pochodzenia z regionu Karolingów
+3. **Weryfikacja Hipotezy VK155 = Zachodnioeuropejska Linia Dynastyczna (karolińsko‑ottońska):**
+   - Porównanie z próbkami z kręgu karolińsko‑ottońskiego (jeśli dostępne w bazie)
+   - Weryfikacja pochodzenia z zachodnioeuropejskiego kontekstu dynastycznego
    - Identyfikacja składu genetycznego
 
 4. **Rozszerzenie Analizy:**
@@ -232,7 +232,7 @@
 **Dla kogo:**
 - VK157 (hipoteza Sviatopolk I)
 - Nieprzebadana dziewczyna (jeśli dostępny plik RAW DNA)
-- VK155 (hipoteza karolińska księżniczka)
+- VK155 (hipoteza zachodnioeuropejskiej linii dynastycznej: karolińsko‑ottońska)
 
 **Oczekiwane wyniki:**
 - Ranking najbliższych cywilizacji starożytnych
