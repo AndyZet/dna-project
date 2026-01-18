@@ -4,7 +4,9 @@
 
 **Status:** Testable Hypothesis (not a proven claim)
 
-**Last Updated:** January 2026
+**Last Updated:** January 18, 2026
+
+**Version:** 1.1 (consistency review with BODZIA_COMPLETE_TREE_DOCUMENTATION.md)
 
 ---
 
@@ -38,12 +40,31 @@ The Bodzia connection is presented as a **testable hypothesis**, not a proven cl
 - **Hybrid material culture** combining Scandinavian, Rus', and local elements
 
 ### Key Individuals
-- **VK154:** Elite female, mtDNA H1c3
-- **VK155:** Elite female, mtDNA H1c (same grave as VK157, maternal-line cousin)
-- **VK156:** Elite male, Y-DNA R1a1a1b1a2a2a1
-- **VK157:** Elite male, Y-DNA I1a3a1 (I1-S2077), mtDNA H1c
-  - Proposed identification: **Sviatopolk I of Kiev** (hypothesis, not proven)
-  - Same grave (E864/I) as VK155 and unexamined female
+
+| Sample | Sex | Grave | Y-DNA | mtDNA | Notes |
+|--------|-----|-------|-------|-------|-------|
+| **VK154** | F | E864/II | – | H1c3 | Elite female |
+| **VK155** | F | E864/I | – | H1c | Elite female; same grave as VK157; maternal-line cousin (shared mtDNA H1c) |
+| **VK156** | M | – | R1a1a1b1a2a2a1 | J1c2c2a | Elite male |
+| **VK157** | M | E864/I | I1a3a1 (I1-S2077) | H1c | Elite male; **⚠️ see caveats below** |
+
+**⚠️ VK157 Identification Caveats:**
+- Proposed identification as **Sviatopolk I of Kiev** is a **hypothesis, not proven**
+- All claims derived from this identification are **conditional**: "If VK157 = Sviatopolk I, then..."
+- Grave E864/I also contains an **unexamined female** (lay on top of VK157) — **NOT genetically tested**
+- The untested female represents a **critical research gap** that could redefine family structure interpretation
+
+### Data Sources and Quality Caveats
+
+| Data Type | Source | Quality | Use |
+|-----------|--------|---------|-----|
+| Y-DNA haplogroups | Published aDNA studies | ✅ Reliable | Phylogenetic connection |
+| mtDNA haplogroups | Published aDNA studies | ✅ Reliable | Maternal kinship |
+| G25 coordinates | Facebook G25 groups | ⚠️ Exploratory | Affinity comparisons only |
+| cM sharing reports | MyTrueAncestry | ⚠️ Provisional | Hypothesis generation only |
+| Genealogical model | Secondary sources | ⚠️ Hypothesis | Historical context |
+
+**Important:** G25 coordinates and cM sharing from commercial services are **not peer-reviewed**. They are suitable for hypothesis generation but require validation against published datasets before making strong claims.
 
 ---
 
@@ -176,9 +197,11 @@ I-S2077 (VK157, Bodzia)
 
 ### Step 2: Compare Y-DNA at SNP Level
 
-**Method:**
+**⚠️ PREREQUISITE:** This step requires **published Bodzia SNP-level data**, which is **not currently available**. The testing below becomes actionable **only after** researchers publish Y-DNA SNP calls for Bodzia individuals.
+
+**Method (once data available):**
 1. Extract our Y-DNA SNPs (from Big Y/YFull results)
-2. Compare with Bodzia Y-DNA SNPs (when available)
+2. Compare with Bodzia Y-DNA SNPs (when published)
 3. Look for shared mutations downstream of I-Y45113
 4. Calculate genetic distance and TMRCA if possible
 
@@ -186,6 +209,8 @@ I-S2077 (VK157, Bodzia)
 - Shared SNPs downstream of I-Y45113
 - Unique mutations in our branch vs Bodzia branch
 - Phylogenetic placement relative to I-Y49957
+
+**Current Status:** Only broad haplogroup calls reported (VK157 = I1-S2077). Downstream SNP resolution pending future publication.
 
 ### Step 3: Analyze Autosomal DNA Affinities (If Available)
 
@@ -281,6 +306,7 @@ I-S2077 (VK157, Bodzia)
    - YFull/FTDNA Y-tree for phylogenetic placement
    - Reference panels for population affinities
    - Historical/archaeological context
+   - **See:** `docs/FTDNA.md` for kit numbers, naming conventions, and pending tests
 
 ### Analysis Methods
 
@@ -477,13 +503,15 @@ This hypothesis demonstrates how modern genetic genealogy can contribute to hist
 
 ---
 
-**Last Updated:** January 18, 2026
+**Last Updated:** January 18, 2026 (consistency review; added grave designations, VK157 caveats, SNP roadmap conditions)
 **Status:** Testable Hypothesis (pending published Bodzia aDNA data)
-**Next Steps:** Monitor for published Bodzia aDNA data, prepare comparison framework
+**Next Steps:** Monitor for published Bodzia aDNA data; await Winchester Cathedral publication (2026); prepare comparison framework
 
 ---
 
 ## January 2026 Research Update: Ukrainian Radzimovsky Families
+
+*Note: This section was added after the initial 2026-01-11 document lock.*
 
 **New Evidence:** Ukrainian Wikipedia documents multiple notable Radzimovsky (Радзимовський) families in Ukraine who retained the Radzimowski surname for generations (19th-21st century, in Kyiv, Cherkasy, Poltava, Odesa regions).
 

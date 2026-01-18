@@ -66,6 +66,24 @@ These summaries are suitable for exploratory comparison and hypothesis generatio
 
 Non–peer-reviewed inputs (e.g., MyTrueAncestry match reports; Facebook-group G25 coordinates) are used in Supplementary materials and should be treated as provisional until validated against published datasets.
 
+#### 2.2.1 Data Provenance and Quality Caveats
+
+| Data Type | Source | Quality Tier | Caveats |
+|-----------|--------|--------------|---------|
+| **Y-DNA haplogroups** (VK157, VK156) | Published aDNA studies; YFull tree | Tier 1 (published) | Broad haplogroup calls only; downstream SNP resolution limited by ancient DNA coverage |
+| **mtDNA haplogroups** (VK154, VK155, VK157) | Published aDNA studies | Tier 1 (published) | Standard mitochondrial capture; reliable for haplogroup assignment |
+| **G25 coordinates** (VK154-VK157) | Facebook G25 groups; community-curated | Tier 2 (exploratory) | PCA projections, not raw genotypes; suitable for affinity comparisons but not kinship inference |
+| **Admixture components** | Derived from G25 coordinates | Tier 2 (exploratory) | Simplified 3-way model; does not replace formal qpAdm/f-statistics |
+| **"Closest populations"** | G25 reference panel | Tier 2 (exploratory) | Reference panel composition affects results; not a genetic match |
+| **MyTrueAncestry reports** | Commercial service | Tier 3 (provisional) | Proprietary algorithms; no independent validation; use for hypothesis generation only |
+| **Autosomal cM sharing** (e.g., VK155-VK157) | MyTrueAncestry / community reports | Tier 3 (provisional) | Low-coverage aDNA segment matching has high false-positive rates; treat as exploratory signal |
+| **Genealogical model** | Project-curated from secondary sources | Tier 2 (hypothesis) | Historical prosopography; not genetic evidence; contested in places |
+
+**Quality Tier Key:**
+- **Tier 1 (Published):** Peer-reviewed or from established aDNA databases
+- **Tier 2 (Exploratory):** Community-curated or derived; suitable for hypothesis generation
+- **Tier 3 (Provisional):** Commercial/unvalidated sources; requires independent confirmation
+
 ### 2.3 Analytic approach (exploratory)
 
 Analyses reported below include:
@@ -205,9 +223,9 @@ Two comparative directions are particularly high-yield:
 - **Regional elite comparators (e.g., Ciepłe):** useful for testing whether multiple elite sites in Piast-adjacent territories share similar Scandinavian-associated genetic signatures and/or uniparental lineages [21, 31].
 - **Anglo‑Scandinavian elite contexts (e.g., Winchester Cathedral):** the genealogical model includes House of Gorm and Normandy figures that connect to England (Cnut, Emma, Harthacnut). If reliable, attributable genomes become available from Winchester contexts, cross-site kinship/lineage tests could directly evaluate whether Bodzia individuals fall within plausible biological proximity to this dynastic network.
 
-> **Box 3 (Tier 2): Bodzia ↔ Winchester as a “bridge hypothesis”**
->  
-> The “bridge” is genealogical: the model explicitly includes Danish and Norman rulers connected to England. The genetic test is separate: it requires published, attributable genomes from Winchester contexts and low-coverage-aware relatedness methods. Shared broad haplogroups are not sufficient; downstream resolution and genome-wide relatedness are required. **No Winchester Cathedral genomic data are public as of 2026‑01‑11; this section is forward-looking only.**
+> **Box 3 (Tier 2): Bodzia ↔ Winchester as a "bridge hypothesis"**
+>
+> The "bridge" is genealogical: the model explicitly includes Danish and Norman rulers connected to England. The genetic test is separate: it requires published, attributable genomes from Winchester contexts and low-coverage-aware relatedness methods. Shared broad haplogroups are not sufficient; downstream resolution and genome-wide relatedness are required. **⚠️ UPDATE (2026-01-11):** Winchester Cathedral mortuary chests project has **completed 14 years of genetic analysis** and **identified Cnut the Great, Harthacnut, and Emma of Normandy** (per The Times report). However, **genomic data are not yet publicly available**; publication expected 2026 (Winchester Cathedral + Francis Crick Institute). This section becomes **actionable upon publication**.
 
 ## 5. Limitations (Tier 1)
 
@@ -234,6 +252,53 @@ If these are not currently available in the repository, they should be added as 
 ## 7. Conclusions and Future Work (Tier 1)
 
 This project demonstrates a reproducible framework for integrating genealogical network models with exploratory genetic summaries for a key late 10th–early 11th century elite context in central Europe. The immediate next steps for publication-grade inference are to (i) ground claims in peer-reviewed primary genetic datasets and (ii) run standard aDNA authentication/kinship/population-genetic workflows on raw genotype data (where permitted). Comparative integration with other elite contexts—especially sites that can be securely dated and attributed—offers a clear path for testing the Bodzia connectivity hypotheses in a falsifiable way.
+
+### 7.1 Future Directions: Regional Elite Network Hypotheses
+
+The following hypotheses extend the Bodzia analysis to regional elite networks and are documented in detail in `docs/BODZIA_HYPOTHESIS_FOR_PRESENTATION.md`:
+
+#### Ciepłe Archaeological Site (H5.6)
+
+**Site Context:**
+- **Location:** Gniew, Tczew County, Eastern Pomerania (~150 km northwest of Bodzia)
+- **Active Period:** 980-1020 CE (overlapping with Bodzia)
+- **Character:** Elite settlement complex with chamber graves; Scandinavian origins confirmed by strontium isotope analysis
+- **DNA Status:** Expected Q1-Q2 2026
+
+**The "Dual-Wing" Hypothesis:**
+- **Bodzia = Rus' Wing:** Connections to Kievan Rus' elite networks (VK157 I1-S2077)
+- **Ciepłe = Danish Wing:** Connections to Danish/Scandinavian elite networks (4 Scandinavian warriors confirmed)
+- **Network Interpretation:** Both sites represent elite networks in early Piast Poland; together they suggest regional elite connectivity
+
+**Testable Prediction:** If Ciepłe Y-DNA data (when published) shows lineages related to I-Y45113 or I-S2077, this would support a shared elite network hypothesis connecting Bodzia, Ciepłe, and modern I-Y45113 carriers.
+
+#### Northern Poland Radzimowski Cluster (H3.7)
+
+**Geographic Context:**
+- Geneteka records document Radzimowski families in Tczew County (Piaseczno, Gniew, Dzierżążno, Nowa Cerkiew, Sztum, Pelplin)
+- **Gniew** = same location as Ciepłe archaeological site
+- Documented timeframe: 1653-1934
+
+**Hypothesis:** Northern Pomeranian Radzimowski cluster may share deep ancestry with Ciepłe early medieval elites, representing a continuity of elite lineages in the region from the 10th-11th century to the documented genealogical period.
+
+**Testing Strategy:**
+1. Y-DNA test from confirmed male-line northern Radzimowski descendant
+2. Compare with I-Y45113 carriers (main research group)
+3. Compare with Ciepłe Y-DNA (when published)
+4. If both connect to I-Y45113, this would support the regional elite network hypothesis
+
+**Falsification:** Hypothesis refuted if northern Radzimowski cluster has different Y-DNA lineage, or if Ciepłe Y-DNA doesn't connect to I-Y45113 phylogenetically.
+
+#### Ukrainian Radzimovsky Connection (H6.1)
+
+**Evidence Update (January 2026):** Ukrainian Wikipedia documents multiple notable Radzimovsky (Радзимовський) families in Ukraine who retained the surname across generations (19th-21st century, in Kyiv, Cherkasy, Poltava, Odesa regions).
+
+**Implications:**
+- Challenges simple "Poland → Ukraine migration" narrative
+- The I-Y45113 lineage may have been present in both Poland and Ukraine since medieval times
+- Y-DNA testing of Ukrainian Radzimovsky male-line descendants is now a priority
+
+**See:** `docs/HYPOTHESIS_LIST.md` (H3.3, H6.1) for full analysis and revised confidence levels.
 
 ## Data & Code Availability
 
@@ -1529,6 +1594,7 @@ This complete tree represents the interconnected elite networks of Early Medieva
 25. **FamilyTreeDNA** - Big Y-700 testing.
    - Source: https://www.familytreedna.com/
    - Y-DNA testing platform
+   - **Project documentation:** `docs/FTDNA.md` (kit registry, naming conventions, Z63 project data)
 
 26. **MyTrueAncestry** - Ancient DNA matching database.
    - Source: https://www.mytrueancestry.com/
@@ -1683,6 +1749,6 @@ This complete tree represents the interconnected elite networks of Early Medieva
 
 ---
 
-**Document Version**: 2.2 (Complete - 79 Individuals with Comprehensive Genetic Analysis)  
-**Last Updated**: 2026-01-11  
+**Document Version**: 2.3 (Complete - 79 Individuals with Comprehensive Genetic Analysis)
+**Last Updated**: 2026-01-18 (consistency review; clarified Winchester Cathedral status in Box 3)
 **Generated By**: Bodzia Complete Tree Generation Pipeline + Comprehensive Genetic Analysis Pipeline

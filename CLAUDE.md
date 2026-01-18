@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a **genealogical DNA analysis workspace** for investigating the Radzimowski family lineage through Y-DNA, autosomal DNA, and historical records. The project focuses on haplogroup I-Y45113 (specifically I-Y224059) and connections to the Bodzia cemetery elite burials, Kievan Rus' populations, and related Polish/Ukrainian families (Garboś, Mazgaj, Berezhnoy, Skory).
 
+**Research Subject:** Andrzej Radzimowski (APR) — Y-DNA haplogroup I-Y224059, YFull sample YF079056.
+
 ## Essential Commands
 
 ```bash
@@ -108,6 +110,33 @@ Located in `data/raw/y_dna_results/`:
 - `STR_for_YF079056_*.csv` — Y-STR marker values
 - `SNP_matches_for_YF079056.csv` — YFull matching samples
 
+## Hypothesis Workflow
+
+Research progress is tracked through `docs/HYPOTHESIS_LIST.md` — the central document for all research claims. When working with hypotheses:
+
+1. **Adding new hypotheses**: Follow the existing format (H#.# numbering, Status/Confidence/Priority fields, Evidence Required, Verification Steps)
+2. **Updating confidence**: Adjust percentage based on new evidence; document the change in "Last Updated" field
+3. **Cross-referencing**: Link related hypotheses (e.g., RA.1→RA.3) when evidence supports multiple claims
+
+### Data Quality Tiers
+
+When citing genetic evidence, use the three-tier quality system:
+
+| Tier | Source Type | Usage |
+|------|-------------|-------|
+| **Published** ✅ | Peer-reviewed papers, YFull haplogroups | Phylogenetic claims, kinship analysis |
+| **Exploratory** ⚠️ | Facebook G25, community datasets | Affinity comparisons, hypothesis generation |
+| **Provisional** ⚠️ | MyTrueAncestry cM, preliminary analysis | Hypothesis generation only |
+
+### Key Documentation Files
+
+| File | Purpose |
+|------|---------|
+| `docs/HYPOTHESIS_LIST.md` | Master hypothesis tracker (33+ hypotheses, tiered by confidence) |
+| `docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md` | Comprehensive Bodzia cemetery analysis (v2.3) |
+| `docs/BODZIA_HYPOTHESIS_FOR_PRESENTATION.md` | NotebookLM presentation version (v1.1) |
+| `docs/VK155_VK157_BURIAL_HYPOTHESIS.md` | Burial structure and untested female analysis |
+
 ## Code Style
 
 - Python 3.10+ with type hints
@@ -115,3 +144,13 @@ Located in `data/raw/y_dna_results/`:
 - `snake_case` for functions/variables, `PascalCase` for classes
 - No formatter configured; keep diffs clean
 - Tests: pytest with `test_*.py` naming
+
+## Key Individuals Reference
+
+| Code | Name | Haplogroup | YFull Kit | Notes |
+|------|------|------------|-----------|-------|
+| APR | Andrzej Radzimowski | I-Y224059 | YF079056 | Research subject |
+| VK157 | Bodzia Elite Male | I-S2077 (ancestral I-Y45113) | ancient | Proposed Sviatopolk I |
+| VK155 | Bodzia Female | — (mtDNA H1c) | ancient | VK157's maternal relative |
+| Artur | Artur Garboś | I-Y224059 | YF089989 | MDA Józef Garboś b.1710 |
+| Aleksei | Aleksei Berezhnoy | I-Y45233 | — | Sister branch under I-Y45113 |
