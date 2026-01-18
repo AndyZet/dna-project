@@ -322,30 +322,54 @@
 ---
 
 ### **H3.3: Berezhnoy = Ukrainian Migration Branch**
-**Status:** Pending Verification  
-**Confidence:** 45% (up from 40%; Aleksei's Polish fluency + Wladyslaw's Ukrainian maternal ancestry support migration narrative)  
+**Status:** Pending Verification — **Narrative Questioned**
+**Confidence:** 25% (down from 35%; Aleksei's Polish fluency is self-taught, NOT family-transmitted; removes key supporting evidence)
 **Priority:** 🟡 HIGH
 
 **Hypothesis:** Aleksei Berezhnoy is confirmed I-Y45233 (YFull (YTree database); Ukrainian origin in matches), and his ancestors may include a Polish branch that migrated to Ukraine in the 19th century and adopted the Ukrainian surname "Berezhnoy." Documentary evidence is still required.
 
-**Evidence Present (January 2026 Update):**
-- Aleksei notes: "As you know, I can read Polish without asking google to translate unknown words" (suggests Polish cultural continuity)
+**⚠️ January 2026 Update — Narrative Complication:**
+Ukrainian Wikipedia documents multiple notable Radzimovsky (Радзимовський) families in Ukraine who **retained the Radzimowski surname** rather than adopting Ukrainian names:
+- Віталій Іванович Радзимовський (1905-1975) — engineer/scientist, Ukraine → USA
+- Дмитро Олександрович Радзимовський (1903-1985) — hydrobiologist, Kyiv
+- Радзимовський — court judge in Kyiv, 1917-1918
+- Іоанн Радзимовський — protopriest, Zvenyhorodka, Cherkasy region
+- Петро Едуардович Радзимовський — teacher, Romny, Poltava region
+- Броніслав Казимирович Радзимовський — information security specialist, Odesa
+
+**Implication:** If other Radzimowskys in Ukraine kept their surname for generations, why would Aleksei's ancestors have adopted "Berezhnoy"? This suggests:
+1. The Berezhnoy line may have **always been separate** from Radzimowski within I-Y45113
+2. The lineage may have been present in **both Poland and Ukraine** since medieval times
+3. The "Poland → Ukraine migration" narrative may be **oversimplified**
+
+**Evidence Present (Circumstantial):**
+- ~~Aleksei notes: "As you know, I can read Polish without asking google to translate unknown words"~~ — **CORRECTION (January 2026):** Aleksei learned Polish by himself; his parents did NOT speak Polish. This is **NOT evidence of Polish family origins**.
 - Wladyslaw's maternal ancestor "Anastasia Sheszcuk" has "Ukrainian by origin" names (Aleksei's observation)
-- Mixed Polish-Ukrainian heritage pattern consistent with migration narrative
+- I-Y45113 matches are predominantly Polish (but see H6.1 for Ukrainian Radzimovsky testing opportunity)
+
+**Evidence NO LONGER Supporting Migration:**
+- Aleksei's Polish fluency — self-taught, not family transmission
+
+**Alternative Interpretations:**
+1. **Dual-Origin Model:** I-Y45113 spread across Polish-Lithuanian Commonwealth, with branches in both Poland and Ukraine since medieval period
+2. **Deeper Common Ancestor:** The Berezhnoy and Radzimowski lines diverged centuries earlier, not in the 19th century
+3. **Continuous Ukrainian Presence:** Aleksei's line may have always been Ukrainian, never using "Radzimowski"
 
 **Evidence Required:**
 - Berezhnoy family history indicating Polish origins beyond YFull country labels (from YTree sample metadata)
-- Migration records from Poland to Ukraine (1800-1900)
-- Ukrainian archival records showing surname adoption
+- Migration records from Poland to Ukraine (1800-1900) — **if they exist**
+- Ukrainian archival records showing surname adoption — **or evidence of continuous "Berezhnoy" usage**
 - Autosomal DNA showing elevated Polish ancestry
+- **Y-DNA testing of Ukrainian Radzimovsky male-line descendants** (see H6.1)
 
 **Verification Steps:**
-1. Interview Aleksei about family history and oral traditions
-2. Search Ukrainian archives for "Berezhnoy" first appearance
+1. Interview Aleksei about family history and oral traditions — **does he consider his family always Ukrainian or migrants from Poland?**
+2. Search Ukrainian archives for "Berezhnoy" first appearance in his family's village
 3. Check for Polish-origin families with similar Y-DNA in Ukraine
 4. Analyze autosomal DNA for Polish admixture
+5. **Cross-reference with H6.1** — if Ukrainian Radzimovskys test as I-Y45113, the migration narrative requires revision
 
-**Expected Outcome:** Documents migration to Ukraine and surname change.
+**Expected Outcome:** Either documents migration to Ukraine and surname change, **OR** reveals that the lineage was present in both regions since medieval times.
 
 ---
 
@@ -658,24 +682,52 @@ Best regards,
 ## TIER 6: SPECIALIZED RESEARCH HYPOTHESES
 
 ### **H6.1: Ukrainian Radzymowski Connection**
-**Status:** Pending Verification  
-**Confidence:** 30%  
-**Priority:** 🟡 MEDIUM
+**Status:** Evidence Present — **Testing Required**
+**Confidence:** 45% (up from 30%; Wikipedia documents multiple notable Ukrainian Radzimovsky families)
+**Priority:** 🟡 HIGH (upgraded from MEDIUM)
 
-**Hypothesis:** Ukrainian Radzymowski families (Radzymovskyi spelling) may be patrilineal cousins of the Polish branch, but no Y-DNA evidence is available here.
+**Hypothesis:** Ukrainian Radzymowski families (Радзимовський spelling) may be patrilineal cousins of the Polish branch. Y-DNA testing would determine if they share the I-Y45113 lineage.
+
+**⚠️ January 2026 Update — Ukrainian Radzimovsky Evidence:**
+Ukrainian Wikipedia (uk.wikipedia.org/wiki/Радзимовський) documents multiple notable Radzimovsky individuals in Ukraine spanning 19th-21st centuries:
+
+| Person | Dates | Role | Location |
+|--------|-------|------|----------|
+| Віталій Іванович Радзимовський | 1905-1975 | Engineer, engineering mechanics specialist | Ukraine → USA |
+| Ольга Іванівна Радзимовська | 1905-? | Doctor of medicine | Ukraine |
+| Дмитро Олександрович Радзимовський | 1903-1985 | Hydrobiologist, NASU Institute | Kyiv |
+| Радзимовський (first name unknown) | 1917-1918 | Court judge, Russian Orthodox Council member | Kyiv |
+| Іоанн Радзимовський | 19th c. | Protopriest, built first stone church in Zvenyhorodka | Cherkasy region |
+| Петро Едуардович Радзимовський | ~1906 | Teacher at Romny women's gymnasium | Poltava region |
+| Броніслав Казимирович Радзимовський | Contemporary | Information security specialist | Odesa |
+
+**Critical Observation:** These families **retained the Radzimowski surname** in Ukraine for multiple generations. This challenges the assumption that migrants necessarily changed surnames (see H3.3 revision).
+
+**Geographic Distribution:** Ukrainian Radzimovskys documented in:
+- Kyiv (scientists, judges)
+- Cherkasy region (clergy)
+- Poltava region (educators)
+- Odesa (contemporary)
+
+**Implications for H3.3:**
+If Ukrainian Radzimovskys are tested and found to carry I-Y45113:
+1. Confirms shared patrilineal ancestry with Polish Radzimowski
+2. Suggests the lineage was present in both Poland and Ukraine historically
+3. Complicates the "Berezhnoy = migrants who changed surname" narrative
 
 **Evidence Required:**
 - Y-DNA testing of Ukrainian Radzymowski male-line descendants
-- Family trees showing Ukrainian branch
-- Historical records of migration patterns
+- Family trees showing Ukrainian branch origins
+- Historical records linking Ukrainian Radzimovsky families to Polish origins (or indigenous Ukrainian development)
 
 **Verification Steps:**
-1. Contact Ukrainian Radzymowski descendants
-2. Request Y-DNA testing from male-line relatives
-3. Compare Y-DNA with Polish Radzimowski
-4. Calculate TMRCA (time to most recent common ancestor) between branches
+1. Identify living male-line Ukrainian Radzimovsky descendants (via Wikipedia references, Ukrainian genealogical societies)
+2. Contact and request Y-DNA testing (FTDNA Y-37/Y-67/Y-111 or Big Y-700)
+3. Compare Y-DNA with Polish Radzimowski (Andrzej's I-Y224059)
+4. If match confirmed: Calculate TMRCA between Polish and Ukrainian branches
+5. Document whether Ukrainian branch is under I-Y224059, I-Y45233, or a separate I-Y45113 sub-branch
 
-**Expected Outcome:** Documents two-branch structure (Polish vs. Ukrainian).
+**Expected Outcome:** Either confirms shared I-Y45113 lineage (supporting dual-region presence since medieval times) or reveals separate Y-DNA lineage (surname coincidence or heraldic adoption without genetic connection).
 
 ---
 
@@ -818,6 +870,8 @@ Best regards,
 - **Total Hypotheses:** 29 (added H1.5: Wladyslaw-Doug Skory Sub-Branch Formation)
 - **High Confidence (70%+):** 4 confirmed (H0.2, H1.1, H1.4, H5.5) + 2 conditional (H3.4, H3.5)
 - **Critical Priority (🔴 URGENT):** 8 (Doug confirmation, Wladyslaw YFull upload, Wladyslaw-Doug haplotype comparison, Casimir priest link, Casimir family link, Y-DNA connection, Wladyslaw placement, Skory migration branch, TMRCA)
+- **Upgraded Priority:** H6.1 (Ukrainian Radzymowski Connection) upgraded to HIGH due to Wikipedia evidence
+- **Confidence Adjustments (January 2026):** H3.3 reduced to **25%** (Ukrainian Radzimovsky evidence + Aleksei's Polish fluency is self-taught, NOT family transmission); H6.1 increased to 45% (documentary evidence of Ukrainian families)
 - **Estimated Research Time:** 3-6 months core; 4-8 months with Skory integration
 - **Potential Outcome:** A validated patrilineal linkage with defensible dating; historical attribution only if independently supported
 
@@ -838,5 +892,27 @@ Best regards,
 
 ---
 
-**Last Review Date:** January 2026 (updated with Aleksei's email analysis)  
-**Next Review:** After Doug Skory and Wladyslaw Mazgaj contact/responses
+**Last Review Date:** January 18, 2026 (updated with Ukrainian Radzimovsky Wikipedia evidence)
+**Next Review:** After Doug Skory and Wladyslaw Mazgaj contact/responses; Ukrainian Radzimovsky outreach
+
+---
+
+## JANUARY 2026 REVISION NOTE: UKRAINIAN RADZIMOVSKY FAMILIES
+
+**Source:** Ukrainian Wikipedia (uk.wikipedia.org/wiki/Радзимовський)
+
+**Discovery:** Multiple notable Ukrainian Radzimovsky (Радзимовський) families documented in Ukraine spanning 19th-21st centuries, who retained the Radzimowski surname rather than adopting Ukrainian alternatives.
+
+**Impact on Research:**
+1. **H3.3 (Berezhnoy Migration):** Confidence reduced from 45% to **25%**. The simple "Poland → Ukraine migration with surname change" narrative is now questioned. Two key factors:
+   - Ukrainian Radzimovskys kept their surname — why would Aleksei's ancestors have adopted "Berezhnoy"?
+   - **Aleksei's Polish fluency is self-taught** (his parents did NOT speak Polish) — this is NOT evidence of Polish family origins
+
+2. **H6.1 (Ukrainian Radzymowski Connection):** Confidence increased from 30% to 45%, priority upgraded from MEDIUM to HIGH. Y-DNA testing of Ukrainian Radzimovsky male-line descendants is now a priority to determine if they share I-Y45113 lineage.
+
+3. **Alternative Model:** The I-Y45113 lineage may have been present in both Poland and Ukraine since medieval times (Polish-Lithuanian Commonwealth era), rather than originating exclusively in Poland with later migration to Ukraine.
+
+**Action Items:**
+- Identify living male-line Ukrainian Radzimovsky descendants for Y-DNA testing
+- Interview Aleksei about family oral history regarding Polish origins vs. continuous Ukrainian presence
+- Search Ukrainian archives for earliest "Berezhnoy" records in Aleksei's family village

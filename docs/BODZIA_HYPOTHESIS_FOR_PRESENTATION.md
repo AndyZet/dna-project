@@ -435,7 +435,11 @@ I-S2077 (VK157, Bodzia)
 - If northern Radzimowski cluster carries I-Y45113, and Ciepłe elites also carry I-Y45113 (or related lineages), this would support:
   - Connection between northern cluster and early medieval elites
   - Regional elite network hypothesis
-  - Three-branch geographic model (Mazowieckie → Podkarpackie, Mazowieckie → Northern Pomerania, Poland → Ukraine)
+  - Multi-branch geographic model:
+    - Mazowieckie → Podkarpackie (documented migration)
+    - Mazowieckie → Northern Pomerania (to be tested)
+    - Ukraine connection: **possibly Rus' → Poland** (based on I-FTC2520 upstream branch), not necessarily Poland → Ukraine
+    - Note: Ukrainian Radzimovsky families exist who kept surname (see January 2026 Update)
 
 ### Testing the Ciepłe Hypothesis
 
@@ -473,6 +477,29 @@ This hypothesis demonstrates how modern genetic genealogy can contribute to hist
 
 ---
 
-**Last Updated:** January 2026  
-**Status:** Testable Hypothesis (pending published Bodzia aDNA data)  
+**Last Updated:** January 18, 2026
+**Status:** Testable Hypothesis (pending published Bodzia aDNA data)
 **Next Steps:** Monitor for published Bodzia aDNA data, prepare comparison framework
+
+---
+
+## January 2026 Research Update: Ukrainian Radzimovsky Families
+
+**New Evidence:** Ukrainian Wikipedia documents multiple notable Radzimovsky (Радзимовський) families in Ukraine who retained the Radzimowski surname for generations (19th-21st century, in Kyiv, Cherkasy, Poltava, Odesa regions).
+
+**Implications for This Hypothesis:**
+
+1. **Supports Rus' → Poland Direction:** The documented "I-FTC2520 (Ukraine) → I-Y49957 (Poland) → I-Y45113" pattern is consistent with Ukrainian Radzimovskys representing a branch that stayed in Ukraine while others moved west.
+
+2. **Complicates Poland → Ukraine Narrative:** The assumption that Aleksei Berezhnoy's ancestors migrated from Poland to Ukraine and changed surnames is now questioned. Ukrainian Radzimovskys kept their surname—why would Berezhnoy ancestors change theirs?
+
+3. **Alternative Model:** The I-Y45113 lineage may have been present in both Poland and Ukraine since the medieval period (Polish-Lithuanian Commonwealth era), with:
+   - **Western branch:** Polish Radzimowski (kept surname, migrated south to Podkarpackie)
+   - **Eastern branch:** Ukrainian Radzimovsky (kept surname in Ukraine) + Berezhnoy (separate Ukrainian family within same Y-DNA lineage)
+
+4. **New Testing Priority:** Y-DNA testing of Ukrainian Radzimovsky male-line descendants would help determine:
+   - Whether they share I-Y45113 lineage with Polish Radzimowski
+   - Whether the lineage was indeed present in both regions historically
+   - How Berezhnoy relates to Radzimowski within the broader I-Y45113 tree
+
+**See:** HYPOTHESIS_LIST.md (H3.3, H6.1) for full analysis and revised confidence levels.

@@ -123,6 +123,21 @@ Aleksei's email provides **one critical setback** (Doug Skory Big Y-700 not comp
 - Wladyslaw's maternal Ukrainian ancestry (Sheszcuk) indicates mixed Polish-Ukrainian heritage, consistent with migration narrative
 - Reinforces the Poland → Ukraine migration pattern documented in H3.3, H3.4, and H3.5
 
+**⚠️ JANUARY 2026 CAVEAT — Ukrainian Radzimovsky Evidence + Polish Fluency Clarification:**
+
+**Ukrainian Radzimovsky Evidence:**
+Ukrainian Wikipedia documents multiple notable Radzimovsky (Радзимовський) families in Ukraine who **retained the Radzimowski surname** for generations (scientists, clergy, judges in Kyiv, Cherkasy, Poltava, Odesa regions). This complicates the migration narrative:
+
+1. **If migrants typically kept their surname** (as Ukrainian Radzimovskys did), why would Aleksei's ancestors have adopted "Berezhnoy"?
+2. **Alternative interpretation:** The I-Y45113 lineage may have been present in both Poland and Ukraine since medieval times, with separate surname development in each region.
+
+**❌ CRITICAL CORRECTION — Aleksei's Polish Fluency:**
+- **Original interpretation:** "Aleksei's fluent Polish suggests cultural continuity from Polish origins"
+- **ACTUAL FACT:** Aleksei learned Polish **by himself**; his parents did NOT speak Polish
+- **Implication:** Polish fluency is **NOT evidence of Polish family origins** — it's personal education, not family transmission
+
+**Revised Confidence:** H3.3 reduced from 45% to **25%**. The Polish fluency evidence has been invalidated. See HYPOTHESIS_LIST.md for full revision.
+
 ---
 
 ### ⚠️ **ACTION ITEM: Wladyslaw YFull Upload**

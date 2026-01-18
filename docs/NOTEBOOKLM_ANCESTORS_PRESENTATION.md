@@ -197,15 +197,16 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 - **Ukraine** (Belgorod region)
 - Both families in the same village for nearly 300 years
 
-**Migration Pattern:**
-- Ancestors migrated from **Poland to Ukraine** in the 19th century
-- Adopted Ukrainian surname "Berezhnoy" (meaning "shore" or "riverbank")
-- Maintained Polish cultural connections (Aleksei reads Polish fluently)
+**Migration Pattern (HYPOTHESIS — low confidence, 25%):**
+- **Possibly** ancestors migrated from Poland to Ukraine in the 19th century
+- Ukrainian surname "Berezhnoy" (meaning "shore" or "riverbank")
+- ~~Polish cultural connections (Aleksei reads Polish fluently)~~ — **CORRECTION:** Aleksei learned Polish by himself; parents did NOT speak Polish. Not evidence of Polish origins.
+- *Note: Ukrainian Radzimovsky families kept surname; why change to Berezhnoy?*
 
 **Historical Context:**
 - Polish partitions and uprisings (1795-1863)
-- Migration to Ukraine for economic opportunity
-- Surname adoption in new cultural context
+- Possible migration to Ukraine for economic opportunity
+- **Alternative (more likely):** Lineage may have been in both regions since medieval times, or Berezhnoy always distinct Ukrainian family
 
 **Speaker Notes (45 seconds):**
 "The most recent split among our seven cousins occurred around 1825 CE, between Aleksei and Anatoly Berezhnoy. They share a common ancestor just 200 years ago, which is remarkably recent in genealogical terms. What makes this particularly interesting is that the genetic evidence perfectly matches the genealogical records: both families have been in the same Ukrainian village since 1730. This is a rare case where genetic testing confirms what family history already told us. The Berezhnoy families represent a Polish-to-Ukraine migration branch, where ancestors left Poland in the 19th century, settled in Ukraine, and adopted a Ukrainian surname while maintaining Polish cultural connections."
@@ -398,18 +399,18 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 - This is the **most recent split** among our seven cousins
 - YFull (YTree database) confirms I-Y45233 TMRCA = 200 ybp
 
-**Migration Pattern:**
-- **Poland → Ukraine** (19th century)
-- Adopted Ukrainian surname "Berezhnoy" (meaning "shore" or "riverbank")
-- Maintained Polish cultural connections:
-  - Aleksei reads Polish fluently
-  - Family history suggests Polish origins
+**Migration Pattern (HYPOTHESIS — low confidence, 25%):**
+- **Possibly** Poland → Ukraine (19th century) — *alternative: always in Ukraine*
+- Ukrainian surname "Berezhnoy" (meaning "shore" or "riverbank")
+- ~~Cultural connections to Poland~~ — **CORRECTION:** Aleksei learned Polish by himself; parents did NOT speak Polish. Not evidence of Polish origins.
 
 **Most Probable Ancestor:**
-- **Polish ancestor** who migrated to Ukraine in 19th century
-- Likely part of Poland → Ukraine migration wave
-- Adopted Ukrainian surname in new cultural context
 - Common ancestor with other I-Y45233 carriers at ~1050 ybp (I-Y45113 level)
+- **Two possibilities (revised probabilities):**
+  1. Polish ancestor who migrated to Ukraine (25% — less likely given lack of evidence)
+  2. Ukrainian branch that diverged from Polish line in medieval period (40% — more plausible)
+  3. Berezhnoy always distinct Ukrainian family within same Y-DNA lineage (35%)
+- Note: Ukrainian Radzimovsky families kept surname + Aleksei's Polish fluency is self-taught = migration narrative weakened
 
 **Historical Context:**
 - Polish partitions (1772-1918)
@@ -993,5 +994,33 @@ I-Y45113 (parent branch, ~1050 ybp, ~975 CE)
 
 ---
 
-**Last Updated:** January 2026  
+**Last Updated:** January 18, 2026
 **Next Review:** After Doug Skory, Władysław Mazgaj, and Marcin Radzimowski contact/responses
+
+---
+
+## ⚠️ RESEARCH UPDATE: MIGRATION NARRATIVE UNDER REVIEW
+
+**Date:** January 18, 2026
+
+**Issue:** The "Poland → Ukraine migration" narrative for the Berezhnoy family (and by extension, potentially Skory) requires reconsideration based on new evidence.
+
+**New Evidence #1 — Ukrainian Radzimovsky Families:**
+Ukrainian Wikipedia documents multiple notable Radzimovsky (Радзимовський) families in Ukraine who **retained the Radzimowski surname** for generations:
+- Scientists, clergy, judges in Kyiv, Cherkasy, Poltava, Odesa regions (19th-21st century)
+- These families did NOT adopt Ukrainian surnames upon migration (if they were migrants)
+
+**New Evidence #2 — Aleksei's Polish Fluency Clarified:**
+- **Original assumption:** Aleksei's Polish fluency suggests cultural transmission from Polish ancestors
+- **ACTUAL FACT:** Aleksei learned Polish **by himself**; his parents did NOT speak Polish
+- **Implication:** Polish fluency is **NOT evidence of Polish family origins** — removes key supporting evidence for migration hypothesis
+
+**Revised Confidence:** H3.3 (Berezhnoy migration) reduced from 45% to **25%**
+
+**Implication for Presentation:**
+1. **Slides 11, 12, 15:** References to "Poland → Ukraine migration" should be presented as **low-confidence hypothesis (25%)**
+2. **Alternative possibility (more likely):** The I-Y45113 lineage may have been present in both Poland and Ukraine since medieval times
+3. **Berezhnoy surname:** May represent a family that was *always* separate from Radzimowski within the same Y-DNA lineage, rather than migrants who changed surnames
+4. **Remove Polish fluency as evidence** — it's self-taught, not family transmission
+
+**See:** HYPOTHESIS_LIST.md (H3.3, H6.1) for full analysis and revised confidence levels.
