@@ -1,8 +1,23 @@
 # Testable Hypotheses Derived from `BODZIA_COMPLETE_TREE_DOCUMENTATION.md`
 
-**Prepared:** 2026-01-11  
-**Purpose:** Consolidate a falsifiable, data-driven hypothesis set derived from `docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md` into a standalone file suitable for (a) internal project tracking and (b) publication-oriented study planning.  
-**Status:** Research framework (pre-publication; many hypotheses depend on data not yet available, e.g., Winchester Cathedral genomes).
+> **⚠️ ARCHIVED — January 18, 2026**
+>
+> This document is **superseded** by `docs/HYPOTHESIS_LIST.md`, which is now the authoritative hypothesis tracker for all research claims including Rurikid ancient DNA analysis (RA.1-RA.5).
+>
+> **Why archived:**
+> - HYPOTHESIS_LIST.md contains 33+ hypotheses with full evidence tracking
+> - RA section (Rurikid Dynasty Y-DNA Analysis) not present here
+> - Maintaining parallel documents creates sync burden
+>
+> **Use this document for:** Historical reference on original falsifiable framework design.
+> **Use HYPOTHESIS_LIST.md for:** Current research tracking, confidence ratings, verification steps.
+
+---
+
+**Prepared:** 2026-01-11
+**Archived:** 2026-01-18
+**Purpose:** Consolidate a falsifiable, data-driven hypothesis set derived from `docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md` into a standalone file suitable for (a) internal project tracking and (b) publication-oriented study planning.
+**Status:** ~~Research framework~~ → **ARCHIVED** (see `docs/HYPOTHESIS_LIST.md` for current hypotheses)
 
 > **Important scope note:** The genealogical graph in `docs/BODZIA_COMPLETE_TREE_DOCUMENTATION.md` contains **model nodes** and project associations (e.g., mapping VK157 to a historical label). Hypotheses below separate **(i) what is directly testable from genomic data** from **(ii) what requires historical-source validation**.
 

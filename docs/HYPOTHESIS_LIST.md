@@ -1,6 +1,6 @@
 # Research Hypotheses - Radzimowski-Garboś-Mazgaj-Berezhnoy-Skory Investigation
 
-**Last Updated:** January 18, 2026 (added RA.1-RA.5: VK157-VK542 Y-DNA mismatch, Finnish affinity, VK155-VK157 Emnilda connection, Ottonian Princess theory, and I-Z63 European Elite Network; Radzymin etymology section; H6.1 publication potential)  
+**Last Updated:** January 18, 2026 (H3.2 updated with Jadwiga Tolk confirmation: Mazgaj family in Sokołów Małopolski 1800-1850, pottery craft connection; added RA.1-RA.5: VK157-VK542 Y-DNA mismatch, Finnish affinity, VK155-VK157 Emnilda connection, Ottonian Princess theory, and I-Z63 European Elite Network; Radzymin etymology section; H6.1 publication potential)  
 **Based on:** Comprehensive analysis from Perplexity.md  
 **Y-DNA Haplogroup (current evidence):** Andrzej = I-Y224059 (downstream of I-Y45113). Aleksei Berezhnoy = I-Y45233 (sister branch under I-Y45113, per YFull (YTree database)).
 
