@@ -18,6 +18,7 @@ Global25 (G25) principal component coordinates for genetic affinity analysis.
 | VK156 | Ancient | Bodzia cemetery individual | Krzewińska et al. 2018 |
 | VK157 | Ancient | Bodzia cemetery elite male, proposed Sviatopolk I | Krzewińska et al. 2018 |
 | VK159 | Ancient | Kievan Rus' sample | Krzewińska et al. 2018 |
+| VK160 | Ancient | Kievan Rus' sample | Krzewińska et al. 2018 |
 
 ## Distance Analysis (2026-01-23)
 
@@ -27,23 +28,21 @@ Global25 (G25) principal component coordinates for genetic affinity analysis.
 |------------|-------------------|----------------|
 | andrzej_zak ↔ VK159 | 0.0326 | Close (Kievan Rus') |
 | andrzej_zak ↔ VK156 | 0.0353 | Close (Bodzia) |
+| andrzej_zak ↔ VK160 | 0.0399 | Close (Kievan Rus') |
 | andrzej_zak ↔ VK155 | 0.0461 | Moderate |
 | andrzej_zak ↔ VK157 | 0.0547 | Moderate |
 
-### Ancient sample internal distances
+### Kievan Rus' vs Bodzia elite (VK157)
 
 | Comparison | Euclidean Distance |
 |------------|-------------------|
-| VK155 ↔ VK157 | 0.0417 |
-| VK156 ↔ VK159 | 0.0418 |
-| VK155 ↔ VK156 | 0.0420 |
-| VK156 ↔ VK157 | 0.0425 |
-| VK155 ↔ VK159 | 0.0549 |
-| VK157 ↔ VK159 | 0.0608 |
+| VK160 ↔ VK157 | 0.0382 |
+| VK159 ↔ VK157 | 0.0608 |
+| VK159 ↔ VK160 | 0.0463 |
 
 ### Key Finding
 
-andrzej_zak shows closest affinity to VK159 (Kievan Rus'), suggesting stronger genetic pull toward Eastern Slavic medieval populations than the Bodzia cemetery cluster. VK157 shows the greatest distance from VK159, consistent with VK157's stronger Scandinavian ancestry component.
+andrzej_zak shows closest affinity to Kievan Rus' samples (VK159, VK160), suggesting stronger genetic pull toward Eastern Slavic medieval populations than the Bodzia cemetery cluster. VK160 is notably closer to VK157 than VK159 is, suggesting VK160 may have had more Scandinavian admixture.
 
 ## Data Quality Tier
 
