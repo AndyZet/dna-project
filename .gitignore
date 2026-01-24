@@ -1,6 +1,5 @@
 # DNA Results (contains genetic data)
-data/raw/y_dna_results/
-data/raw/autosomal/
+data/raw/
 *.vcf
 *.txt.raw
 *.bam
@@ -19,6 +18,7 @@ census_data/
 .env
 config/database.ini
 config/api_keys.env
+.mcp.json
 
 # Encrypted files
 *.enc
@@ -28,6 +28,15 @@ private_keys/
 *.pdf
 *.zip
 data/downloads/
+
+# Reference data (too large for git - download via setup script)
+data/reference/dbsnp/
+data/reference/genomes/
+
+# Intermediate conversion files
+output/gedmatch/temp_*/
+*.bcf
+*.bcf.csi
 
 # Python
 __pycache__/

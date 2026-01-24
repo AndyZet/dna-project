@@ -1,6 +1,6 @@
 # Research Hypotheses - Radzimowski-Garboś-Mazgaj-Berezhnoy-Skory Investigation
 
-**Last Updated:** January 18, 2026 (H3.2 updated with Jadwiga Tolk confirmation: Mazgaj family in Sokołów Małopolski 1800-1850, pottery craft connection; added RA.1-RA.5: VK157-VK542 Y-DNA mismatch, Finnish affinity, VK155-VK157 Emnilda connection, Ottonian Princess theory, and I-Z63 European Elite Network; Radzymin etymology section; H6.1 publication potential)  
+**Last Updated:** January 23, 2026 (Phase 1 audit corrections: KEY METRICS count fixed 34→35, RA.4 confidence aligned to 65%, H1.3 chronology corrected ~25,000→~4,000 ybp, terminology standardized to Svyatopolk/Wladyslaw; prior updates: RA.6 Powichrowski 2020 tamga article, RA.5 MTA Deep Dive matches, RA.4 Pskov 2007 parallel)  
 **Based on:** Comprehensive analysis from Perplexity.md  
 **Y-DNA Haplogroup (current evidence):** Andrzej = I-Y224059 (downstream of I-Y45113). Aleksei Berezhnoy = I-Y45233 (sister branch under I-Y45113, per YFull (YTree database)).
 
@@ -81,7 +81,7 @@ This etymology establishes that Polish Radzimowski and Ukrainian Радзимо�
 ---
 
 ### **H0.2: Casimir Skory Priest Connection (Grand Rapids)**
-**Status:** Supported (user-provided images + published local history; verification pending)  
+**Status:** Supported (user-provided images + published local history) — independent archival verification pending  
 **Confidence:** 95%  
 **Priority:** 🔴 URGENT
 
@@ -191,11 +191,22 @@ This etymology establishes that Polish Radzimowski and Ukrainian Радзимо�
 ---
 
 ### **H1.3: Bodzia Cemetery Connection**
-**Status:** Speculative  
-**Confidence:** 20%  
+**Status:** Speculative (strengthened by RA series but not conclusive)
+**Confidence:** 25% (up from 20%; MTA matches and tamga evidence support elite affinity, but see RA.6 caveats)
 **Priority:** 🟡 HIGH
+**Cross-reference:** See RA.1-RA.6 for detailed VK157 analysis; RA.5 for MTA matches; RA.6 for iconographic debate
 
-**Hypothesis:** There may be a population-level affinity between the lineage and Bodzia cemetery individuals, but current evidence does not show direct descent.
+**Hypothesis:** There may be a population-level affinity between the I-Y45113 lineage and Bodzia cemetery individuals (specifically VK157, I1-S2077), but current evidence does not show direct descent. VK157 is ancestral to I-Y45113, making a phylogenetic connection plausible.
+
+**⚠️ January 2026 Update:**
+The Bodzia connection is now supported by multiple lines of evidence (see RA.1-RA.6) but remains contested:
+
+| Evidence Type | Supports Connection | Caveats |
+|---------------|---------------------|---------|
+| Y-DNA phylogeny | VK157 (I1-S2077) is ancestral to I-Y45113 | Deep ancestry (~4,000 ybp phylogenetic separation within I1), not recent kinship |
+| MTA Deep Dive | VK157 matches de Warenne, Hastings (RA.5) | MTA matches are exploratory, not definitive |
+| Tamga/belt strap-end | May indicate Rurikid elite status | Duczko 2018 revised interpretation (RA.6) |
+| VK155-VK157 relationship | 122 cM shared, same mtDNA H1c (RA.3) | Supports VK157 elite status, not APR connection |
 
 **Evidence Required:**
 - aDNA Y-DNA data from Bodzia samples with sub-branch resolution relative to I-Y45113
@@ -206,8 +217,9 @@ This etymology establishes that Polish Radzimowski and Ukrainian Радзимо�
 1. Use MyTrueAncestry only as a lead, not as confirmation
 2. Confirm Y-haplogroup placement of Bodzia samples and whether any fall within or near I-Y45113
 3. Compare autosomal segments with reliable coverage thresholds
+4. Review RA.6 for updated tamga interpretation
 
-**Expected Outcome:** Possible regional/period affinity; direct line-of-descent requires stronger genetic evidence.
+**Expected Outcome:** Possible regional/period affinity; direct line-of-descent requires stronger genetic evidence. The strongest claim (APR lineage descends from Svyatopolk/VK157) remains speculative.
 
 ---
 
@@ -271,6 +283,7 @@ This etymology establishes that Polish Radzimowski and Ukrainian Радзимо�
 ### **RA.1: VK157-VK542 Y-DNA Mismatch — Rurikid Non-Paternity Event**
 **Status:** Critical Observation — Requires Genealogical Revision
 **Confidence:** 95% (Y-DNA haplogroups are definitive; identifications are hypothetical)
+**⚠️ Note:** The NPE conclusion depends on VK157 = Svyatopolk identification, which is now contested (see RA.6 for tamga debate)
 **Priority:** 🔴 HIGH (impacts interpretation of VK157 = Svyatopolk hypothesis)
 **Cross-reference:** See **RA.3** for VK155-VK157 Emnilda evidence that strengthens VK157 = Svyatopolk identification
 
@@ -522,9 +535,9 @@ This evidence **strengthens** the NPE conclusion:
 
 ### **RA.4: Ottonian Princess Theory — Svyatopolk's Mother's True Identity**
 **Status:** Supported by Medieval Source (Genealogia Welforum 1125/26)
-**Confidence:** 70% (documentary evidence present; requires further verification)
+**Confidence:** 65% (down from 70%; RA.6 tamga debate affects overall VK157=Svyatopolk chain)
 **Priority:** 🔴 HIGH (impacts interpretation of VK157 genetic affinities and legitimacy claims)
-**Cross-reference:** Strengthens RA.1 (NPE), RA.2 (Western autosomal affinity), RA.3 (Emnilda connection)
+**Cross-reference:** Strengthens RA.1 (NPE), RA.2 (Western autosomal affinity), RA.3 (Emnilda connection); **see RA.6 for tamga debate affecting VK157 identification**
 
 **Hypothesis:** Svyatopolk I's mother was NOT a "Greek nun" (as claimed by Yaroslav the Wise's court), but rather an **Ottonian princess** — the unnamed third daughter of Conrad (Kuno), Count of Swabia, and granddaughter of **Emperor Otto I**. This explains the strong Western European genetic affinities of VK157 and VK155.
 
@@ -677,10 +690,38 @@ Svyatopolk used the **bident (двузубец, two-pronged) tamga**, NOT the tr
 ---
 
 ### **RA.5: I-Z63 European Elite Network — Von Plotho, Warenne, Stanhope, Erzya Connections**
-**Status:** Research Lead — Requires SNP Verification
-**Confidence:** 45% (multiple independent reports; requires Big Y/terminal SNP confirmation)
+**Status:** Research Lead — Strengthened by MTA Evidence (January 2026)
+**Confidence:** 55% (up from 45%; LKP's MTA Deep Dive matches add independent signal)
 **Priority:** 🟡 HIGH (potentially significant for understanding I1 elite dispersal in medieval Europe)
 **Cross-reference:** Related to but distinct from I-S2077 lineage (both are I1 subclades)
+
+**🆕 January 2026 Update — LKP MTA Deep Dive Matches to VK157:**
+
+LKP (contributor, January 21, 2026) reports new MyTrueAncestry Deep Dive matches that connect VK157 (Bodzia) to Anglo-Norman elite lineages:
+
+| Family | Y-DNA Haplogroup | Match Type | Notes |
+|--------|------------------|------------|-------|
+| **de Warenne** | **I1-S10360** | Y-DNA + autosomal | Anglo-Norman barons; earls of Surrey |
+| **Hastings** | **I1-Y24790** | Y-SNP autosomal Deep Dive | Anglo-Norman noble family |
+
+**Significance:**
+- Both de Warenne and Hastings reportedly have **MTA matches with VK157**
+- This suggests VK157 may share ancestry with Western European/Norman elite networks
+- Supports interpretation of VK157 as connected to pan-European dynastic circles (not just Fennoscandian)
+
+**Warenne Family Context (per Sharon Bennett Connolly, 2021):**
+- William de Warenne I (d. 1088) was 4th richest man in post-Conquest England
+- Possibly related to Duke William through Duchess Gunnor (great-grandmother of William the Conqueror)
+- Family seat: Castle Acre, Norfolk (LKP visited ruins)
+- If Beatrix (William de Warenne's mother) was Gunnor's niece, the Warennes were royal cousins
+
+**⚠️ Methodological Caveats:**
+- MTA matches are **exploratory**, not definitive genealogical proof
+- Autosomal matches after ~1000 years are noise-prone without segment analysis
+- Y-DNA "matches" require terminal SNP confirmation to determine actual relationship
+- The de Warenne/Hastings samples used by MTA have not been independently verified
+
+**Reference:** Sharon Bennett Connolly. "The Origins of the Warenne Family." 22/05/2021. https://historytheinterestingbits.com/2021/05/22/the-origins-of-the-warenne-family/
 
 **Hypothesis:** Multiple European noble families (von Plotho of Brandenburg, Warenne, Stanhope) and modern Erzya/Mordwin populations share haplogroup **I-Z63** or closely related subclades, suggesting a common ancestor in the early medieval period (~800-1000 CE) and wide geographic dispersal of an elite male lineage.
 
@@ -846,6 +887,132 @@ To confirm the I-Z63 elite network hypothesis:
 - Provides comparative context for understanding I1 subclade distributions in medieval elite networks
 - May reveal connections between Central European and Eastern European noble families
 - Does NOT directly affect the I-S2077 → I-Y45113 research (separate I1 branch) but provides broader context for I1 haplogroup history
+
+---
+
+### **RA.6: Bodzia Belt Strap-End Tamga — Iconographic Debate (Cross vs. Mjölnir)**
+**Status:** Contested — Academic Revision Exists
+**Confidence:** 50% for "Svyatopolk marker"; 30% for "senior Rurikid line" (down from implicit ~70%; Duczko 2018 revision undermines cross interpretation)
+**Priority:** 🔴 HIGH (directly impacts VK157 = Svyatopolk identification strength)
+**Cross-reference:** RA.1 (NPE), RA.4 (Ottonian princess)
+
+**The Controversy:**
+
+The Bodzia E864/I (VK157) belt strap-end bears a symbol interpreted as a **bident (двузубец)** — potentially a Rurikid tamga. The critical question is: **what is the mark at the top of the bident's prong?**
+
+| Interpretation | Symbol | Scholar | Implications |
+|----------------|--------|---------|--------------|
+| **Cross** (крест) | ✝ | Duczko (early view), LKP | = Svyatopolk I (his coinage shows bident + cross) |
+| **Thor's Hammer** (Mjölnir) | ⚒ | Duczko 2018 revision | = Scandinavian religious symbol, NOT Svyatopolk-specific |
+
+**Duczko's 2018 Revision (Critical Academic Counter-Evidence):**
+
+Wladyslaw Duczko published a focused article in *Archeologia Polski* (2018) where he **explicitly revised** his earlier interpretation:
+
+> "I previously proposed the 'cross' as the basis for connecting the bident to Svyatopolk. I now retract that reading and identify the mark at the top of the prong as **Thor's hammer (Mjölnir)**, not a cross."
+
+**Source:** Duczko, W. (2018). "Znak na końcówce pasa z grobu E864/I w Bodzi" [The sign on the strap-end from grave E864/I at Bodzia]. *Archeologia Polski*, Vol. 63. Available at: https://rcin.org.pl/Content/85634/WA308_91702_P320_Znak-na-koncowce_I.pdf
+
+**Impact of Duczko's Revision:**
+1. **Removes the cleanest bridge** from the Bodzia strap-end to Svyatopolk specifically
+2. **Shifts interpretation** from "dynastic marker of a specific prince" to "elite Scandinavian religious insignia"
+3. **Models methodological humility** — Duczko warns against "smoothing over internal doubts because a hypothesis conveniently fits a preferred dating or narrative"
+
+---
+
+**LKP's Counter-Argument (January 2026):**
+
+LKP (contributor, 50+ years studying tamgas) argues that:
+
+1. **Belt tamgas indicated elite status** in Sarmatian/Bosporan tradition — only members of the ruling family wore such markers
+2. **No "ordinary mercenary"** would have been allowed to wear a belt with a Rurikid bident
+3. **The mark resembles a cross more than Mjölnir** — craftsmen (leather workers) didn't produce high-fidelity reproductions
+4. **Pskov 2007 parallel** — similar bident pendant with cross element found in a Varangian grave later desecrated (revenge context)
+
+**Pskov 2007 Archaeological Parallel:**
+
+LKP cites a 2007 Pskov find that he considers significant for VK157 interpretation:
+
+| Feature | Pskov 2007 Find | Bodzia VK157 |
+|---------|-----------------|--------------|
+| Object | Silver trapezoidal pendant | Bronze belt strap-end |
+| Symbol | Bident with "key" element | Bident with disputed top mark |
+| Context | Elite Varangian grave (10th c.) | Elite burial (early 11th c.) |
+| Post-burial | Grave desecrated, skull crushed | Intact burial |
+
+**Pskov interpretation (Russian archaeologists, 2008):**
+- The pendant was "Vladimir's tamga" — bident with a "key" symbol (referencing his mother Malusha, a ключница/key-keeper)
+- Reverse shows falcon with cross — attributed to Princess Olga
+- Interpreted as an "ID" of a princely representative (administrative function)
+- Grave desecration attributed to revenge during Vladimir-Yaropolk conflict
+
+**Source:** "Псковская губерния" № 40 (409), 08–14.10.2008, "Тайны варяжских гостей" — http://gubernia.pskovregion.org/number_409/05.php
+
+**Supporting Scholarly Context: Sarmatian Tamga Origins (Powichrowski 2020)**
+
+LKP's 2020 article on the Polish "Nowina" coat of arms provides broader scholarly context for the tamga → heraldry transmission thesis:
+
+| Key Point | Relevance to RA.6 |
+|-----------|-------------------|
+| **Tamgas = elite status markers** | "Only members of the ruling family wore such markers" — Bosporan Kingdom evidence |
+| **Documented transmission route** | Sarmatian → Khazar → Germanic (Vandals) → Slavic elites (12th-15th c.) |
+| **Craftsman approximations** | "Craftsmen didn't produce high-fidelity reproductions" — explains stylistic variation |
+| **~1000-year continuity** | Ossete tamgas (19th c.) nearly identical to Bosporan (1st-3rd c.) |
+
+**Sources cited by Powichrowski:**
+- Lebedynski I., 2011 — *Les Tamgas. Une « héraldique » de la steppe*
+- Sulimirski T., 1970, 1979 — *The Sarmatians* and *Sarmaci*
+- Yatsenko S.A., 2001, 2010 — Tamga signs of Iranian-speaking peoples
+- Jabłonowski A., 1891 — First scholar to propose Eastern origins for Polish heraldry
+
+**Note:** This does NOT directly resolve the cross vs. Mjölnir debate, but provides scholarly grounding for treating belt strap-end symbols as elite status markers with deep historical transmission from steppe cultures to medieval Slavic elites.
+
+**Source:** Powichrowski, L.K. (2020). "Quelques divagations libres sur les armoiries polonaises dites « Nowina »" — 34-page scholarly article (French). File: `data/raw/mydata/Nowina_Note_2020 (1).pdf`
+
+---
+
+**Key Distinction: Affiliation vs. Identity**
+
+Even if the Bodzia strap-end IS a Rurikid-coded bident, this does **NOT** automatically prove VK157 = Svyatopolk:
+
+| Level | What Symbol Proves | What It Doesn't Prove |
+|-------|-------------------|----------------------|
+| **Affiliation** | Connected to Rurikid power structure | NOT necessarily blood kin |
+| **Credential** | Administrative role, delegated authority | NOT necessarily the prince himself |
+| **Identity** | High status within Rurikid orbit | NOT which specific person |
+
+**Historian's Assessment (per GPT-5 analysis, January 2026):**
+
+> "The strongest claim — that the strap-end proves Svyatopolk (and potentially that VK157 IS Svyatopolk) — is **not currently defensible as stated**, because a major specialist has publicly revised the 'cross' interpretation and because affiliation/credential does not equal blood identity."
+
+---
+
+**Graded Hypothesis Framework:**
+
+Given the iconographic debate, the VK157 identity question should be framed as graded hypotheses:
+
+| Hypothesis | Description | Current Confidence |
+|------------|-------------|-------------------|
+| **H-VK157-1** | Elite foreign retainer in Piast service with Rus/Varangian ties | 60% |
+| **H-VK157-2** | High official closely attached to a Rurikid ruler (administrative token) | 50% |
+| **H-VK157-3** | Member of Rurikid bloodline (but not necessarily Svyatopolk) | 35% |
+| **H-VK157-4** | Svyatopolk I himself | 25% (down from implicit ~50%; Duczko revision) |
+
+---
+
+**Verification Steps:**
+
+1. Obtain high-resolution images of the Bodzia strap-end symbol
+2. Compare with authenticated Svyatopolk coinage (bident + cross)
+3. Compare with authenticated Mjölnir pendants from Viking-era contexts
+4. Review Duczko 2018 in full (Polish language)
+5. Compile corpus of 10th-11th century bident representations for comparison
+6. Assess whether the "cross" vs. "hammer" distinction is even determinable given craftsmanship quality
+
+**Expected Outcome:**
+- If cross interpretation is reinstated: Strengthens VK157 = Svyatopolk (H-VK157-4 confidence increases)
+- If Mjölnir interpretation holds: VK157 remains elite Scandinavian, but NOT specifically identifiable as Svyatopolk
+- The broader "elite status" interpretation (H-VK157-1 and H-VK157-2) remains supported regardless
 
 ---
 
@@ -1514,8 +1681,8 @@ Additional evidence (documentary records, autosomal DNA, TMRCA calculations) wou
 
 ## KEY METRICS
 
-- **Total Hypotheses:** 34 (added RA.1-RA.5: VK157-VK542 Y-DNA Mismatch, Finnish Affinity, VK155-VK157 Emnilda Connection, Ottonian Princess Theory, **I-Z63 European Elite Network**)
-- **High Confidence (70%+):** 4 confirmed (H0.2, H1.1, H1.4, H5.5) + 2 conditional (H3.4, H3.5) + 4 ancient DNA (RA.1 95%, RA.2 80%, RA.3 85%, **RA.4 70%**)
+- **Total Hypotheses:** 35 (includes RA.1-RA.6: VK157-VK542 Y-DNA Mismatch, Finnish Affinity, VK155-VK157 Emnilda Connection, Ottonian Princess Theory, I-Z63 European Elite Network, Tamga Iconographic Debate)
+- **High Confidence (70%+):** 4 confirmed (H0.2, H1.1, H1.4, H5.5) + 2 conditional (H3.4, H3.5) + 3 ancient DNA (RA.1 95%, RA.2 80%, RA.3 85%); RA.4 at 65%
 - **Critical Priority (🔴 URGENT):** 11 (Doug confirmation, Wladyslaw YFull upload, Wladyslaw-Doug haplotype comparison, Casimir priest link, Casimir family link, Y-DNA connection, Wladyslaw placement, Skory migration branch, TMRCA, **RA.1 Rurikid NPE analysis**, **RA.3 Emnilda verification**, **RA.4 Genealogia Welforum verification**)
 - **Upgraded Priority:** H6.1 (Ukrainian Radzymowski Connection) upgraded to HIGH due to Wikipedia evidence
 - **Confidence Adjustments (January 2026):** H3.3 reduced to **25%** (Ukrainian Radzimovsky evidence + Aleksei's Polish fluency is self-taught, NOT family transmission); H6.1 increased to 45% (documentary evidence of Ukrainian families)
